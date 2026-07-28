@@ -107,7 +107,7 @@ def fetch_indices():
 # ---------------------------------------------------------------------------
 # 2. Full-market breadth (sina paginated quote list)
 # ---------------------------------------------------------------------------
-def fetch_market_breadth(max_pages=70, per_page=100):
+def fetch_market_breadth(max_pages=70, per_page=100, return_raw=False):
     rows = []
     seen = set()
     for page in range(1, max_pages + 1):
@@ -173,11 +173,17 @@ def fetch_market_breadth(max_pages=70, per_page=100):
             buckets["-7~-9.8%"] += 1
         else:
             buckets["≤-9.8%"] += 1
-    return {
+    result = {
         "total": len(good), "up": up, "down": down, "flat": flat,
         "total_amount_yi": round(total_amount / 1e8, 1),
         "distribution_buckets": buckets,
     }
+    if return_raw:
+        # full per-stock rows (code/name/trade/changepercent/turnoverratio/amount/...)
+        # -- reused by lib/stock_pool.py so it doesn't need a second ~55-request
+        # full-market pull just to get today's price/turnover per candidate.
+        result["_raw_rows"] = [r for r, _ in good]
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -360,7 +366,11 @@ def main():
     indices = fetch_indices()
 
     print(f"[2/5] market breadth (full A-share universe, ~55 paginated requests, ~1min)...", file=sys.stderr)
-    breadth = fetch_market_breadth()
+    breadth = fetch_market_breadth(return_raw=True)
+    raw_rows = breadth.pop("_raw_rows", [])
+    raw_path = outdir / f"market_raw_{date_iso}.json"
+    raw_path.write_text(json.dumps(raw_rows, ensure_ascii=False))
+    print(f"  wrote {raw_path} ({len(raw_rows)} stocks, for lib/stock_pool.py)", file=sys.stderr)
 
     print(f"[3/5] limit-up/break/limit-down pools + 5-day trend...", file=sys.stderr)
     zt = fetch_zt_pool(date_str)

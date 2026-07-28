@@ -1,6 +1,6 @@
 """
 Orchestrates the parts of the daily pipeline that are pure mechanics (no
-judgment calls needed): fetch data -> generate the 4 SVG charts -> (agent
+judgment calls needed): fetch data -> generate the automatic SVG charts -> (agent
 writes reports/<date>/report.html in between, using REPORT_GUIDE.md) -> render
 to PDF.
 

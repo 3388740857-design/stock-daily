@@ -24,6 +24,17 @@ section, same as the example)
 4. **整体盘面分析与风险提示**: overall market read (is this a real breadth
    move or a low-conviction technical bounce? what does the limit-up/board
    structure say?) plus concrete, specific risks — not generic disclaimers.
+5. **主板20只标的推荐股票池**: a ranked table of ~20 主板-only stocks (沪市
+   60xxxx / 深市 000xxx,001xxx,002xxx — explicitly excludes 创业板 300/301,
+   科创板 688, 北交所 8/4/92xxx), each combining today's K-line/volume signal
+   with sector momentum. See step 5a below — `lib/stock_pool.py` does the
+   mechanical screening (theme match + liquidity/momentum filter + MA/volume
+   technicals); you pick the final ~20 from its ~30-candidate shortlist and
+   write one specific sentence of rationale per stock. Do not just take the
+   top 20 by the script's pre-rank score mechanically — prefer candidates
+   whose `reason` tag or sector overlaps with what you already identified as
+   this day's mainline/hot sectors in focus areas 1-3 above; that cross-check
+   is the actual judgment call this section is for.
 
 ## Steps
 
@@ -99,6 +110,49 @@ Using `lib/charts.py` directly (import it), build:
 
 Save both as `data/charts_<date>/fund_flow.svg` and `sector_trend.svg`.
 
+### 5a. Build the stock-pool shortlist
+```
+python3 lib/stock_pool.py --date 2026-07-28 --raw-market data/market_raw_2026-07-28.json --outdir data
+```
+`data/market_raw_<date>.json` is written automatically by step 2's fetch (it's
+the full per-stock breadth data step 2 already pulled — this does NOT trigger
+a second full-market pull). This produces `data/stock_pool_<date>.json`: up to
+30 主板-only candidates, each with `code/name/reason` (from THS 热点 theme
+tags), `pct/turnover_pct/amount_yi` (today's price action), and a `technical`
+block (`ma_bullish_stack`, `above_all_ma`, `volume_ratio_vs_5d`,
+`candle_strength`) from recent K-line+MA data. Read this file, pick your final
+~20 per the judgment note in focus area 5 above, and build the table + a short
+chart the same way you handle the other tables (a horizontal bar of e.g. today's
+% gain or volume ratio for the 20 picks works well — reuse `charts.bar_chart_h`).
+Save as `data/charts_<date>/stock_pool.svg` and treat it as a 5th chart in
+step 6's self-containment rule (inline SVG, no JS).
+
+If `lib/stock_pool.py` returns fewer than ~10 candidates (thin day, or the
+THS 热点 endpoint had a bad day), say so in the section rather than padding
+the list with weak candidates just to hit 20 — a shorter, higher-conviction
+list is better than a mechanically-padded one.
+
+`template/example_report.html` predates this feature, so it has no section
+to pattern-match for this one specifically — use the same `<table>` /
+`.analysis-block` / `.tag` styling as its other sections. A reasonable shape:
+
+```html
+<h2 class="section"><span class="focus-badge">焦点⑤</span>九、主板20只标的推荐股票池</h2>
+<table>
+  <thead><tr><th>代码</th><th>名称</th><th>涨跌幅</th><th>换手率</th><th>题材</th><th>技术信号</th><th>推荐理由</th></tr></thead>
+  <tbody>
+    <tr><td>600756</td><td>浪潮软件</td><td class="up">+10.01%</td><td>13.05%</td><td>AI政务+财税数字化</td>
+        <td><span class="tag tag-red">MA多头排列</span> 量比1.43</td>
+        <td>今日AI应用软件板块唯一放量突破年内新高个股，MA5&gt;MA10&gt;MA20标准多头排列，
+            且题材与本报告焦点①识别的今日资金焦点方向一致</td></tr>
+    ...
+  </tbody>
+</table>
+```
+Use `tag-red`/`tag-orange` for the technical-signal chip depending on
+conviction (e.g. red for MA多头排列+放量, orange for above-MA but no full
+stack), same color logic as the 龙头梯队 table elsewhere in the example.
+
 ### 6. Write reports/<date>/report.html
 Copy the `<style>` block verbatim from `template/style_block.html` (do not
 modify it — it has print-specific CSS (`page-break-inside: avoid` etc.) that
@@ -132,7 +186,7 @@ present, no `NaN`/`undefined`/`None` leaked into the text.
 
 ### 8. Commit and push
 ```
-git add data/summary_<date>.json data/charts_<date>/ reports/<date>/
+git add data/summary_<date>.json data/market_raw_<date>.json data/stock_pool_<date>.json data/charts_<date>/ reports/<date>/
 git commit -m "Daily report <date>"
 git push
 ```
@@ -153,3 +207,16 @@ out thinner than usual (partial data beats no report).
 - Full-market breadth requires ~55 sequential sina requests (~1 min). Don't
   try to shortcut this with a single big-page-size request — pz/num above
   ~100 gets silently truncated or 502s.
+- The stock-pool feature (step 5a) needs two domains that nothing else in the
+  pipeline uses: `zx.10jqka.com.cn` (THS 热点/theme tags) and
+  `finance.pae.baidu.com` (K-line+MA). If this environment's network access
+  is on **Custom** rather than **Full**, both must be added to the allowlist
+  alongside the original 6 domains, or `lib/stock_pool.py` will silently
+  return an empty/thin shortlist (it degrades gracefully like everything
+  else in fetch.py, so check stderr / the candidate count rather than
+  assuming a 403 would be obvious).
+- `lib/stock_pool.py`'s "main board" filter is a code-prefix check
+  (`60`/`000`/`001`/`002`), not a real board-classification lookup. This is
+  correct given deep板 merged into 主板 in 2021 (深市002 IS 主板 now), but if
+  any exchange reclassifies codes in the future, revisit `MAINBOARD_PREFIXES`
+  in `lib/stock_pool.py`.

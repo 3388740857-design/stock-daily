@@ -1,0 +1,572 @@
+[
+  {
+    "code": "603400",
+    "name": "华之杰",
+    "reason": "新能源汽车+机器人+智能家居",
+    "pct": 10.013,
+    "turnover_pct": 21.8774,
+    "amount_yi": 3.17,
+    "price": "42.850",
+    "technical": {
+      "close": 42.85,
+      "ma5": 38.56,
+      "ma10": 40.63,
+      "ma20": 46.23,
+      "ma_bullish_stack": false,
+      "above_all_ma": false,
+      "volume_ratio_vs_5d": 1.72,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002388",
+    "name": "新亚制程",
+    "reason": "锂电材料+华为产业链+胶粘剂+增持",
+    "pct": 10.0,
+    "turnover_pct": 21.64982,
+    "amount_yi": 5.69,
+    "price": "5.280",
+    "technical": {
+      "close": 5.28,
+      "ma5": 4.42,
+      "ma10": 4.2,
+      "ma20": 4.49,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 2.21,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "000779",
+    "name": "甘咨询",
+    "reason": "工程咨询+甘肃国资+AI应用",
+    "pct": 9.991,
+    "turnover_pct": 17.52826,
+    "amount_yi": 9.13,
+    "price": "11.670",
+    "technical": {
+      "close": 11.67,
+      "ma5": 10.12,
+      "ma10": 10.6,
+      "ma20": 9.94,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.26,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "001376",
+    "name": "百通能源",
+    "reason": "定增获批+热电联产+工业园区供热",
+    "pct": 9.961,
+    "turnover_pct": 14.07275,
+    "amount_yi": 3.29,
+    "price": "11.150",
+    "technical": {
+      "close": 11.15,
+      "ma5": 10.27,
+      "ma10": 10.0,
+      "ma20": 10.11,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 2.23,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "600756",
+    "name": "浪潮软件",
+    "reason": "AI政务+财税数字化+山东国资",
+    "pct": 10.007,
+    "turnover_pct": 13.05023,
+    "amount_yi": 6.33,
+    "price": "15.390",
+    "technical": {
+      "close": 15.39,
+      "ma5": 14.65,
+      "ma10": 14.28,
+      "ma20": 13.75,
+      "ma_bullish_stack": true,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.43,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "605162",
+    "name": "新中港",
+    "reason": "热电联产+弗迪电池供热+储能",
+    "pct": 10.012,
+    "turnover_pct": 11.79019,
+    "amount_yi": 4.58,
+    "price": "9.230",
+    "technical": {
+      "close": 9.23,
+      "ma5": 8.48,
+      "ma10": 7.84,
+      "ma20": 7.7,
+      "ma_bullish_stack": true,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.71,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "603580",
+    "name": "艾艾精工",
+    "reason": "控制权拟变更+轻型输送带+消费电子",
+    "pct": 9.998,
+    "turnover_pct": 11.65154,
+    "amount_yi": 7.68,
+    "price": "52.700",
+    "technical": {
+      "close": 52.7,
+      "ma5": 45.81,
+      "ma10": 42.87,
+      "ma20": 34.78,
+      "ma_bullish_stack": true,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.13,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "603716",
+    "name": "塞力医疗",
+    "reason": "脑机接口+AI医疗+高血压疫苗+SPD",
+    "pct": 9.973,
+    "turnover_pct": 10.78895,
+    "amount_yi": 3.92,
+    "price": "16.430",
+    "technical": {
+      "close": 16.43,
+      "ma5": 14.66,
+      "ma10": 14.95,
+      "ma20": 14.59,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.14,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002310",
+    "name": "东方新能",
+    "reason": "重大资产重组+中报扭亏+风电+北京国资",
+    "pct": 9.959,
+    "turnover_pct": 9.31174,
+    "amount_yi": 10.64,
+    "price": "2.650",
+    "technical": {
+      "close": 2.65,
+      "ma5": 2.39,
+      "ma10": 2.38,
+      "ma20": 2.27,
+      "ma_bullish_stack": true,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 2.27,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002173",
+    "name": "创新医疗",
+    "reason": "脑机接口+医疗器械注册证+医疗服务",
+    "pct": 10.005,
+    "turnover_pct": 8.81461,
+    "amount_yi": 8.44,
+    "price": "22.760",
+    "technical": {
+      "close": 22.76,
+      "ma5": 19.61,
+      "ma10": 18.52,
+      "ma20": 18.06,
+      "ma_bullish_stack": true,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 0.64,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "603928",
+    "name": "兴业股份",
+    "reason": "光刻胶+酚醛树脂+合成树脂",
+    "pct": 10.036,
+    "turnover_pct": 8.57197,
+    "amount_yi": 3.48,
+    "price": "12.280",
+    "technical": {
+      "close": 12.28,
+      "ma5": 11.04,
+      "ma10": 11.36,
+      "ma20": 13.73,
+      "ma_bullish_stack": false,
+      "above_all_ma": false,
+      "volume_ratio_vs_5d": 0.9,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002995",
+    "name": "天地在线",
+    "reason": "AI应用+广告营销+Web3.0",
+    "pct": 9.981,
+    "turnover_pct": 8.51109,
+    "amount_yi": 1.58,
+    "price": "16.970",
+    "technical": {
+      "close": 16.97,
+      "ma5": 15.41,
+      "ma10": 15.47,
+      "ma20": 16.2,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.47,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "600775",
+    "name": "南京熊猫",
+    "reason": "脑机接口概念+卫星通信+央企",
+    "pct": 9.989,
+    "turnover_pct": 8.44066,
+    "amount_yi": 5.74,
+    "price": "10.350",
+    "technical": {
+      "close": 10.35,
+      "ma5": 9.08,
+      "ma10": 8.86,
+      "ma20": 9.06,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 2.63,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "603232",
+    "name": "格尔软件",
+    "reason": "抗量子密码+AI安全+PKI龙头",
+    "pct": 10.036,
+    "turnover_pct": 7.82247,
+    "amount_yi": 2.68,
+    "price": "15.130",
+    "technical": {
+      "close": 15.13,
+      "ma5": 13.65,
+      "ma10": 13.57,
+      "ma20": 14.05,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 3.06,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002309",
+    "name": "中利集团",
+    "reason": "中报扭亏+特种线缆+光伏储能+厦门国资",
+    "pct": 10.131,
+    "turnover_pct": 6.78652,
+    "amount_yi": 5.39,
+    "price": "3.370",
+    "technical": {
+      "close": 3.37,
+      "ma5": 2.98,
+      "ma10": 2.88,
+      "ma20": 2.74,
+      "ma_bullish_stack": true,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 0.64,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002212",
+    "name": "天融信",
+    "reason": "AI安全+智算云+量子科技",
+    "pct": 10.092,
+    "turnover_pct": 6.26086,
+    "amount_yi": 4.24,
+    "price": "6.000",
+    "technical": {
+      "close": 6.0,
+      "ma5": 5.59,
+      "ma10": 5.53,
+      "ma20": 5.59,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 2.61,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "000566",
+    "name": "海南海药",
+    "reason": "创新药+基药目录+脑机接口+央企",
+    "pct": 10.0,
+    "turnover_pct": 6.22418,
+    "amount_yi": 4.64,
+    "price": "5.830",
+    "technical": {
+      "close": 5.83,
+      "ma5": 5.25,
+      "ma10": 5.17,
+      "ma20": 5.3,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 0.5,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002279",
+    "name": "久其软件",
+    "reason": "AI智能体+业绩减亏+数字政务",
+    "pct": 10.034,
+    "turnover_pct": 5.77383,
+    "amount_yi": 2.91,
+    "price": "6.470",
+    "technical": {
+      "close": 6.47,
+      "ma5": 6.03,
+      "ma10": 5.91,
+      "ma20": 5.81,
+      "ma_bullish_stack": true,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.46,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "600199",
+    "name": "金种子酒",
+    "reason": "白酒+亏损收窄+阜阳国资",
+    "pct": 10.015,
+    "turnover_pct": 5.66983,
+    "amount_yi": 2.68,
+    "price": "7.470",
+    "technical": {
+      "close": 7.47,
+      "ma5": 7.05,
+      "ma10": 7.06,
+      "ma20": 6.73,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.42,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "603980",
+    "name": "吉华集团",
+    "reason": "控制权变更+染料+中报预增",
+    "pct": 9.983,
+    "turnover_pct": 5.56891,
+    "amount_yi": 2.35,
+    "price": "6.500",
+    "technical": {
+      "close": 6.5,
+      "ma5": 6.06,
+      "ma10": 6.08,
+      "ma20": 6.14,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.16,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002795",
+    "name": "永和智控",
+    "reason": "中报预增+水暖阀门+医疗器械",
+    "pct": 10.0,
+    "turnover_pct": 5.34654,
+    "amount_yi": 1.36,
+    "price": "6.050",
+    "technical": {
+      "close": 6.05,
+      "ma5": 5.49,
+      "ma10": 5.56,
+      "ma20": 6.04,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.07,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "603918",
+    "name": "金桥信息",
+    "reason": "AI应用+信创+定增",
+    "pct": 10.032,
+    "turnover_pct": 4.54583,
+    "amount_yi": 1.69,
+    "price": "10.420",
+    "technical": {
+      "close": 10.42,
+      "ma5": 9.6,
+      "ma10": 9.59,
+      "ma20": 9.56,
+      "ma_bullish_stack": true,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.7,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "600191",
+    "name": "华资实业",
+    "reason": "半年报预增+粮食深加工+黄原胶",
+    "pct": 10.0,
+    "turnover_pct": 4.41308,
+    "amount_yi": 1.99,
+    "price": "9.460",
+    "technical": {
+      "close": 9.46,
+      "ma5": 8.69,
+      "ma10": 8.68,
+      "ma20": 8.8,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 3.64,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002869",
+    "name": "金溢科技",
+    "reason": "ETC+车路协同+低空智联+数字能源",
+    "pct": 9.972,
+    "turnover_pct": 4.41489,
+    "amount_yi": 1.07,
+    "price": "15.770",
+    "technical": {
+      "close": 15.77,
+      "ma5": 14.22,
+      "ma10": 14.27,
+      "ma20": 14.92,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 2.21,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "600693",
+    "name": "东百集团",
+    "reason": "零售+首店经济+仓储物流+资产处置",
+    "pct": 9.962,
+    "turnover_pct": 4.41518,
+    "amount_yi": 3.22,
+    "price": "8.610",
+    "technical": {
+      "close": 8.61,
+      "ma5": 7.89,
+      "ma10": 7.92,
+      "ma20": 7.96,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.25,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002195",
+    "name": "岩山科技",
+    "reason": "脑机接口+AI大模型+AI PC+人形机器人",
+    "pct": 9.984,
+    "turnover_pct": 4.2187,
+    "amount_yi": 15.71,
+    "price": "6.830",
+    "technical": {
+      "close": 6.83,
+      "ma5": 6.18,
+      "ma10": 6.06,
+      "ma20": 6.16,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.25,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "000859",
+    "name": "国风新材",
+    "reason": "并购重组+光刻胶+合肥国资",
+    "pct": 10.039,
+    "turnover_pct": 3.78726,
+    "amount_yi": 2.79,
+    "price": "8.440",
+    "technical": {
+      "close": 8.44,
+      "ma5": 7.56,
+      "ma10": 7.57,
+      "ma20": 8.28,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.13,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "000503",
+    "name": "国新健康",
+    "reason": "AI医疗+DRG/DIP+央企",
+    "pct": 9.969,
+    "turnover_pct": 3.76923,
+    "amount_yi": 2.54,
+    "price": "7.170",
+    "technical": {
+      "close": 7.17,
+      "ma5": 6.54,
+      "ma10": 6.56,
+      "ma20": 6.45,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.79,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "000948",
+    "name": "南天信息",
+    "reason": "AI应用+金融科技+半年报扭亏+云南国资",
+    "pct": 10.008,
+    "turnover_pct": 3.18329,
+    "amount_yi": 1.7,
+    "price": "14.070",
+    "technical": {
+      "close": 14.07,
+      "ma5": 13.56,
+      "ma10": 13.84,
+      "ma20": 13.24,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 0.63,
+      "candle_strength": 1.0
+    }
+  },
+  {
+    "code": "002969",
+    "name": "嘉美包装",
+    "reason": "中报预增+饮料包装+实控人变更",
+    "pct": 10.035,
+    "turnover_pct": 3.01081,
+    "amount_yi": 4.08,
+    "price": "12.610",
+    "technical": {
+      "close": 12.61,
+      "ma5": 11.11,
+      "ma10": 11.12,
+      "ma20": 12.11,
+      "ma_bullish_stack": false,
+      "above_all_ma": true,
+      "volume_ratio_vs_5d": 1.22,
+      "candle_strength": 1.0
+    }
+  }
+]

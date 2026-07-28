@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "generated_at": "2026-07-28T12:23:19",
+  "generated_at": "2026-07-28T21:15:03",
   "indices": {
     "quotes": {
       "上证指数": {
@@ -2186,18 +2186,6 @@
         "first_seal": "11:29:33"
       },
       {
-        "code": "002396",
-        "name": "星网锐捷",
-        "price": 31.61,
-        "pct": 9.99,
-        "turnover": 28.7,
-        "limit_days": 1,
-        "seal_fund": 84237615,
-        "break_times": 4,
-        "industry": "通信设备",
-        "first_seal": "13:00:03"
-      },
-      {
         "code": "001389",
         "name": "广合科技",
         "price": 174.31,
@@ -2207,6 +2195,18 @@
         "seal_fund": 77655105,
         "break_times": 7,
         "industry": "元件",
+        "first_seal": "13:00:03"
+      },
+      {
+        "code": "002396",
+        "name": "星网锐捷",
+        "price": 31.61,
+        "pct": 9.99,
+        "turnover": 28.7,
+        "limit_days": 1,
+        "seal_fund": 84237615,
+        "break_times": 4,
+        "industry": "通信设备",
         "first_seal": "13:00:03"
       },
       {
@@ -3558,18 +3558,6 @@
         "first_seal": "09:25:00"
       },
       {
-        "code": "002353",
-        "name": "杰瑞股份",
-        "price": 135.11,
-        "pct": 10.0,
-        "turnover": 0.42,
-        "limit_days": 1,
-        "seal_fund": 1137204116,
-        "break_times": 0,
-        "industry": "专用设备",
-        "first_seal": "09:25:00"
-      },
-      {
         "code": "002199",
         "name": "东晶电子",
         "price": 10.73,
@@ -3579,6 +3567,18 @@
         "seal_fund": 38481889,
         "break_times": 0,
         "industry": "元件",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002353",
+        "name": "杰瑞股份",
+        "price": 135.11,
+        "pct": 10.0,
+        "turnover": 0.42,
+        "limit_days": 1,
+        "seal_fund": 1137204116,
+        "break_times": 0,
+        "industry": "专用设备",
         "first_seal": "09:25:00"
       },
       {
@@ -4542,18 +4542,6 @@
         "first_seal": "13:33:57"
       },
       {
-        "code": "002725",
-        "name": "跃岭股份",
-        "price": 10.78,
-        "pct": 10.0,
-        "turnover": 4.61,
-        "limit_days": 1,
-        "seal_fund": 28935676,
-        "break_times": 0,
-        "industry": "汽车零部",
-        "first_seal": "13:34:03"
-      },
-      {
         "code": "000862",
         "name": "银星能源",
         "price": 5.92,
@@ -4563,6 +4551,18 @@
         "seal_fund": 61615940,
         "break_times": 1,
         "industry": "电力",
+        "first_seal": "13:34:03"
+      },
+      {
+        "code": "002725",
+        "name": "跃岭股份",
+        "price": 10.78,
+        "pct": 10.0,
+        "turnover": 4.61,
+        "limit_days": 1,
+        "seal_fund": 28935676,
+        "break_times": 0,
+        "industry": "汽车零部",
         "first_seal": "13:34:03"
       },
       {
@@ -4916,18 +4916,6 @@
     ],
     "20260724": [
       {
-        "code": "000595",
-        "name": "新能股份",
-        "price": 6.07,
-        "pct": 9.96,
-        "turnover": 10.58,
-        "limit_days": 3,
-        "seal_fund": 12386442,
-        "break_times": 14,
-        "industry": "电力",
-        "first_seal": "09:25:00"
-      },
-      {
         "code": "002879",
         "name": "长缆科技",
         "price": 18.05,
@@ -4940,15 +4928,15 @@
         "first_seal": "09:25:00"
       },
       {
-        "code": "000533",
-        "name": "顺钠股份",
-        "price": 9.55,
-        "pct": 10.02,
-        "turnover": 1.21,
-        "limit_days": 2,
-        "seal_fund": 217312054,
-        "break_times": 0,
-        "industry": "电网设备",
+        "code": "000595",
+        "name": "新能股份",
+        "price": 6.07,
+        "pct": 9.96,
+        "turnover": 10.58,
+        "limit_days": 3,
+        "seal_fund": 12386442,
+        "break_times": 14,
+        "industry": "电力",
         "first_seal": "09:25:00"
       },
       {
@@ -4961,6 +4949,18 @@
         "seal_fund": 396786925,
         "break_times": 0,
         "industry": "医疗器械",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "000533",
+        "name": "顺钠股份",
+        "price": 9.55,
+        "pct": 10.02,
+        "turnover": 1.21,
+        "limit_days": 2,
+        "seal_fund": 217312054,
+        "break_times": 0,
+        "industry": "电网设备",
         "first_seal": "09:25:00"
       },
       {
