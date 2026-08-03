@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1120 340" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<line x1="55" y1="310.0" x2="1100" y2="310.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="314.0" font-size="11" fill="#64748b" text-anchor="end">0</text>
+<line x1="55" y1="254.0" x2="1100" y2="254.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="258.0" font-size="11" fill="#64748b" text-anchor="end">2</text>
+<line x1="55" y1="198.0" x2="1100" y2="198.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="202.0" font-size="11" fill="#64748b" text-anchor="end">4</text>
+<line x1="55" y1="142.0" x2="1100" y2="142.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="146.0" font-size="11" fill="#64748b" text-anchor="end">6</text>
+<line x1="55" y1="86.0" x2="1100" y2="86.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="90.0" font-size="11" fill="#64748b" text-anchor="end">8</text>
+<line x1="55" y1="30.0" x2="1100" y2="30.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="34.0" font-size="11" fill="#64748b" text-anchor="end">10</text>
+<text x="55.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">7/27</text>
+<text x="264.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">7/28</text>
+<text x="473.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">7/29</text>
+<text x="682.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">7/30</text>
+<text x="891.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">7/31</text>
+<text x="1100.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">8/3</text>
+<polyline points="55.0,170.0 264.0,254.0 473.0,170.0 682.0,198.0 891.0,282.0 1100.0,86.0" fill="none" stroke="#dc2626" stroke-width="2"/>
+<circle cx="55.0" cy="170.0" r="3" fill="#dc2626"/>
+<circle cx="264.0" cy="254.0" r="3" fill="#dc2626"/>
+<circle cx="473.0" cy="170.0" r="3" fill="#dc2626"/>
+<circle cx="682.0" cy="198.0" r="3" fill="#dc2626"/>
+<circle cx="891.0" cy="282.0" r="3" fill="#dc2626"/>
+<circle cx="1100.0" cy="86.0" r="3" fill="#dc2626"/>
+<polyline points="55.0,198.0 264.0,226.0 473.0,254.0 682.0,282.0 891.0,254.0 1100.0,198.0" fill="none" stroke="#ea580c" stroke-width="2"/>
+<circle cx="55.0" cy="198.0" r="3" fill="#ea580c"/>
+<circle cx="264.0" cy="226.0" r="3" fill="#ea580c"/>
+<circle cx="473.0" cy="254.0" r="3" fill="#ea580c"/>
+<circle cx="682.0" cy="282.0" r="3" fill="#ea580c"/>
+<circle cx="891.0" cy="254.0" r="3" fill="#ea580c"/>
+<circle cx="1100.0" cy="198.0" r="3" fill="#ea580c"/>
+<polyline points="55.0,254.0 264.0,254.0 473.0,254.0 682.0,254.0 891.0,198.0 1100.0,142.0" fill="none" stroke="#16a34a" stroke-width="2"/>
+<circle cx="55.0" cy="254.0" r="3" fill="#16a34a"/>
+<circle cx="264.0" cy="254.0" r="3" fill="#16a34a"/>
+<circle cx="473.0" cy="254.0" r="3" fill="#16a34a"/>
+<circle cx="682.0" cy="254.0" r="3" fill="#16a34a"/>
+<circle cx="891.0" cy="198.0" r="3" fill="#16a34a"/>
+<circle cx="1100.0" cy="142.0" r="3" fill="#16a34a"/>
+<polyline points="55.0,198.0 264.0,198.0 473.0,254.0 682.0,142.0 891.0,254.0 1100.0,310.0" fill="none" stroke="#9333ea" stroke-width="2" stroke-dasharray="5,4"/>
+<circle cx="55.0" cy="198.0" r="3" fill="#9333ea"/>
+<circle cx="264.0" cy="198.0" r="3" fill="#9333ea"/>
+<circle cx="473.0" cy="254.0" r="3" fill="#9333ea"/>
+<circle cx="682.0" cy="142.0" r="3" fill="#9333ea"/>
+<circle cx="891.0" cy="254.0" r="3" fill="#9333ea"/>
+<circle cx="1100.0" cy="310.0" r="3" fill="#9333ea"/>
+<line x1="55" y1="14" x2="71" y2="14" stroke="#dc2626" stroke-width="3"/>
+<text x="75" y="18" font-size="11" fill="#1e293b">电网设备(主线)</text>
+<line x1="189" y1="14" x2="205" y2="14" stroke="#ea580c" stroke-width="3"/>
+<text x="209" y="18" font-size="11" fill="#1e293b">电力(主线)</text>
+<line x1="299" y1="14" x2="315" y2="14" stroke="#16a34a" stroke-width="3"/>
+<text x="319" y="18" font-size="11" fill="#1e293b">通用设备(主线)</text>
+<line x1="433" y1="14" x2="449" y2="14" stroke="#9333ea" stroke-width="3"/>
+<text x="453" y="18" font-size="11" fill="#1e293b">汽车零部件(降温)</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1120 360" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<text x="120" y="31.0" font-size="12" fill="#1e293b" text-anchor="end">电网设备</text>
+<rect x="130" y="17.6" width="674.0" height="18.7" fill="#dc2626" rx="2"/>
+<text x="812.0" y="31.0" font-size="11.5" fill="#1e293b">5.32亿</text>
+<text x="120" y="65.0" font-size="12" fill="#1e293b" text-anchor="end">通用设备</text>
+<rect x="130" y="51.6" width="826.1" height="18.7" fill="#dc2626" rx="2"/>
+<text x="964.1" y="65.0" font-size="11.5" fill="#1e293b">6.52亿</text>
+<text x="120" y="99.0" font-size="12" fill="#1e293b" text-anchor="end">电力</text>
+<rect x="130" y="85.7" width="636.0" height="18.7" fill="#dc2626" rx="2"/>
+<text x="774.0" y="99.0" font-size="11.5" fill="#1e293b">5.02亿</text>
+<text x="120" y="133.0" font-size="12" fill="#1e293b" text-anchor="end">化学制品</text>
+<rect x="130" y="119.7" width="323.1" height="18.7" fill="#dc2626" rx="2"/>
+<text x="461.1" y="133.0" font-size="11.5" fill="#1e293b">2.55亿</text>
+<text x="120" y="167.0" font-size="12" fill="#1e293b" text-anchor="end">通信设备</text>
+<rect x="130" y="153.7" width="500.5" height="18.7" fill="#dc2626" rx="2"/>
+<text x="638.5" y="167.0" font-size="11.5" fill="#1e293b">3.95亿</text>
+<text x="120" y="201.0" font-size="12" fill="#1e293b" text-anchor="end">光伏设备</text>
+<rect x="130" y="187.7" width="421.9" height="18.7" fill="#dc2626" rx="2"/>
+<text x="559.9" y="201.0" font-size="11.5" fill="#1e293b">3.33亿</text>
+<text x="120" y="235.0" font-size="12" fill="#1e293b" text-anchor="end">IT服务</text>
+<rect x="130" y="221.7" width="345.9" height="18.7" fill="#dc2626" rx="2"/>
+<text x="483.9" y="235.0" font-size="11.5" fill="#1e293b">2.73亿</text>
+<text x="120" y="269.0" font-size="12" fill="#1e293b" text-anchor="end">计算机设备</text>
+<rect x="130" y="255.7" width="258.5" height="18.7" fill="#dc2626" rx="2"/>
+<text x="396.5" y="269.0" font-size="11.5" fill="#1e293b">2.04亿</text>
+<text x="120" y="303.0" font-size="12" fill="#1e293b" text-anchor="end">塑料</text>
+<rect x="130" y="289.6" width="188.8" height="18.7" fill="#dc2626" rx="2"/>
+<text x="326.8" y="303.0" font-size="11.5" fill="#1e293b">1.49亿</text>
+<text x="120" y="337.0" font-size="12" fill="#1e293b" text-anchor="end">燃气</text>
+<rect x="130" y="323.6" width="253.4" height="18.7" fill="#dc2626" rx="2"/>
+<text x="391.4" y="337.0" font-size="11.5" fill="#1e293b">2.00亿</text>
+</svg>
