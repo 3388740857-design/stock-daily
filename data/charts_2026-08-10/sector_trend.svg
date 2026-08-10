@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1120 340" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<line x1="55" y1="310.0" x2="1100" y2="310.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="314.0" font-size="11" fill="#64748b" text-anchor="end">0</text>
+<line x1="55" y1="240.0" x2="1100" y2="240.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="244.0" font-size="11" fill="#64748b" text-anchor="end">6</text>
+<line x1="55" y1="170.0" x2="1100" y2="170.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="174.0" font-size="11" fill="#64748b" text-anchor="end">11</text>
+<line x1="55" y1="100.0" x2="1100" y2="100.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="104.0" font-size="11" fill="#64748b" text-anchor="end">16</text>
+<line x1="55" y1="30.0" x2="1100" y2="30.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="34.0" font-size="11" fill="#64748b" text-anchor="end">22</text>
+<text x="55.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">8/3</text>
+<text x="264.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">8/4</text>
+<text x="473.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">8/5</text>
+<text x="682.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">8/6</text>
+<text x="891.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">8/7</text>
+<text x="1100.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">8/10</text>
+<polyline points="55.0,310.0 264.0,182.7 473.0,297.3 682.0,233.6 891.0,68.2 1100.0,131.8" fill="none" stroke="#dc2626" stroke-width="3"/>
+<circle cx="55.0" cy="310.0" r="4" fill="#dc2626"/>
+<circle cx="264.0" cy="182.7" r="4" fill="#dc2626"/>
+<circle cx="473.0" cy="297.3" r="4" fill="#dc2626"/>
+<circle cx="682.0" cy="233.6" r="4" fill="#dc2626"/>
+<circle cx="891.0" cy="68.2" r="4" fill="#dc2626"/>
+<circle cx="1100.0" cy="131.8" r="4" fill="#dc2626"/>
+<polyline points="55.0,208.2 264.0,233.6 473.0,259.1 682.0,284.5 891.0,310.0 1100.0,233.6" fill="none" stroke="#ea580c" stroke-width="3"/>
+<circle cx="55.0" cy="208.2" r="4" fill="#ea580c"/>
+<circle cx="264.0" cy="233.6" r="4" fill="#ea580c"/>
+<circle cx="473.0" cy="259.1" r="4" fill="#ea580c"/>
+<circle cx="682.0" cy="284.5" r="4" fill="#ea580c"/>
+<circle cx="891.0" cy="310.0" r="4" fill="#ea580c"/>
+<circle cx="1100.0" cy="233.6" r="4" fill="#ea580c"/>
+<polyline points="55.0,259.1 264.0,297.3 473.0,259.1 682.0,220.9 891.0,271.8 1100.0,246.4" fill="none" stroke="#2563eb" stroke-width="2" stroke-dasharray="5,4"/>
+<circle cx="55.0" cy="259.1" r="3" fill="#2563eb"/>
+<circle cx="264.0" cy="297.3" r="3" fill="#2563eb"/>
+<circle cx="473.0" cy="259.1" r="3" fill="#2563eb"/>
+<circle cx="682.0" cy="220.9" r="3" fill="#2563eb"/>
+<circle cx="891.0" cy="271.8" r="3" fill="#2563eb"/>
+<circle cx="1100.0" cy="246.4" r="3" fill="#2563eb"/>
+<polyline points="55.0,297.3 264.0,284.5 473.0,259.1 682.0,271.8 891.0,259.1 1100.0,284.5" fill="none" stroke="#9333ea" stroke-width="2" stroke-dasharray="5,4"/>
+<circle cx="55.0" cy="297.3" r="3" fill="#9333ea"/>
+<circle cx="264.0" cy="284.5" r="3" fill="#9333ea"/>
+<circle cx="473.0" cy="259.1" r="3" fill="#9333ea"/>
+<circle cx="682.0" cy="271.8" r="3" fill="#9333ea"/>
+<circle cx="891.0" cy="259.1" r="3" fill="#9333ea"/>
+<circle cx="1100.0" cy="284.5" r="3" fill="#9333ea"/>
+<line x1="55" y1="14" x2="71" y2="14" stroke="#dc2626" stroke-width="3"/>
+<text x="75" y="18" font-size="11" fill="#1e293b">医药/创新药(服务+制药+商业+生物,主线)</text>
+<line x1="357" y1="14" x2="373" y2="14" stroke="#ea580c" stroke-width="3"/>
+<text x="377" y="18" font-size="11" fill="#1e293b">电网设备(退潮)</text>
+<line x1="491" y1="14" x2="507" y2="14" stroke="#2563eb" stroke-width="3"/>
+<text x="511" y="18" font-size="11" fill="#1e293b">化学制品(平稳)</text>
+<line x1="625" y1="14" x2="641" y2="14" stroke="#9333ea" stroke-width="3"/>
+<text x="645" y="18" font-size="11" fill="#1e293b">半导体(平稳基线)</text>
+</svg>
