@@ -1,0 +1,47 @@
+<svg viewBox="0 0 1120 340" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<line x1="50" y1="295.0" x2="1100" y2="295.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="299.0" font-size="10.5" fill="#64748b" text-anchor="end">0</text>
+<line x1="50" y1="240.0" x2="1100" y2="240.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="244.0" font-size="10.5" fill="#64748b" text-anchor="end">628</text>
+<line x1="50" y1="185.0" x2="1100" y2="185.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="189.0" font-size="10.5" fill="#64748b" text-anchor="end">1,257</text>
+<line x1="50" y1="130.0" x2="1100" y2="130.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="134.0" font-size="10.5" fill="#64748b" text-anchor="end">1,885</text>
+<line x1="50" y1="75.0" x2="1100" y2="75.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="79.0" font-size="10.5" fill="#64748b" text-anchor="end">2,513</text>
+<line x1="50" y1="20.0" x2="1100" y2="20.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="24.0" font-size="10.5" fill="#64748b" text-anchor="end">3,142</text>
+<rect x="71.5" y="288.3" width="52.5" height="6.7" fill="#dc2626" rx="2"/>
+<text x="97.7" y="282.3" font-size="10" fill="#1e293b" text-anchor="middle">76</text>
+<text x="97.7" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">≥9.8%</text>
+<rect x="166.9" y="292.4" width="52.5" height="2.6" fill="#dc2626" rx="2"/>
+<text x="193.2" y="286.4" font-size="10" fill="#1e293b" text-anchor="middle">30</text>
+<text x="193.2" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">7~9.8%</text>
+<rect x="262.4" y="288.4" width="52.5" height="6.6" fill="#dc2626" rx="2"/>
+<text x="288.6" y="282.4" font-size="10" fill="#1e293b" text-anchor="middle">75</text>
+<text x="288.6" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">5~7%</text>
+<rect x="357.8" y="264.7" width="52.5" height="30.3" fill="#dc2626" rx="2"/>
+<text x="384.1" y="258.7" font-size="10" fill="#1e293b" text-anchor="middle">346</text>
+<text x="384.1" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">2~5%</text>
+<rect x="453.3" y="199.8" width="52.5" height="95.2" fill="#dc2626" rx="2"/>
+<text x="479.5" y="193.8" font-size="10" fill="#1e293b" text-anchor="middle">1,087</text>
+<text x="479.5" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">0~2%</text>
+<rect x="548.8" y="281.9" width="52.5" height="13.1" fill="#9ca3af" rx="2"/>
+<text x="575.0" y="275.9" font-size="10" fill="#1e293b" text-anchor="middle">150</text>
+<text x="575.0" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">平</text>
+<rect x="644.2" y="45.0" width="52.5" height="250.0" fill="#16a34a" rx="2"/>
+<text x="670.5" y="39.0" font-size="10" fill="#1e293b" text-anchor="middle">2,856</text>
+<text x="670.5" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">0~-2%</text>
+<rect x="739.7" y="224.6" width="52.5" height="70.4" fill="#16a34a" rx="2"/>
+<text x="765.9" y="218.6" font-size="10" fill="#1e293b" text-anchor="middle">804</text>
+<text x="765.9" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">-2~-5%</text>
+<rect x="835.1" y="287.8" width="52.5" height="7.2" fill="#16a34a" rx="2"/>
+<text x="861.4" y="281.8" font-size="10" fill="#1e293b" text-anchor="middle">82</text>
+<text x="861.4" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">-5~-7%</text>
+<rect x="930.6" y="292.5" width="52.5" height="2.5" fill="#16a34a" rx="2"/>
+<text x="956.8" y="286.5" font-size="10" fill="#1e293b" text-anchor="middle">29</text>
+<text x="956.8" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">-7~-9.8%</text>
+<rect x="1026.0" y="294.5" width="52.5" height="0.5" fill="#16a34a" rx="2"/>
+<text x="1052.3" y="288.5" font-size="10" fill="#1e293b" text-anchor="middle">6</text>
+<text x="1052.3" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">≤-9.8%</text>
+</svg>
