@@ -1,0 +1,7675 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T09:11:19",
+  "indices": {
+    "quotes": {
+      "上证指数": {
+        "code": "sh000001",
+        "price": 3894.42,
+        "last_close": 3990.3,
+        "change_amt": -95.88,
+        "change_pct": -2.4,
+        "amount_yi": 12181.08
+      },
+      "创业板指": {
+        "code": "sz399006",
+        "price": 3473.49,
+        "last_close": 3705.56,
+        "change_amt": -232.07,
+        "change_pct": -6.26,
+        "amount_yi": 6336.22
+      },
+      "科创50": {
+        "code": "sh000688",
+        "price": 1667.52,
+        "last_close": 1790.87,
+        "change_amt": -123.35,
+        "change_pct": -6.89,
+        "amount_yi": 1324.59
+      },
+      "沪深300": {
+        "code": "sh000300",
+        "price": 4588.7,
+        "last_close": 4725.81,
+        "change_amt": -137.11,
+        "change_pct": -2.9,
+        "amount_yi": 7052.54
+      },
+      "中证500": {
+        "code": "sh000905",
+        "price": 7783.46,
+        "last_close": 8177.18,
+        "change_amt": -393.72,
+        "change_pct": -4.81,
+        "amount_yi": 4783.45
+      },
+      "中证1000": {
+        "code": "sh000852",
+        "price": 7517.77,
+        "last_close": 7945.96,
+        "change_amt": -428.19,
+        "change_pct": -5.39,
+        "amount_yi": 5347.63
+      }
+    },
+    "history_10d": {
+      "上证指数": [
+        [
+          "2026-08-06",
+          3900.35
+        ],
+        [
+          "2026-08-07",
+          3940.04
+        ],
+        [
+          "2026-08-10",
+          3966.59
+        ],
+        [
+          "2026-08-11",
+          3934.09
+        ],
+        [
+          "2026-08-12",
+          3946.68
+        ],
+        [
+          "2026-08-13",
+          3926.96
+        ],
+        [
+          "2026-08-14",
+          3927.18
+        ],
+        [
+          "2026-08-17",
+          3982.65
+        ],
+        [
+          "2026-08-18",
+          3990.3
+        ],
+        [
+          "2026-08-19",
+          3894.42
+        ]
+      ],
+      "创业板指": [
+        [
+          "2026-08-06",
+          3515.56
+        ],
+        [
+          "2026-08-07",
+          3563.12
+        ],
+        [
+          "2026-08-10",
+          3537.21
+        ],
+        [
+          "2026-08-11",
+          3549.16
+        ],
+        [
+          "2026-08-12",
+          3602.08
+        ],
+        [
+          "2026-08-13",
+          3586.04
+        ],
+        [
+          "2026-08-14",
+          3626.3
+        ],
+        [
+          "2026-08-17",
+          3740.16
+        ],
+        [
+          "2026-08-18",
+          3705.56
+        ],
+        [
+          "2026-08-19",
+          3473.49
+        ]
+      ],
+      "科创50": [
+        [
+          "2026-08-06",
+          1701.29
+        ],
+        [
+          "2026-08-07",
+          1744.02
+        ],
+        [
+          "2026-08-10",
+          1737.77
+        ],
+        [
+          "2026-08-11",
+          1709.5
+        ],
+        [
+          "2026-08-12",
+          1736.99
+        ],
+        [
+          "2026-08-13",
+          1717.75
+        ],
+        [
+          "2026-08-14",
+          1717.68
+        ],
+        [
+          "2026-08-17",
+          1788.85
+        ],
+        [
+          "2026-08-18",
+          1790.87
+        ],
+        [
+          "2026-08-19",
+          1667.52
+        ]
+      ],
+      "沪深300": [
+        [
+          "2026-08-06",
+          4651.31
+        ],
+        [
+          "2026-08-07",
+          4694.44
+        ],
+        [
+          "2026-08-10",
+          4702.02
+        ],
+        [
+          "2026-08-11",
+          4663.79
+        ],
+        [
+          "2026-08-12",
+          4690.92
+        ],
+        [
+          "2026-08-13",
+          4663.95
+        ],
+        [
+          "2026-08-14",
+          4665.88
+        ],
+        [
+          "2026-08-17",
+          4741.1
+        ],
+        [
+          "2026-08-18",
+          4725.81
+        ],
+        [
+          "2026-08-19",
+          4588.7
+        ]
+      ],
+      "中证500": [
+        [
+          "2026-08-06",
+          7829.36
+        ],
+        [
+          "2026-08-07",
+          7980.12
+        ],
+        [
+          "2026-08-10",
+          8030.95
+        ],
+        [
+          "2026-08-11",
+          7967.54
+        ],
+        [
+          "2026-08-12",
+          8045.31
+        ],
+        [
+          "2026-08-13",
+          7968.38
+        ],
+        [
+          "2026-08-14",
+          7990.33
+        ],
+        [
+          "2026-08-17",
+          8184.64
+        ],
+        [
+          "2026-08-18",
+          8177.18
+        ],
+        [
+          "2026-08-19",
+          7783.46
+        ]
+      ],
+      "中证1000": [
+        [
+          "2026-08-06",
+          7530.43
+        ],
+        [
+          "2026-08-07",
+          7679.53
+        ],
+        [
+          "2026-08-10",
+          7733.9
+        ],
+        [
+          "2026-08-11",
+          7698.05
+        ],
+        [
+          "2026-08-12",
+          7793.72
+        ],
+        [
+          "2026-08-13",
+          7715.89
+        ],
+        [
+          "2026-08-14",
+          7769.82
+        ],
+        [
+          "2026-08-17",
+          7968.38
+        ],
+        [
+          "2026-08-18",
+          7945.96
+        ],
+        [
+          "2026-08-19",
+          7517.77
+        ]
+      ]
+    }
+  },
+  "breadth": {
+    "total": 5546,
+    "up": 448,
+    "down": 5069,
+    "flat": 29,
+    "total_amount_yi": 25293.3,
+    "distribution_buckets": {
+      "≥9.8%": 44,
+      "7~9.8%": 12,
+      "5~7%": 16,
+      "2~5%": 101,
+      "0~2%": 275,
+      "平": 29,
+      "0~-2%": 825,
+      "-2~-5%": 2247,
+      "-5~-7%": 936,
+      "-7~-9.8%": 681,
+      "≤-9.8%": 380
+    }
+  },
+  "zt_pool": [
+    {
+      "code": "002333",
+      "name": "罗普斯金",
+      "price": 6.34,
+      "pct": 10.07,
+      "turnover": 2.12,
+      "limit_days": 1,
+      "seal_fund": 86305259,
+      "break_times": 0,
+      "industry": "装修建材",
+      "first_seal": "09:25:00"
+    },
+    {
+      "code": "002953",
+      "name": "日丰股份",
+      "price": 11.73,
+      "pct": 10.04,
+      "turnover": 8.33,
+      "limit_days": 2,
+      "seal_fund": 96303464,
+      "break_times": 1,
+      "industry": "电网设备",
+      "first_seal": "09:25:00"
+    },
+    {
+      "code": "600127",
+      "name": "金健米业",
+      "price": 7.82,
+      "pct": 9.99,
+      "turnover": 4.56,
+      "limit_days": 3,
+      "seal_fund": 434089920,
+      "break_times": 0,
+      "industry": "农产品加",
+      "first_seal": "09:25:02"
+    },
+    {
+      "code": "600783",
+      "name": "鲁信创投",
+      "price": 20.19,
+      "pct": 10.03,
+      "turnover": 5.97,
+      "limit_days": 1,
+      "seal_fund": 69036555,
+      "break_times": 1,
+      "industry": "通用设备",
+      "first_seal": "09:25:02"
+    },
+    {
+      "code": "603395",
+      "name": "红四方",
+      "price": 29.0,
+      "pct": 10.02,
+      "turnover": 18.11,
+      "limit_days": 3,
+      "seal_fund": 121144919,
+      "break_times": 1,
+      "industry": "农化制品",
+      "first_seal": "09:25:02"
+    },
+    {
+      "code": "000020",
+      "name": "深华发Ａ",
+      "price": 13.74,
+      "pct": 10.01,
+      "turnover": 10.57,
+      "limit_days": 2,
+      "seal_fund": 23029614,
+      "break_times": 1,
+      "industry": "光学光电",
+      "first_seal": "09:30:00"
+    },
+    {
+      "code": "601011",
+      "name": "宝泰隆",
+      "price": 3.04,
+      "pct": 10.14,
+      "turnover": 3.8,
+      "limit_days": 1,
+      "seal_fund": 141757209,
+      "break_times": 0,
+      "industry": "焦炭Ⅱ",
+      "first_seal": "09:30:02"
+    },
+    {
+      "code": "603506",
+      "name": "南都物业",
+      "price": 11.88,
+      "pct": 10.0,
+      "turnover": 4.0,
+      "limit_days": 1,
+      "seal_fund": 24378948,
+      "break_times": 1,
+      "industry": "房地产服",
+      "first_seal": "09:30:14"
+    },
+    {
+      "code": "600371",
+      "name": "万向德农",
+      "price": 8.95,
+      "pct": 9.95,
+      "turnover": 18.17,
+      "limit_days": 2,
+      "seal_fund": 9075926,
+      "break_times": 5,
+      "industry": "种植业",
+      "first_seal": "09:31:18"
+    },
+    {
+      "code": "001301",
+      "name": "尚太科技",
+      "price": 62.33,
+      "pct": 10.01,
+      "turnover": 6.24,
+      "limit_days": 1,
+      "seal_fund": 28398794,
+      "break_times": 10,
+      "industry": "电池",
+      "first_seal": "09:31:21"
+    },
+    {
+      "code": "002900",
+      "name": "哈三联",
+      "price": 15.63,
+      "pct": 9.99,
+      "turnover": 12.88,
+      "limit_days": 1,
+      "seal_fund": 148077057,
+      "break_times": 1,
+      "industry": "化学制药",
+      "first_seal": "09:31:27"
+    },
+    {
+      "code": "000505",
+      "name": "京粮控股",
+      "price": 7.47,
+      "pct": 10.01,
+      "turnover": 10.74,
+      "limit_days": 3,
+      "seal_fund": 59900025,
+      "break_times": 0,
+      "industry": "农产品加",
+      "first_seal": "09:31:33"
+    },
+    {
+      "code": "603102",
+      "name": "百合股份",
+      "price": 45.76,
+      "pct": 10.0,
+      "turnover": 11.48,
+      "limit_days": 1,
+      "seal_fund": 114928161,
+      "break_times": 0,
+      "industry": "食品加工",
+      "first_seal": "09:32:33"
+    },
+    {
+      "code": "603801",
+      "name": "志邦家居",
+      "price": 6.57,
+      "pct": 10.05,
+      "turnover": 3.12,
+      "limit_days": 1,
+      "seal_fund": 31448645,
+      "break_times": 1,
+      "industry": "家居用品",
+      "first_seal": "09:32:38"
+    },
+    {
+      "code": "000526",
+      "name": "学大教育",
+      "price": 39.09,
+      "pct": 9.99,
+      "turnover": 7.7,
+      "limit_days": 2,
+      "seal_fund": 94120902,
+      "break_times": 1,
+      "industry": "教育",
+      "first_seal": "09:33:24"
+    },
+    {
+      "code": "000560",
+      "name": "我爱我家",
+      "price": 2.38,
+      "pct": 10.19,
+      "turnover": 18.33,
+      "limit_days": 1,
+      "seal_fund": 36632633,
+      "break_times": 4,
+      "industry": "房地产服",
+      "first_seal": "09:33:27"
+    },
+    {
+      "code": "002412",
+      "name": "汉森制药",
+      "price": 8.42,
+      "pct": 10.07,
+      "turnover": 6.38,
+      "limit_days": 1,
+      "seal_fund": 86021043,
+      "break_times": 1,
+      "industry": "中药Ⅱ",
+      "first_seal": "09:33:42"
+    },
+    {
+      "code": "000736",
+      "name": "中交发展",
+      "price": 4.9,
+      "pct": 10.11,
+      "turnover": 4.43,
+      "limit_days": 1,
+      "seal_fund": 25509463,
+      "break_times": 0,
+      "industry": "房地产服",
+      "first_seal": "09:33:48"
+    },
+    {
+      "code": "301211",
+      "name": "亨迪药业",
+      "price": 14.54,
+      "pct": 19.97,
+      "turnover": 13.69,
+      "limit_days": 1,
+      "seal_fund": 12206577,
+      "break_times": 4,
+      "industry": "化学制药",
+      "first_seal": "09:34:36"
+    },
+    {
+      "code": "000723",
+      "name": "美锦能源",
+      "price": 3.89,
+      "pct": 9.89,
+      "turnover": 4.23,
+      "limit_days": 1,
+      "seal_fund": 48257784,
+      "break_times": 2,
+      "industry": "焦炭Ⅱ",
+      "first_seal": "09:35:36"
+    },
+    {
+      "code": "301130",
+      "name": "西点药业",
+      "price": 33.38,
+      "pct": 19.99,
+      "turnover": 28.16,
+      "limit_days": 1,
+      "seal_fund": 19976928,
+      "break_times": 1,
+      "industry": "化学制药",
+      "first_seal": "09:35:42"
+    },
+    {
+      "code": "603848",
+      "name": "好太太",
+      "price": 14.66,
+      "pct": 9.98,
+      "turnover": 2.22,
+      "limit_days": 1,
+      "seal_fund": 31070404,
+      "break_times": 2,
+      "industry": "家居用品",
+      "first_seal": "09:36:16"
+    },
+    {
+      "code": "001277",
+      "name": "速达股份",
+      "price": 32.97,
+      "pct": 10.01,
+      "turnover": 5.55,
+      "limit_days": 1,
+      "seal_fund": 52843162,
+      "break_times": 0,
+      "industry": "专用设备",
+      "first_seal": "09:42:27"
+    },
+    {
+      "code": "001338",
+      "name": "永顺泰",
+      "price": 9.63,
+      "pct": 10.06,
+      "turnover": 6.05,
+      "limit_days": 1,
+      "seal_fund": 10799082,
+      "break_times": 7,
+      "industry": "农产品加",
+      "first_seal": "09:45:15"
+    },
+    {
+      "code": "600403",
+      "name": "大有能源",
+      "price": 6.82,
+      "pct": 10.0,
+      "turnover": 5.2,
+      "limit_days": 1,
+      "seal_fund": 192467581,
+      "break_times": 0,
+      "industry": "煤炭开采",
+      "first_seal": "09:48:29"
+    },
+    {
+      "code": "603290",
+      "name": "斯达半导",
+      "price": 100.31,
+      "pct": 10.0,
+      "turnover": 8.76,
+      "limit_days": 1,
+      "seal_fund": 85393903,
+      "break_times": 2,
+      "industry": "半导体",
+      "first_seal": "09:53:13"
+    },
+    {
+      "code": "001400",
+      "name": "江顺科技",
+      "price": 85.94,
+      "pct": 10.0,
+      "turnover": 13.55,
+      "limit_days": 1,
+      "seal_fund": 40254038,
+      "break_times": 2,
+      "industry": "专用设备",
+      "first_seal": "09:54:45"
+    },
+    {
+      "code": "300069",
+      "name": "金利华电",
+      "price": 34.66,
+      "pct": 20.01,
+      "turnover": 16.51,
+      "limit_days": 1,
+      "seal_fund": 77711186,
+      "break_times": 1,
+      "industry": "电网设备",
+      "first_seal": "09:59:27"
+    },
+    {
+      "code": "601015",
+      "name": "陕西黑猫",
+      "price": 3.71,
+      "pct": 10.09,
+      "turnover": 7.68,
+      "limit_days": 1,
+      "seal_fund": 40756783,
+      "break_times": 1,
+      "industry": "焦炭Ⅱ",
+      "first_seal": "10:15:31"
+    },
+    {
+      "code": "600610",
+      "name": "中毅达",
+      "price": 7.8,
+      "pct": 10.01,
+      "turnover": 6.71,
+      "limit_days": 1,
+      "seal_fund": 51554427,
+      "break_times": 2,
+      "industry": "化学原料",
+      "first_seal": "10:24:35"
+    },
+    {
+      "code": "603366",
+      "name": "日出东方",
+      "price": 7.63,
+      "pct": 9.94,
+      "turnover": 4.94,
+      "limit_days": 1,
+      "seal_fund": 52324395,
+      "break_times": 0,
+      "industry": "厨卫电器",
+      "first_seal": "11:01:13"
+    },
+    {
+      "code": "002040",
+      "name": "南 京 港",
+      "price": 9.06,
+      "pct": 9.95,
+      "turnover": 6.49,
+      "limit_days": 1,
+      "seal_fund": 15963448,
+      "break_times": 3,
+      "industry": "航运港口",
+      "first_seal": "11:22:09"
+    },
+    {
+      "code": "000059",
+      "name": "华锦股份",
+      "price": 5.07,
+      "pct": 9.98,
+      "turnover": 5.14,
+      "limit_days": 1,
+      "seal_fund": 46325097,
+      "break_times": 1,
+      "industry": "炼化及贸",
+      "first_seal": "13:05:51"
+    },
+    {
+      "code": "300911",
+      "name": "亿田智能",
+      "price": 26.66,
+      "pct": 19.98,
+      "turnover": 19.35,
+      "limit_days": 1,
+      "seal_fund": 144761693,
+      "break_times": 0,
+      "industry": "厨卫电器",
+      "first_seal": "13:07:54"
+    },
+    {
+      "code": "002543",
+      "name": "万和电气",
+      "price": 7.57,
+      "pct": 10.03,
+      "turnover": 5.29,
+      "limit_days": 1,
+      "seal_fund": 121869626,
+      "break_times": 0,
+      "industry": "厨卫电器",
+      "first_seal": "13:51:57"
+    },
+    {
+      "code": "603113",
+      "name": "金能科技",
+      "price": 5.15,
+      "pct": 10.04,
+      "turnover": 4.47,
+      "limit_days": 1,
+      "seal_fund": 35513689,
+      "break_times": 0,
+      "industry": "化学原料",
+      "first_seal": "14:12:02"
+    }
+  ],
+  "zb_pool": [
+    {
+      "code": "000153",
+      "name": "丰原药业",
+      "industry": "化学制药",
+      "break_times": 1,
+      "pct": -1.05
+    },
+    {
+      "code": "600313",
+      "name": "农发种业",
+      "industry": "种植业",
+      "break_times": 2,
+      "pct": 5.16
+    },
+    {
+      "code": "600613",
+      "name": "神奇制药",
+      "industry": "化学制药",
+      "break_times": 3,
+      "pct": 0.26
+    },
+    {
+      "code": "000523",
+      "name": "红棉股份",
+      "industry": "综合Ⅱ",
+      "break_times": 2,
+      "pct": 5.59
+    },
+    {
+      "code": "603958",
+      "name": "哈森股份",
+      "industry": "服装家纺",
+      "break_times": 1,
+      "pct": -8.02
+    },
+    {
+      "code": "300155",
+      "name": "安居宝",
+      "industry": "计算机设",
+      "break_times": 1,
+      "pct": 8.16
+    },
+    {
+      "code": "603207",
+      "name": "小方制药",
+      "industry": "化学制药",
+      "break_times": 2,
+      "pct": 7.6
+    },
+    {
+      "code": "000025",
+      "name": "特  力Ａ",
+      "industry": "综合Ⅱ",
+      "break_times": 2,
+      "pct": 4.05
+    },
+    {
+      "code": "002678",
+      "name": "珠江钢琴",
+      "industry": "文娱用品",
+      "break_times": 1,
+      "pct": 1.73
+    },
+    {
+      "code": "003042",
+      "name": "中农联合",
+      "industry": "农化制品",
+      "break_times": 1,
+      "pct": 0.72
+    },
+    {
+      "code": "601609",
+      "name": "金田股份",
+      "industry": "工业金属",
+      "break_times": 5,
+      "pct": 8.37
+    },
+    {
+      "code": "000703",
+      "name": "恒逸石化",
+      "industry": "炼化及贸",
+      "break_times": 4,
+      "pct": 9.22
+    }
+  ],
+  "dt_pool": [
+    {
+      "code": "605488",
+      "name": "福莱新材",
+      "industry": "塑料",
+      "pct": -10.01
+    },
+    {
+      "code": "002342",
+      "name": "巨力索具",
+      "industry": "通用设备",
+      "pct": -9.98
+    },
+    {
+      "code": "002577",
+      "name": "雷柏科技",
+      "industry": "计算机设",
+      "pct": -9.98
+    },
+    {
+      "code": "603052",
+      "name": "可川科技",
+      "industry": "消费电子",
+      "pct": -10.0
+    },
+    {
+      "code": "600113",
+      "name": "浙江东日",
+      "industry": "一般零售",
+      "pct": -10.0
+    },
+    {
+      "code": "603757",
+      "name": "大元泵业",
+      "industry": "通用设备",
+      "pct": -10.01
+    },
+    {
+      "code": "003021",
+      "name": "兆威机电",
+      "industry": "电机Ⅱ",
+      "pct": -10.0
+    },
+    {
+      "code": "605598",
+      "name": "上海港湾",
+      "industry": "专业工程",
+      "pct": -9.99
+    },
+    {
+      "code": "603166",
+      "name": "福达股份",
+      "industry": "汽车零部",
+      "pct": -9.99
+    },
+    {
+      "code": "002303",
+      "name": "美盈森",
+      "industry": "包装印刷",
+      "pct": -9.94
+    },
+    {
+      "code": "605288",
+      "name": "凯迪股份",
+      "industry": "自动化设",
+      "pct": -10.0
+    },
+    {
+      "code": "603061",
+      "name": "金海通",
+      "industry": "半导体",
+      "pct": -10.0
+    },
+    {
+      "code": "002272",
+      "name": "川润股份",
+      "industry": "通用设备",
+      "pct": -10.01
+    },
+    {
+      "code": "603767",
+      "name": "中马传动",
+      "industry": "汽车零部",
+      "pct": -9.99
+    },
+    {
+      "code": "605189",
+      "name": "富春染织",
+      "industry": "纺织制造",
+      "pct": -9.98
+    },
+    {
+      "code": "603285",
+      "name": "键邦股份",
+      "industry": "化学制品",
+      "pct": -10.0
+    },
+    {
+      "code": "002897",
+      "name": "意华股份",
+      "industry": "通信设备",
+      "pct": -10.0
+    },
+    {
+      "code": "605589",
+      "name": "圣泉集团",
+      "industry": "塑料",
+      "pct": -10.0
+    },
+    {
+      "code": "603739",
+      "name": "蔚蓝生物",
+      "industry": "化学制品",
+      "pct": -9.99
+    },
+    {
+      "code": "603009",
+      "name": "北特科技",
+      "industry": "汽车零部",
+      "pct": -10.01
+    },
+    {
+      "code": "002402",
+      "name": "和而泰",
+      "industry": "家电零部",
+      "pct": -9.98
+    },
+    {
+      "code": "002937",
+      "name": "兴瑞科技",
+      "industry": "汽车零部",
+      "pct": -9.99
+    },
+    {
+      "code": "002975",
+      "name": "博杰股份",
+      "industry": "自动化设",
+      "pct": -10.0
+    },
+    {
+      "code": "600151",
+      "name": "航天机电",
+      "industry": "汽车零部",
+      "pct": -9.97
+    },
+    {
+      "code": "001260",
+      "name": "坤泰股份",
+      "industry": "汽车零部",
+      "pct": -9.99
+    },
+    {
+      "code": "603790",
+      "name": "雅运股份",
+      "industry": "化学制品",
+      "pct": -10.01
+    },
+    {
+      "code": "605289",
+      "name": "罗曼股份",
+      "industry": "专业工程",
+      "pct": -10.0
+    },
+    {
+      "code": "603880",
+      "name": "南卫股份",
+      "industry": "医疗器械",
+      "pct": -10.01
+    },
+    {
+      "code": "603179",
+      "name": "新泉股份",
+      "industry": "汽车零部",
+      "pct": -9.99
+    },
+    {
+      "code": "002965",
+      "name": "祥鑫科技",
+      "industry": "汽车零部",
+      "pct": -10.0
+    },
+    {
+      "code": "002067",
+      "name": "景兴纸业",
+      "industry": "造纸",
+      "pct": -9.94
+    },
+    {
+      "code": "002565",
+      "name": "顺灏股份",
+      "industry": "包装印刷",
+      "pct": -9.95
+    },
+    {
+      "code": "603601",
+      "name": "再升科技",
+      "industry": "专业工程",
+      "pct": -10.0
+    },
+    {
+      "code": "603728",
+      "name": "鸣志电器",
+      "industry": "电机Ⅱ",
+      "pct": -10.0
+    },
+    {
+      "code": "000547",
+      "name": "航天发展",
+      "industry": "军工电子",
+      "pct": -9.99
+    },
+    {
+      "code": "603618",
+      "name": "杭电股份",
+      "industry": "电网设备",
+      "pct": -10.0
+    },
+    {
+      "code": "603319",
+      "name": "美湖股份",
+      "industry": "汽车零部",
+      "pct": -10.01
+    },
+    {
+      "code": "603119",
+      "name": "浙江荣泰",
+      "industry": "汽车零部",
+      "pct": -9.99
+    },
+    {
+      "code": "000700",
+      "name": "模塑科技",
+      "industry": "汽车零部",
+      "pct": -9.97
+    },
+    {
+      "code": "002724",
+      "name": "海洋王",
+      "industry": "照明设备",
+      "pct": -10.05
+    },
+    {
+      "code": "000837",
+      "name": "秦川机床",
+      "industry": "通用设备",
+      "pct": -10.02
+    },
+    {
+      "code": "603897",
+      "name": "长城科技",
+      "industry": "电网设备",
+      "pct": -10.0
+    },
+    {
+      "code": "603989",
+      "name": "艾华集团",
+      "industry": "元件",
+      "pct": -10.01
+    },
+    {
+      "code": "002582",
+      "name": "好想你",
+      "industry": "休闲食品",
+      "pct": -10.03
+    },
+    {
+      "code": "000977",
+      "name": "浪潮信息",
+      "industry": "计算机设",
+      "pct": -10.0
+    },
+    {
+      "code": "603608",
+      "name": "天创时尚",
+      "industry": "服装家纺",
+      "pct": -10.02
+    },
+    {
+      "code": "600683",
+      "name": "京投发展",
+      "industry": "房地产开",
+      "pct": -10.04
+    },
+    {
+      "code": "000815",
+      "name": "美利云",
+      "industry": "IT服务Ⅱ",
+      "pct": -10.02
+    },
+    {
+      "code": "002703",
+      "name": "浙江世宝",
+      "industry": "汽车零部",
+      "pct": -10.0
+    },
+    {
+      "code": "002008",
+      "name": "大族激光",
+      "industry": "自动化设",
+      "pct": -10.0
+    },
+    {
+      "code": "001331",
+      "name": "胜通能源",
+      "industry": "燃气Ⅱ",
+      "pct": -9.99
+    },
+    {
+      "code": "002396",
+      "name": "星网锐捷",
+      "industry": "通信设备",
+      "pct": -10.01
+    },
+    {
+      "code": "002520",
+      "name": "日发精机",
+      "industry": "通用设备",
+      "pct": -9.93
+    },
+    {
+      "code": "603211",
+      "name": "晋拓股份",
+      "industry": "汽车零部",
+      "pct": -10.0
+    },
+    {
+      "code": "603065",
+      "name": "宿迁联盛",
+      "industry": "化学制品",
+      "pct": -9.99
+    },
+    {
+      "code": "603887",
+      "name": "城地香江",
+      "industry": "IT服务Ⅱ",
+      "pct": -9.97
+    },
+    {
+      "code": "000936",
+      "name": "华西股份",
+      "industry": "化学纤维",
+      "pct": -9.92
+    },
+    {
+      "code": "600105",
+      "name": "永鼎股份",
+      "industry": "通信设备",
+      "pct": -10.01
+    },
+    {
+      "code": "003043",
+      "name": "华亚智能",
+      "industry": "半导体",
+      "pct": -10.0
+    },
+    {
+      "code": "002329",
+      "name": "皇氏集团",
+      "industry": "饮料乳品",
+      "pct": -9.93
+    },
+    {
+      "code": "603083",
+      "name": "剑桥科技",
+      "industry": "通信设备",
+      "pct": -10.0
+    },
+    {
+      "code": "002792",
+      "name": "通宇通讯",
+      "industry": "通信设备",
+      "pct": -9.99
+    },
+    {
+      "code": "003031",
+      "name": "中瓷电子",
+      "industry": "通信设备",
+      "pct": -10.0
+    },
+    {
+      "code": "002229",
+      "name": "鸿博股份",
+      "industry": "IT服务Ⅱ",
+      "pct": -10.02
+    },
+    {
+      "code": "002743",
+      "name": "富煌钢构",
+      "industry": "专业工程",
+      "pct": -10.07
+    },
+    {
+      "code": "603118",
+      "name": "共进股份",
+      "industry": "通信设备",
+      "pct": -9.99
+    },
+    {
+      "code": "002979",
+      "name": "雷赛智能",
+      "industry": "自动化设",
+      "pct": -10.01
+    },
+    {
+      "code": "002980",
+      "name": "华盛昌",
+      "industry": "电网设备",
+      "pct": -10.0
+    },
+    {
+      "code": "000716",
+      "name": "黑芝麻",
+      "industry": "休闲食品",
+      "pct": -9.98
+    },
+    {
+      "code": "603031",
+      "name": "安孚科技",
+      "industry": "电池",
+      "pct": -10.0
+    },
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "industry": "元件",
+      "pct": -10.0
+    },
+    {
+      "code": "002957",
+      "name": "科瑞技术",
+      "industry": "自动化设",
+      "pct": -10.0
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "industry": "元件",
+      "pct": -9.99
+    },
+    {
+      "code": "002141",
+      "name": "贤丰控股",
+      "industry": "元件",
+      "pct": -10.03
+    },
+    {
+      "code": "002931",
+      "name": "锋龙股份",
+      "industry": "通用设备",
+      "pct": -10.0
+    },
+    {
+      "code": "600376",
+      "name": "首开股份",
+      "industry": "房地产开",
+      "pct": -9.93
+    },
+    {
+      "code": "000678",
+      "name": "襄阳轴承",
+      "industry": "汽车零部",
+      "pct": -9.99
+    },
+    {
+      "code": "603089",
+      "name": "正裕工业",
+      "industry": "汽车零部",
+      "pct": -10.0
+    },
+    {
+      "code": "603758",
+      "name": "秦安股份",
+      "industry": "汽车零部",
+      "pct": -9.97
+    },
+    {
+      "code": "603667",
+      "name": "五洲新春",
+      "industry": "通用设备",
+      "pct": -10.0
+    },
+    {
+      "code": "603137",
+      "name": "恒尚节能",
+      "industry": "装修装饰",
+      "pct": -10.01
+    },
+    {
+      "code": "603663",
+      "name": "三祥新材",
+      "industry": "化学原料",
+      "pct": -10.01
+    },
+    {
+      "code": "603124",
+      "name": "江南新材",
+      "industry": "金属新材",
+      "pct": -10.0
+    },
+    {
+      "code": "001258",
+      "name": "立新能源",
+      "industry": "电力",
+      "pct": -9.96
+    },
+    {
+      "code": "002281",
+      "name": "光迅科技",
+      "industry": "通信设备",
+      "pct": -10.0
+    },
+    {
+      "code": "600829",
+      "name": "人民同泰",
+      "industry": "医药商业",
+      "pct": -10.0
+    },
+    {
+      "code": "002820",
+      "name": "桂发祥",
+      "industry": "休闲食品",
+      "pct": -10.02
+    },
+    {
+      "code": "603678",
+      "name": "火炬电子",
+      "industry": "军工电子",
+      "pct": -9.99
+    },
+    {
+      "code": "600397",
+      "name": "江钨装备",
+      "industry": "专用设备",
+      "pct": -9.98
+    },
+    {
+      "code": "002484",
+      "name": "江海股份",
+      "industry": "元件",
+      "pct": -10.0
+    },
+    {
+      "code": "603079",
+      "name": "圣达生物",
+      "industry": "化学制品",
+      "pct": -9.98
+    },
+    {
+      "code": "002080",
+      "name": "中材科技",
+      "industry": "玻璃玻纤",
+      "pct": -10.0
+    },
+    {
+      "code": "600246",
+      "name": "万通发展",
+      "industry": "房地产开",
+      "pct": -9.96
+    },
+    {
+      "code": "002491",
+      "name": "通鼎互联",
+      "industry": "通信设备",
+      "pct": -10.02
+    },
+    {
+      "code": "603738",
+      "name": "泰晶科技",
+      "industry": "元件",
+      "pct": -10.0
+    },
+    {
+      "code": "002436",
+      "name": "兴森科技",
+      "industry": "元件",
+      "pct": -10.01
+    },
+    {
+      "code": "002859",
+      "name": "洁美科技",
+      "industry": "其他电子",
+      "pct": -10.0
+    },
+    {
+      "code": "002851",
+      "name": "麦格米特",
+      "industry": "其他电源",
+      "pct": -10.0
+    },
+    {
+      "code": "002031",
+      "name": "巨轮智能",
+      "industry": "专用设备",
+      "pct": -10.06
+    },
+    {
+      "code": "605376",
+      "name": "博迁新材",
+      "industry": "金属新材",
+      "pct": -10.0
+    },
+    {
+      "code": "002156",
+      "name": "通富微电",
+      "industry": "半导体",
+      "pct": -10.01
+    },
+    {
+      "code": "600580",
+      "name": "卧龙电驱",
+      "industry": "电机Ⅱ",
+      "pct": -10.01
+    },
+    {
+      "code": "603256",
+      "name": "宏和科技",
+      "industry": "玻璃玻纤",
+      "pct": -10.0
+    },
+    {
+      "code": "603330",
+      "name": "天洋新材",
+      "industry": "塑料",
+      "pct": -10.01
+    },
+    {
+      "code": "600353",
+      "name": "旭光电子",
+      "industry": "其他电子",
+      "pct": -9.99
+    },
+    {
+      "code": "000802",
+      "name": "北京文化",
+      "industry": "影视院线",
+      "pct": -9.92
+    },
+    {
+      "code": "603228",
+      "name": "景旺电子",
+      "industry": "元件",
+      "pct": -10.0
+    },
+    {
+      "code": "002636",
+      "name": "金安国纪",
+      "industry": "元件",
+      "pct": -10.0
+    },
+    {
+      "code": "002248",
+      "name": "华东数控",
+      "industry": "通用设备",
+      "pct": -9.97
+    },
+    {
+      "code": "002409",
+      "name": "雅克科技",
+      "industry": "半导体",
+      "pct": -10.0
+    },
+    {
+      "code": "002896",
+      "name": "中大力德",
+      "industry": "通用设备",
+      "pct": -10.0
+    },
+    {
+      "code": "601869",
+      "name": "长飞光纤",
+      "industry": "通信设备",
+      "pct": -10.0
+    },
+    {
+      "code": "600186",
+      "name": "莲花控股",
+      "industry": "调味发酵",
+      "pct": -10.0
+    },
+    {
+      "code": "000938",
+      "name": "紫光股份",
+      "industry": "IT服务Ⅱ",
+      "pct": -9.99
+    },
+    {
+      "code": "002081",
+      "name": "金 螳 螂",
+      "industry": "装修装饰",
+      "pct": -10.05
+    },
+    {
+      "code": "002747",
+      "name": "埃斯顿",
+      "industry": "自动化设",
+      "pct": -9.99
+    },
+    {
+      "code": "603221",
+      "name": "爱丽家居",
+      "industry": "家居用品",
+      "pct": -10.0
+    },
+    {
+      "code": "605179",
+      "name": "一鸣食品",
+      "industry": "饮料乳品",
+      "pct": -10.0
+    }
+  ],
+  "zt_trend_6d": {
+    "20260812": [
+      {
+        "code": "000802",
+        "name": "北京文化",
+        "price": 5.69,
+        "pct": 10.06,
+        "turnover": 16.28,
+        "limit_days": 3,
+        "seal_fund": 243463634,
+        "break_times": 1,
+        "industry": "影视院线",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "300862",
+        "name": "蓝盾光电",
+        "price": 32.84,
+        "pct": 19.99,
+        "turnover": 1.37,
+        "limit_days": 3,
+        "seal_fund": 637629978,
+        "break_times": 0,
+        "industry": "通用设备",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002483",
+        "name": "润邦股份",
+        "price": 5.75,
+        "pct": 9.94,
+        "turnover": 0.83,
+        "limit_days": 1,
+        "seal_fund": 103302545,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "600602",
+        "name": "云赛智联",
+        "price": 20.25,
+        "pct": 9.99,
+        "turnover": 1.87,
+        "limit_days": 1,
+        "seal_fund": 336439554,
+        "break_times": 0,
+        "industry": "软件开发",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002682",
+        "name": "龙洲股份",
+        "price": 5.03,
+        "pct": 10.07,
+        "turnover": 2.92,
+        "limit_days": 1,
+        "seal_fund": 72472240,
+        "break_times": 1,
+        "industry": "物流",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "603758",
+        "name": "秦安股份",
+        "price": 13.95,
+        "pct": 10.02,
+        "turnover": 0.6,
+        "limit_days": 4,
+        "seal_fund": 270724050,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "09:25:02"
+      },
+      {
+        "code": "605286",
+        "name": "同力天启",
+        "price": 30.99,
+        "pct": 10.01,
+        "turnover": 1.54,
+        "limit_days": 3,
+        "seal_fund": 93320465,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "09:25:02"
+      },
+      {
+        "code": "600683",
+        "name": "京投发展",
+        "price": 11.75,
+        "pct": 10.02,
+        "turnover": 0.31,
+        "limit_days": 3,
+        "seal_fund": 123265725,
+        "break_times": 0,
+        "industry": "房地产开",
+        "first_seal": "09:25:02"
+      },
+      {
+        "code": "603887",
+        "name": "城地香江",
+        "price": 11.35,
+        "pct": 9.98,
+        "turnover": 1.19,
+        "limit_days": 2,
+        "seal_fund": 212496674,
+        "break_times": 0,
+        "industry": "IT服务Ⅱ",
+        "first_seal": "09:25:03"
+      },
+      {
+        "code": "002229",
+        "name": "鸿博股份",
+        "price": 12.91,
+        "pct": 9.97,
+        "turnover": 5.25,
+        "limit_days": 2,
+        "seal_fund": 279254247,
+        "break_times": 0,
+        "industry": "IT服务Ⅱ",
+        "first_seal": "09:30:00"
+      },
+      {
+        "code": "002248",
+        "name": "华东数控",
+        "price": 12.17,
+        "pct": 10.04,
+        "turnover": 23.23,
+        "limit_days": 3,
+        "seal_fund": 87100677,
+        "break_times": 7,
+        "industry": "通用设备",
+        "first_seal": "09:30:21"
+      },
+      {
+        "code": "002031",
+        "name": "巨轮智能",
+        "price": 6.42,
+        "pct": 9.93,
+        "turnover": 11.08,
+        "limit_days": 2,
+        "seal_fund": 306725200,
+        "break_times": 1,
+        "industry": "专用设备",
+        "first_seal": "09:30:30"
+      },
+      {
+        "code": "601886",
+        "name": "江河集团",
+        "price": 10.48,
+        "pct": 9.97,
+        "turnover": 2.51,
+        "limit_days": 1,
+        "seal_fund": 22056134,
+        "break_times": 3,
+        "industry": "装修装饰",
+        "first_seal": "09:30:53"
+      },
+      {
+        "code": "002047",
+        "name": "宝鹰股份",
+        "price": 3.92,
+        "pct": 10.11,
+        "turnover": 2.53,
+        "limit_days": 2,
+        "seal_fund": 77686622,
+        "break_times": 0,
+        "industry": "装修装饰",
+        "first_seal": "09:32:09"
+      },
+      {
+        "code": "603102",
+        "name": "百合股份",
+        "price": 42.05,
+        "pct": 9.99,
+        "turnover": 8.02,
+        "limit_days": 1,
+        "seal_fund": 23087552,
+        "break_times": 2,
+        "industry": "食品加工",
+        "first_seal": "09:32:35"
+      },
+      {
+        "code": "000410",
+        "name": "沈阳机床",
+        "price": 5.76,
+        "pct": 9.92,
+        "turnover": 1.98,
+        "limit_days": 1,
+        "seal_fund": 70385091,
+        "break_times": 1,
+        "industry": "通用设备",
+        "first_seal": "09:32:36"
+      },
+      {
+        "code": "000665",
+        "name": "湖北广电",
+        "price": 4.42,
+        "pct": 9.95,
+        "turnover": 2.96,
+        "limit_days": 1,
+        "seal_fund": 10645128,
+        "break_times": 1,
+        "industry": "电视广播",
+        "first_seal": "09:33:21"
+      },
+      {
+        "code": "603538",
+        "name": "美诺华",
+        "price": 33.33,
+        "pct": 10.0,
+        "turnover": 13.07,
+        "limit_days": 1,
+        "seal_fund": 240465884,
+        "break_times": 1,
+        "industry": "化学制药",
+        "first_seal": "09:33:35"
+      },
+      {
+        "code": "600162",
+        "name": "香江控股",
+        "price": 4.72,
+        "pct": 10.02,
+        "turnover": 5.21,
+        "limit_days": 2,
+        "seal_fund": 63862803,
+        "break_times": 2,
+        "industry": "房地产开",
+        "first_seal": "09:33:40"
+      },
+      {
+        "code": "600721",
+        "name": "百花医药",
+        "price": 14.03,
+        "pct": 10.04,
+        "turnover": 34.43,
+        "limit_days": 7,
+        "seal_fund": 83499460,
+        "break_times": 11,
+        "industry": "医疗服务",
+        "first_seal": "09:33:45"
+      },
+      {
+        "code": "603191",
+        "name": "望变电气",
+        "price": 15.4,
+        "pct": 10.0,
+        "turnover": 3.45,
+        "limit_days": 1,
+        "seal_fund": 70778507,
+        "break_times": 1,
+        "industry": "电网设备",
+        "first_seal": "09:33:57"
+      },
+      {
+        "code": "000887",
+        "name": "中鼎股份",
+        "price": 21.54,
+        "pct": 10.01,
+        "turnover": 4.27,
+        "limit_days": 1,
+        "seal_fund": 195652860,
+        "break_times": 3,
+        "industry": "汽车零部",
+        "first_seal": "09:34:03"
+      },
+      {
+        "code": "002081",
+        "name": "金 螳 螂",
+        "price": 4.37,
+        "pct": 10.08,
+        "turnover": 2.51,
+        "limit_days": 1,
+        "seal_fund": 141370802,
+        "break_times": 0,
+        "industry": "装修装饰",
+        "first_seal": "09:34:54"
+      },
+      {
+        "code": "002329",
+        "name": "皇氏集团",
+        "price": 4.2,
+        "pct": 9.95,
+        "turnover": 19.42,
+        "limit_days": 3,
+        "seal_fund": 73025513,
+        "break_times": 4,
+        "industry": "饮料乳品",
+        "first_seal": "09:35:03"
+      },
+      {
+        "code": "600604",
+        "name": "市北高新",
+        "price": 5.01,
+        "pct": 10.11,
+        "turnover": 2.64,
+        "limit_days": 1,
+        "seal_fund": 41437209,
+        "break_times": 0,
+        "industry": "房地产开",
+        "first_seal": "09:36:03"
+      },
+      {
+        "code": "002520",
+        "name": "日发精机",
+        "price": 6.59,
+        "pct": 10.02,
+        "turnover": 8.82,
+        "limit_days": 1,
+        "seal_fund": 43028034,
+        "break_times": 1,
+        "industry": "通用设备",
+        "first_seal": "09:36:24"
+      },
+      {
+        "code": "002437",
+        "name": "誉衡药业",
+        "price": 3.86,
+        "pct": 9.97,
+        "turnover": 25.63,
+        "limit_days": 1,
+        "seal_fund": 62188846,
+        "break_times": 4,
+        "industry": "化学制药",
+        "first_seal": "09:36:30"
+      },
+      {
+        "code": "000048",
+        "name": "京基智农",
+        "price": 24.13,
+        "pct": 9.98,
+        "turnover": 4.77,
+        "limit_days": 1,
+        "seal_fund": 36995874,
+        "break_times": 4,
+        "industry": "养殖业",
+        "first_seal": "09:36:42"
+      },
+      {
+        "code": "603076",
+        "name": "乐惠国际",
+        "price": 23.06,
+        "pct": 10.02,
+        "turnover": 3.37,
+        "limit_days": 1,
+        "seal_fund": 41056047,
+        "break_times": 1,
+        "industry": "专用设备",
+        "first_seal": "09:38:14"
+      },
+      {
+        "code": "301602",
+        "name": "超研股份",
+        "price": 18.38,
+        "pct": 19.97,
+        "turnover": 6.1,
+        "limit_days": 1,
+        "seal_fund": 33851585,
+        "break_times": 1,
+        "industry": "医疗器械",
+        "first_seal": "09:38:27"
+      },
+      {
+        "code": "603232",
+        "name": "格尔软件",
+        "price": 18.0,
+        "pct": 10.02,
+        "turnover": 8.97,
+        "limit_days": 1,
+        "seal_fund": 71476200,
+        "break_times": 0,
+        "industry": "软件开发",
+        "first_seal": "09:39:10"
+      },
+      {
+        "code": "002357",
+        "name": "富临运业",
+        "price": 9.99,
+        "pct": 10.02,
+        "turnover": 3.0,
+        "limit_days": 1,
+        "seal_fund": 72765162,
+        "break_times": 0,
+        "industry": "铁路公路",
+        "first_seal": "09:39:27"
+      },
+      {
+        "code": "002146",
+        "name": "荣盛发展",
+        "price": 1.27,
+        "pct": 10.43,
+        "turnover": 10.27,
+        "limit_days": 1,
+        "seal_fund": 32939565,
+        "break_times": 2,
+        "industry": "房地产开",
+        "first_seal": "09:40:15"
+      },
+      {
+        "code": "002421",
+        "name": "达实智能",
+        "price": 3.88,
+        "pct": 9.92,
+        "turnover": 9.05,
+        "limit_days": 1,
+        "seal_fund": 90258069,
+        "break_times": 0,
+        "industry": "IT服务Ⅱ",
+        "first_seal": "09:40:30"
+      },
+      {
+        "code": "000593",
+        "name": "德龙汇能",
+        "price": 25.27,
+        "pct": 10.01,
+        "turnover": 5.02,
+        "limit_days": 1,
+        "seal_fund": 235865707,
+        "break_times": 0,
+        "industry": "燃气Ⅱ",
+        "first_seal": "09:40:57"
+      },
+      {
+        "code": "002178",
+        "name": "延华智能",
+        "price": 5.09,
+        "pct": 9.94,
+        "turnover": 4.11,
+        "limit_days": 1,
+        "seal_fund": 37913374,
+        "break_times": 0,
+        "industry": "软件开发",
+        "first_seal": "09:41:18"
+      },
+      {
+        "code": "603277",
+        "name": "银都股份",
+        "price": 11.64,
+        "pct": 10.02,
+        "turnover": 0.82,
+        "limit_days": 1,
+        "seal_fund": 48164725,
+        "break_times": 1,
+        "industry": "通用设备",
+        "first_seal": "09:41:57"
+      },
+      {
+        "code": "301315",
+        "name": "威士顿",
+        "price": 46.16,
+        "pct": 19.99,
+        "turnover": 6.68,
+        "limit_days": 1,
+        "seal_fund": 70260182,
+        "break_times": 0,
+        "industry": "软件开发",
+        "first_seal": "09:41:57"
+      },
+      {
+        "code": "603690",
+        "name": "至纯科技",
+        "price": 27.3,
+        "pct": 9.99,
+        "turnover": 6.57,
+        "limit_days": 1,
+        "seal_fund": 69325674,
+        "break_times": 0,
+        "industry": "半导体",
+        "first_seal": "09:46:28"
+      },
+      {
+        "code": "001260",
+        "name": "坤泰股份",
+        "price": 19.12,
+        "pct": 10.01,
+        "turnover": 3.1,
+        "limit_days": 1,
+        "seal_fund": 21901960,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "09:49:03"
+      },
+      {
+        "code": "002870",
+        "name": "香山股份",
+        "price": 47.49,
+        "pct": 10.01,
+        "turnover": 7.88,
+        "limit_days": 1,
+        "seal_fund": 33057789,
+        "break_times": 5,
+        "industry": "汽车零部",
+        "first_seal": "09:49:18"
+      },
+      {
+        "code": "603289",
+        "name": "泰瑞机器",
+        "price": 9.34,
+        "pct": 10.01,
+        "turnover": 3.92,
+        "limit_days": 1,
+        "seal_fund": 38423592,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "09:49:24"
+      },
+      {
+        "code": "603466",
+        "name": "风语筑",
+        "price": 12.47,
+        "pct": 9.96,
+        "turnover": 9.01,
+        "limit_days": 1,
+        "seal_fund": 52521569,
+        "break_times": 1,
+        "industry": "数字媒体",
+        "first_seal": "09:50:38"
+      },
+      {
+        "code": "688167",
+        "name": "炬光科技",
+        "price": 245.52,
+        "pct": 20.0,
+        "turnover": 6.62,
+        "limit_days": 1,
+        "seal_fund": 98799457,
+        "break_times": 0,
+        "industry": "半导体",
+        "first_seal": "09:50:43"
+      },
+      {
+        "code": "600857",
+        "name": "宁波中百",
+        "price": 19.73,
+        "pct": 9.98,
+        "turnover": 4.35,
+        "limit_days": 1,
+        "seal_fund": 17017125,
+        "break_times": 4,
+        "industry": "一般零售",
+        "first_seal": "09:51:11"
+      },
+      {
+        "code": "002005",
+        "name": "德豪润达",
+        "price": 2.51,
+        "pct": 10.09,
+        "turnover": 1.99,
+        "limit_days": 1,
+        "seal_fund": 21989106,
+        "break_times": 0,
+        "industry": "小家电",
+        "first_seal": "09:52:39"
+      },
+      {
+        "code": "003032",
+        "name": "传智教育",
+        "price": 12.91,
+        "pct": 9.97,
+        "turnover": 22.92,
+        "limit_days": 1,
+        "seal_fund": 107418946,
+        "break_times": 1,
+        "industry": "教育",
+        "first_seal": "09:53:30"
+      },
+      {
+        "code": "002379",
+        "name": "宏桥控股",
+        "price": 21.34,
+        "pct": 10.0,
+        "turnover": 6.27,
+        "limit_days": 1,
+        "seal_fund": 259756882,
+        "break_times": 0,
+        "industry": "工业金属",
+        "first_seal": "09:55:42"
+      },
+      {
+        "code": "920856",
+        "name": "浩淼科技",
+        "price": 14.93,
+        "pct": 29.94,
+        "turnover": 18.51,
+        "limit_days": 1,
+        "seal_fund": 8986068,
+        "break_times": 3,
+        "industry": "专用设备",
+        "first_seal": "09:56:35"
+      },
+      {
+        "code": "000692",
+        "name": "惠天热电",
+        "price": 4.44,
+        "pct": 9.9,
+        "turnover": 9.77,
+        "limit_days": 1,
+        "seal_fund": 23745564,
+        "break_times": 4,
+        "industry": "电力",
+        "first_seal": "09:59:39"
+      },
+      {
+        "code": "605179",
+        "name": "一鸣食品",
+        "price": 30.39,
+        "pct": 9.99,
+        "turnover": 7.08,
+        "limit_days": 3,
+        "seal_fund": 67842636,
+        "break_times": 1,
+        "industry": "饮料乳品",
+        "first_seal": "10:00:51"
+      },
+      {
+        "code": "600397",
+        "name": "江钨装备",
+        "price": 18.74,
+        "pct": 9.98,
+        "turnover": 9.77,
+        "limit_days": 1,
+        "seal_fund": 111787829,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "10:05:14"
+      },
+      {
+        "code": "002491",
+        "name": "通鼎互联",
+        "price": 18.84,
+        "pct": 9.98,
+        "turnover": 6.93,
+        "limit_days": 1,
+        "seal_fund": 273108125,
+        "break_times": 0,
+        "industry": "通信设备",
+        "first_seal": "10:10:15"
+      },
+      {
+        "code": "600379",
+        "name": "宝光股份",
+        "price": 14.8,
+        "pct": 10.04,
+        "turnover": 8.74,
+        "limit_days": 1,
+        "seal_fund": 89004240,
+        "break_times": 1,
+        "industry": "电网设备",
+        "first_seal": "10:12:34"
+      },
+      {
+        "code": "603396",
+        "name": "金辰股份",
+        "price": 27.54,
+        "pct": 9.98,
+        "turnover": 4.29,
+        "limit_days": 1,
+        "seal_fund": 49244274,
+        "break_times": 1,
+        "industry": "光伏设备",
+        "first_seal": "10:20:08"
+      },
+      {
+        "code": "603330",
+        "name": "天洋新材",
+        "price": 8.83,
+        "pct": 9.96,
+        "turnover": 6.55,
+        "limit_days": 1,
+        "seal_fund": 58381840,
+        "break_times": 0,
+        "industry": "塑料",
+        "first_seal": "10:22:31"
+      },
+      {
+        "code": "600216",
+        "name": "浙江医药",
+        "price": 13.77,
+        "pct": 9.98,
+        "turnover": 7.16,
+        "limit_days": 1,
+        "seal_fund": 42209181,
+        "break_times": 0,
+        "industry": "化学制药",
+        "first_seal": "10:25:30"
+      },
+      {
+        "code": "002562",
+        "name": "兄弟科技",
+        "price": 5.05,
+        "pct": 10.02,
+        "turnover": 6.34,
+        "limit_days": 1,
+        "seal_fund": 40491581,
+        "break_times": 0,
+        "industry": "化学制品",
+        "first_seal": "10:27:18"
+      },
+      {
+        "code": "600641",
+        "name": "先导基电",
+        "price": 35.72,
+        "pct": 10.01,
+        "turnover": 8.07,
+        "limit_days": 1,
+        "seal_fund": 163265582,
+        "break_times": 0,
+        "industry": "半导体",
+        "first_seal": "10:28:59"
+      },
+      {
+        "code": "601700",
+        "name": "风范股份",
+        "price": 7.59,
+        "pct": 10.0,
+        "turnover": 14.37,
+        "limit_days": 1,
+        "seal_fund": 59975861,
+        "break_times": 0,
+        "industry": "电网设备",
+        "first_seal": "10:33:53"
+      },
+      {
+        "code": "600105",
+        "name": "永鼎股份",
+        "price": 41.21,
+        "pct": 10.01,
+        "turnover": 13.94,
+        "limit_days": 1,
+        "seal_fund": 355914286,
+        "break_times": 7,
+        "industry": "通信设备",
+        "first_seal": "10:44:39"
+      },
+      {
+        "code": "000936",
+        "name": "华西股份",
+        "price": 5.76,
+        "pct": 9.92,
+        "turnover": 3.33,
+        "limit_days": 1,
+        "seal_fund": 52100075,
+        "break_times": 1,
+        "industry": "化学纤维",
+        "first_seal": "10:44:57"
+      },
+      {
+        "code": "002552",
+        "name": "宝鼎科技",
+        "price": 60.07,
+        "pct": 10.0,
+        "turnover": 9.88,
+        "limit_days": 1,
+        "seal_fund": 110966470,
+        "break_times": 0,
+        "industry": "元件",
+        "first_seal": "10:47:15"
+      },
+      {
+        "code": "002164",
+        "name": "宁波东力",
+        "price": 13.09,
+        "pct": 10.0,
+        "turnover": 7.32,
+        "limit_days": 1,
+        "seal_fund": 72844541,
+        "break_times": 1,
+        "industry": "通用设备",
+        "first_seal": "10:50:09"
+      },
+      {
+        "code": "002792",
+        "name": "通宇通讯",
+        "price": 37.11,
+        "pct": 9.99,
+        "turnover": 27.19,
+        "limit_days": 1,
+        "seal_fund": 63653001,
+        "break_times": 4,
+        "industry": "通信设备",
+        "first_seal": "10:51:39"
+      },
+      {
+        "code": "605289",
+        "name": "罗曼股份",
+        "price": 109.29,
+        "pct": 10.01,
+        "turnover": 2.43,
+        "limit_days": 1,
+        "seal_fund": 130717397,
+        "break_times": 0,
+        "industry": "专业工程",
+        "first_seal": "11:01:13"
+      },
+      {
+        "code": "002172",
+        "name": "澳洋健康",
+        "price": 3.75,
+        "pct": 9.97,
+        "turnover": 6.96,
+        "limit_days": 1,
+        "seal_fund": 10674292,
+        "break_times": 2,
+        "industry": "医疗服务",
+        "first_seal": "11:08:09"
+      },
+      {
+        "code": "603052",
+        "name": "可川科技",
+        "price": 58.47,
+        "pct": 10.01,
+        "turnover": 2.07,
+        "limit_days": 1,
+        "seal_fund": 62528987,
+        "break_times": 0,
+        "industry": "消费电子",
+        "first_seal": "11:08:24"
+      },
+      {
+        "code": "001696",
+        "name": "宗申动力",
+        "price": 17.29,
+        "pct": 9.99,
+        "turnover": 8.75,
+        "limit_days": 1,
+        "seal_fund": 205736943,
+        "break_times": 1,
+        "industry": "通用设备",
+        "first_seal": "11:20:36"
+      },
+      {
+        "code": "600881",
+        "name": "亚泰集团",
+        "price": 2.06,
+        "pct": 10.16,
+        "turnover": 11.9,
+        "limit_days": 2,
+        "seal_fund": 53301855,
+        "break_times": 0,
+        "industry": "综合Ⅱ",
+        "first_seal": "13:05:45"
+      },
+      {
+        "code": "002589",
+        "name": "瑞康医药",
+        "price": 3.55,
+        "pct": 9.91,
+        "turnover": 17.87,
+        "limit_days": 1,
+        "seal_fund": 30036550,
+        "break_times": 2,
+        "industry": "医药商业",
+        "first_seal": "13:14:12"
+      },
+      {
+        "code": "603269",
+        "name": "海鸥股份",
+        "price": 17.56,
+        "pct": 10.03,
+        "turnover": 9.36,
+        "limit_days": 1,
+        "seal_fund": 73029335,
+        "break_times": 1,
+        "industry": "通用设备",
+        "first_seal": "13:22:42"
+      },
+      {
+        "code": "001313",
+        "name": "粤海饲料",
+        "price": 8.0,
+        "pct": 10.04,
+        "turnover": 3.03,
+        "limit_days": 1,
+        "seal_fund": 27192800,
+        "break_times": 0,
+        "industry": "饲料",
+        "first_seal": "13:23:42"
+      },
+      {
+        "code": "000715",
+        "name": "中兴商业",
+        "price": 5.42,
+        "pct": 9.94,
+        "turnover": 5.71,
+        "limit_days": 1,
+        "seal_fund": 34034310,
+        "break_times": 0,
+        "industry": "一般零售",
+        "first_seal": "13:24:00"
+      },
+      {
+        "code": "000720",
+        "name": "新能泰山",
+        "price": 4.04,
+        "pct": 10.08,
+        "turnover": 10.6,
+        "limit_days": 1,
+        "seal_fund": 64794166,
+        "break_times": 1,
+        "industry": "电网设备",
+        "first_seal": "13:28:24"
+      },
+      {
+        "code": "603696",
+        "name": "安记食品",
+        "price": 15.41,
+        "pct": 9.99,
+        "turnover": 12.61,
+        "limit_days": 1,
+        "seal_fund": 57839894,
+        "break_times": 0,
+        "industry": "调味发酵",
+        "first_seal": "13:30:03"
+      },
+      {
+        "code": "002582",
+        "name": "好想你",
+        "price": 11.15,
+        "pct": 9.96,
+        "turnover": 13.46,
+        "limit_days": 1,
+        "seal_fund": 78386730,
+        "break_times": 0,
+        "industry": "休闲食品",
+        "first_seal": "13:40:42"
+      },
+      {
+        "code": "600266",
+        "name": "城建发展",
+        "price": 4.6,
+        "pct": 10.05,
+        "turnover": 5.18,
+        "limit_days": 1,
+        "seal_fund": 72819067,
+        "break_times": 1,
+        "industry": "房地产开",
+        "first_seal": "13:45:21"
+      },
+      {
+        "code": "000736",
+        "name": "中交发展",
+        "price": 4.95,
+        "pct": 10.0,
+        "turnover": 4.74,
+        "limit_days": 1,
+        "seal_fund": 25197816,
+        "break_times": 0,
+        "industry": "房地产服",
+        "first_seal": "13:49:39"
+      },
+      {
+        "code": "603369",
+        "name": "今世缘",
+        "price": 30.72,
+        "pct": 9.99,
+        "turnover": 3.63,
+        "limit_days": 1,
+        "seal_fund": 67587594,
+        "break_times": 2,
+        "industry": "白酒Ⅱ",
+        "first_seal": "13:52:54"
+      },
+      {
+        "code": "002244",
+        "name": "滨江集团",
+        "price": 9.53,
+        "pct": 10.05,
+        "turnover": 2.15,
+        "limit_days": 1,
+        "seal_fund": 26030242,
+        "break_times": 0,
+        "industry": "房地产开",
+        "first_seal": "13:58:06"
+      },
+      {
+        "code": "603615",
+        "name": "茶花股份",
+        "price": 17.94,
+        "pct": 9.99,
+        "turnover": 2.9,
+        "limit_days": 1,
+        "seal_fund": 84352086,
+        "break_times": 0,
+        "industry": "家居用品",
+        "first_seal": "13:59:08"
+      },
+      {
+        "code": "601155",
+        "name": "新城控股",
+        "price": 12.17,
+        "pct": 10.04,
+        "turnover": 2.07,
+        "limit_days": 1,
+        "seal_fund": 86822812,
+        "break_times": 0,
+        "industry": "房地产开",
+        "first_seal": "14:04:44"
+      },
+      {
+        "code": "002573",
+        "name": "清新环境",
+        "price": 3.58,
+        "pct": 10.15,
+        "turnover": 2.77,
+        "limit_days": 1,
+        "seal_fund": 20159409,
+        "break_times": 2,
+        "industry": "环境治理",
+        "first_seal": "14:11:09"
+      },
+      {
+        "code": "600234",
+        "name": "科新发展",
+        "price": 23.39,
+        "pct": 10.02,
+        "turnover": 1.36,
+        "limit_days": 1,
+        "seal_fund": 24405126,
+        "break_times": 0,
+        "industry": "装修装饰",
+        "first_seal": "14:15:06"
+      },
+      {
+        "code": "603095",
+        "name": "越剑智能",
+        "price": 14.45,
+        "pct": 9.97,
+        "turnover": 2.74,
+        "limit_days": 1,
+        "seal_fund": 25515810,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "14:15:29"
+      },
+      {
+        "code": "600376",
+        "name": "首开股份",
+        "price": 4.42,
+        "pct": 9.95,
+        "turnover": 9.66,
+        "limit_days": 1,
+        "seal_fund": 73588734,
+        "break_times": 0,
+        "industry": "房地产开",
+        "first_seal": "14:26:16"
+      },
+      {
+        "code": "300197",
+        "name": "节能铁汉",
+        "price": 2.3,
+        "pct": 19.79,
+        "turnover": 9.97,
+        "limit_days": 1,
+        "seal_fund": 70668415,
+        "break_times": 0,
+        "industry": "基础建设",
+        "first_seal": "14:27:27"
+      },
+      {
+        "code": "688635",
+        "name": "长进光子",
+        "price": 300.02,
+        "pct": 20.0,
+        "turnover": 25.39,
+        "limit_days": 1,
+        "seal_fund": 233003332,
+        "break_times": 0,
+        "industry": "通信设备",
+        "first_seal": "14:28:33"
+      },
+      {
+        "code": "600572",
+        "name": "康恩贝",
+        "price": 4.75,
+        "pct": 9.95,
+        "turnover": 7.82,
+        "limit_days": 1,
+        "seal_fund": 105032000,
+        "break_times": 1,
+        "industry": "中药Ⅱ",
+        "first_seal": "14:33:28"
+      },
+      {
+        "code": "603228",
+        "name": "景旺电子",
+        "price": 98.21,
+        "pct": 10.0,
+        "turnover": 6.77,
+        "limit_days": 1,
+        "seal_fund": 444950618,
+        "break_times": 0,
+        "industry": "元件",
+        "first_seal": "14:43:07"
+      },
+      {
+        "code": "603897",
+        "name": "长城科技",
+        "price": 32.05,
+        "pct": 9.99,
+        "turnover": 16.59,
+        "limit_days": 2,
+        "seal_fund": 38160941,
+        "break_times": 1,
+        "industry": "电网设备",
+        "first_seal": "14:43:46"
+      }
+    ],
+    "20260813": [
+      {
+        "code": "002575",
+        "name": "群兴玩具",
+        "price": 6.08,
+        "pct": 9.95,
+        "turnover": 3.74,
+        "limit_days": 1,
+        "seal_fund": 119163859,
+        "break_times": 0,
+        "industry": "综合Ⅱ",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "001260",
+        "name": "坤泰股份",
+        "price": 21.03,
+        "pct": 9.99,
+        "turnover": 1.66,
+        "limit_days": 2,
+        "seal_fund": 292252879,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002329",
+        "name": "皇氏集团",
+        "price": 4.62,
+        "pct": 10.0,
+        "turnover": 24.27,
+        "limit_days": 4,
+        "seal_fund": 55585530,
+        "break_times": 4,
+        "industry": "饮料乳品",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "605286",
+        "name": "同力天启",
+        "price": 34.09,
+        "pct": 10.0,
+        "turnover": 1.36,
+        "limit_days": 4,
+        "seal_fund": 91146433,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "000802",
+        "name": "北京文化",
+        "price": 6.26,
+        "pct": 10.02,
+        "turnover": 19.01,
+        "limit_days": 4,
+        "seal_fund": 167948914,
+        "break_times": 1,
+        "industry": "影视院线",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002322",
+        "name": "理工能科",
+        "price": 11.86,
+        "pct": 10.02,
+        "turnover": 1.53,
+        "limit_days": 1,
+        "seal_fund": 78142527,
+        "break_times": 0,
+        "industry": "软件开发",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002081",
+        "name": "金 螳 螂",
+        "price": 4.81,
+        "pct": 10.07,
+        "turnover": 1.03,
+        "limit_days": 2,
+        "seal_fund": 314696741,
+        "break_times": 0,
+        "industry": "装修装饰",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002172",
+        "name": "澳洋健康",
+        "price": 4.13,
+        "pct": 10.13,
+        "turnover": 3.05,
+        "limit_days": 2,
+        "seal_fund": 100492390,
+        "break_times": 0,
+        "industry": "医疗服务",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "300333",
+        "name": "兆日科技",
+        "price": 10.64,
+        "pct": 19.95,
+        "turnover": 0.94,
+        "limit_days": 2,
+        "seal_fund": 181695343,
+        "break_times": 0,
+        "industry": "计算机设",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "300862",
+        "name": "蓝盾光电",
+        "price": 39.41,
+        "pct": 20.01,
+        "turnover": 6.87,
+        "limit_days": 4,
+        "seal_fund": 1038104524,
+        "break_times": 0,
+        "industry": "通用设备",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "603887",
+        "name": "城地香江",
+        "price": 12.49,
+        "pct": 10.04,
+        "turnover": 3.03,
+        "limit_days": 3,
+        "seal_fund": 271131671,
+        "break_times": 0,
+        "industry": "IT服务Ⅱ",
+        "first_seal": "09:25:01"
+      },
+      {
+        "code": "600683",
+        "name": "京投发展",
+        "price": 12.93,
+        "pct": 10.04,
+        "turnover": 0.25,
+        "limit_days": 4,
+        "seal_fund": 164111439,
+        "break_times": 0,
+        "industry": "房地产开",
+        "first_seal": "09:25:02"
+      },
+      {
+        "code": "603236",
+        "name": "移远通信",
+        "price": 59.43,
+        "pct": 9.99,
+        "turnover": 2.21,
+        "limit_days": 1,
+        "seal_fund": 334783096,
+        "break_times": 0,
+        "industry": "通信设备",
+        "first_seal": "09:25:03"
+      },
+      {
+        "code": "603758",
+        "name": "秦安股份",
+        "price": 15.35,
+        "pct": 10.04,
+        "turnover": 1.16,
+        "limit_days": 5,
+        "seal_fund": 179320235,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "09:25:03"
+      },
+      {
+        "code": "000887",
+        "name": "中鼎股份",
+        "price": 23.69,
+        "pct": 9.98,
+        "turnover": 5.86,
+        "limit_days": 2,
+        "seal_fund": 358524270,
+        "break_times": 1,
+        "industry": "汽车零部",
+        "first_seal": "09:30:00"
+      },
+      {
+        "code": "000936",
+        "name": "华西股份",
+        "price": 6.34,
+        "pct": 10.07,
+        "turnover": 2.92,
+        "limit_days": 2,
+        "seal_fund": 128980490,
+        "break_times": 0,
+        "industry": "化学纤维",
+        "first_seal": "09:30:00"
+      },
+      {
+        "code": "002174",
+        "name": "游族网络",
+        "price": 13.38,
+        "pct": 10.03,
+        "turnover": 3.18,
+        "limit_days": 1,
+        "seal_fund": 157483938,
+        "break_times": 0,
+        "industry": "游戏Ⅱ",
+        "first_seal": "09:31:18"
+      },
+      {
+        "code": "600800",
+        "name": "渤海化学",
+        "price": 3.74,
+        "pct": 10.0,
+        "turnover": 2.07,
+        "limit_days": 1,
+        "seal_fund": 53830942,
+        "break_times": 2,
+        "industry": "炼化及贸",
+        "first_seal": "09:31:40"
+      },
+      {
+        "code": "600821",
+        "name": "金开新能",
+        "price": 7.15,
+        "pct": 10.0,
+        "turnover": 4.0,
+        "limit_days": 1,
+        "seal_fund": 94058250,
+        "break_times": 0,
+        "industry": "电力",
+        "first_seal": "09:34:19"
+      },
+      {
+        "code": "603118",
+        "name": "共进股份",
+        "price": 15.96,
+        "pct": 9.99,
+        "turnover": 13.89,
+        "limit_days": 1,
+        "seal_fund": 89279234,
+        "break_times": 4,
+        "industry": "通信设备",
+        "first_seal": "09:35:18"
+      },
+      {
+        "code": "603912",
+        "name": "佳力图",
+        "price": 8.89,
+        "pct": 10.02,
+        "turnover": 6.71,
+        "limit_days": 1,
+        "seal_fund": 59252543,
+        "break_times": 1,
+        "industry": "通用设备",
+        "first_seal": "09:35:58"
+      },
+      {
+        "code": "600881",
+        "name": "亚泰集团",
+        "price": 2.27,
+        "pct": 10.19,
+        "turnover": 8.89,
+        "limit_days": 3,
+        "seal_fund": 100036670,
+        "break_times": 1,
+        "industry": "综合Ⅱ",
+        "first_seal": "09:36:26"
+      },
+      {
+        "code": "000692",
+        "name": "惠天热电",
+        "price": 4.88,
+        "pct": 9.91,
+        "turnover": 8.55,
+        "limit_days": 2,
+        "seal_fund": 29426400,
+        "break_times": 0,
+        "industry": "电力",
+        "first_seal": "09:36:54"
+      },
+      {
+        "code": "600726",
+        "name": "华电能源",
+        "price": 6.8,
+        "pct": 10.03,
+        "turnover": 1.93,
+        "limit_days": 1,
+        "seal_fund": 119053713,
+        "break_times": 1,
+        "industry": "电力",
+        "first_seal": "09:38:04"
+      },
+      {
+        "code": "603956",
+        "name": "威派格",
+        "price": 7.99,
+        "pct": 10.06,
+        "turnover": 6.31,
+        "limit_days": 1,
+        "seal_fund": 75903402,
+        "break_times": 1,
+        "industry": "专用设备",
+        "first_seal": "09:40:30"
+      },
+      {
+        "code": "000972",
+        "name": "中基健康",
+        "price": 3.82,
+        "pct": 10.09,
+        "turnover": 2.09,
+        "limit_days": 1,
+        "seal_fund": 11397940,
+        "break_times": 0,
+        "industry": "农产品加",
+        "first_seal": "09:42:24"
+      },
+      {
+        "code": "603466",
+        "name": "风语筑",
+        "price": 13.72,
+        "pct": 10.02,
+        "turnover": 24.01,
+        "limit_days": 2,
+        "seal_fund": 10245615,
+        "break_times": 28,
+        "industry": "数字媒体",
+        "first_seal": "09:48:49"
+      },
+      {
+        "code": "605179",
+        "name": "一鸣食品",
+        "price": 33.43,
+        "pct": 10.0,
+        "turnover": 6.48,
+        "limit_days": 4,
+        "seal_fund": 34526504,
+        "break_times": 9,
+        "industry": "饮料乳品",
+        "first_seal": "09:48:59"
+      },
+      {
+        "code": "002437",
+        "name": "誉衡药业",
+        "price": 4.25,
+        "pct": 10.1,
+        "turnover": 22.9,
+        "limit_days": 2,
+        "seal_fund": 68343565,
+        "break_times": 1,
+        "industry": "化学制药",
+        "first_seal": "09:51:36"
+      },
+      {
+        "code": "601999",
+        "name": "出版传媒",
+        "price": 6.74,
+        "pct": 9.95,
+        "turnover": 5.55,
+        "limit_days": 1,
+        "seal_fund": 13055380,
+        "break_times": 2,
+        "industry": "出版",
+        "first_seal": "09:53:07"
+      },
+      {
+        "code": "601579",
+        "name": "会稽山",
+        "price": 17.45,
+        "pct": 10.03,
+        "turnover": 4.01,
+        "limit_days": 1,
+        "seal_fund": 69933876,
+        "break_times": 0,
+        "industry": "非白酒",
+        "first_seal": "09:55:41"
+      },
+      {
+        "code": "300404",
+        "name": "博济医药",
+        "price": 14.45,
+        "pct": 20.02,
+        "turnover": 21.43,
+        "limit_days": 1,
+        "seal_fund": 94091247,
+        "break_times": 0,
+        "industry": "医疗服务",
+        "first_seal": "09:57:33"
+      },
+      {
+        "code": "603261",
+        "name": "立航科技",
+        "price": 57.37,
+        "pct": 10.01,
+        "turnover": 3.77,
+        "limit_days": 1,
+        "seal_fund": 72905796,
+        "break_times": 1,
+        "industry": "航空装备",
+        "first_seal": "10:01:10"
+      },
+      {
+        "code": "002219",
+        "name": "新里程",
+        "price": 2.5,
+        "pct": 10.13,
+        "turnover": 7.56,
+        "limit_days": 1,
+        "seal_fund": 63616952,
+        "break_times": 0,
+        "industry": "医疗服务",
+        "first_seal": "10:02:45"
+      },
+      {
+        "code": "600613",
+        "name": "神奇制药",
+        "price": 5.83,
+        "pct": 10.0,
+        "turnover": 4.87,
+        "limit_days": 1,
+        "seal_fund": 101291352,
+        "break_times": 0,
+        "industry": "化学制药",
+        "first_seal": "10:04:35"
+      },
+      {
+        "code": "601886",
+        "name": "江河集团",
+        "price": 11.53,
+        "pct": 10.02,
+        "turnover": 4.03,
+        "limit_days": 2,
+        "seal_fund": 11568890,
+        "break_times": 3,
+        "industry": "装修装饰",
+        "first_seal": "10:10:14"
+      },
+      {
+        "code": "603330",
+        "name": "天洋新材",
+        "price": 9.71,
+        "pct": 9.97,
+        "turnover": 16.62,
+        "limit_days": 2,
+        "seal_fund": 46783168,
+        "break_times": 7,
+        "industry": "塑料",
+        "first_seal": "10:14:37"
+      },
+      {
+        "code": "002706",
+        "name": "良信股份",
+        "price": 9.99,
+        "pct": 10.02,
+        "turnover": 7.49,
+        "limit_days": 1,
+        "seal_fund": 47013139,
+        "break_times": 1,
+        "industry": "电网设备",
+        "first_seal": "10:17:48"
+      },
+      {
+        "code": "002066",
+        "name": "瑞泰科技",
+        "price": 21.93,
+        "pct": 9.98,
+        "turnover": 4.44,
+        "limit_days": 1,
+        "seal_fund": 74024715,
+        "break_times": 0,
+        "industry": "装修建材",
+        "first_seal": "10:30:06"
+      },
+      {
+        "code": "002396",
+        "name": "星网锐捷",
+        "price": 32.38,
+        "pct": 9.99,
+        "turnover": 14.67,
+        "limit_days": 1,
+        "seal_fund": 45707608,
+        "break_times": 3,
+        "industry": "通信设备",
+        "first_seal": "10:32:24"
+      },
+      {
+        "code": "688265",
+        "name": "南模生物",
+        "price": 52.42,
+        "pct": 20.01,
+        "turnover": 7.63,
+        "limit_days": 1,
+        "seal_fund": 31725108,
+        "break_times": 0,
+        "industry": "医疗服务",
+        "first_seal": "10:35:26"
+      },
+      {
+        "code": "002644",
+        "name": "佛慈制药",
+        "price": 8.8,
+        "pct": 10.0,
+        "turnover": 5.03,
+        "limit_days": 1,
+        "seal_fund": 15894560,
+        "break_times": 1,
+        "industry": "中药Ⅱ",
+        "first_seal": "10:36:18"
+      },
+      {
+        "code": "000593",
+        "name": "德龙汇能",
+        "price": 27.8,
+        "pct": 10.01,
+        "turnover": 10.25,
+        "limit_days": 2,
+        "seal_fund": 55467644,
+        "break_times": 0,
+        "industry": "燃气Ⅱ",
+        "first_seal": "10:42:18"
+      },
+      {
+        "code": "601026",
+        "name": "道生天合",
+        "price": 16.63,
+        "pct": 9.99,
+        "turnover": 12.05,
+        "limit_days": 1,
+        "seal_fund": 40857648,
+        "break_times": 1,
+        "industry": "风电设备",
+        "first_seal": "10:43:40"
+      },
+      {
+        "code": "301520",
+        "name": "万邦医药",
+        "price": 88.68,
+        "pct": 20.0,
+        "turnover": 49.28,
+        "limit_days": 1,
+        "seal_fund": 29576730,
+        "break_times": 5,
+        "industry": "医疗服务",
+        "first_seal": "10:44:45"
+      },
+      {
+        "code": "300534",
+        "name": "陇神戎发",
+        "price": 18.92,
+        "pct": 19.97,
+        "turnover": 34.11,
+        "limit_days": 1,
+        "seal_fund": 17417600,
+        "break_times": 0,
+        "industry": "中药Ⅱ",
+        "first_seal": "10:55:15"
+      },
+      {
+        "code": "300937",
+        "name": "药易购",
+        "price": 31.7,
+        "pct": 19.98,
+        "turnover": 29.43,
+        "limit_days": 1,
+        "seal_fund": 63729680,
+        "break_times": 0,
+        "industry": "医药商业",
+        "first_seal": "11:13:18"
+      },
+      {
+        "code": "688137",
+        "name": "近岸蛋白",
+        "price": 64.0,
+        "pct": 20.01,
+        "turnover": 10.42,
+        "limit_days": 1,
+        "seal_fund": 43492864,
+        "break_times": 0,
+        "industry": "生物制品",
+        "first_seal": "11:16:37"
+      },
+      {
+        "code": "002921",
+        "name": "联诚精密",
+        "price": 24.63,
+        "pct": 10.0,
+        "turnover": 7.31,
+        "limit_days": 1,
+        "seal_fund": 65391418,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "11:21:09"
+      },
+      {
+        "code": "603903",
+        "name": "中持股份",
+        "price": 14.2,
+        "pct": 9.99,
+        "turnover": 6.36,
+        "limit_days": 1,
+        "seal_fund": 18843400,
+        "break_times": 0,
+        "industry": "环境治理",
+        "first_seal": "13:00:15"
+      },
+      {
+        "code": "301060",
+        "name": "兰卫医学",
+        "price": 11.96,
+        "pct": 19.96,
+        "turnover": 10.65,
+        "limit_days": 1,
+        "seal_fund": 50473627,
+        "break_times": 0,
+        "industry": "医疗服务",
+        "first_seal": "13:04:12"
+      },
+      {
+        "code": "000695",
+        "name": "滨海能源",
+        "price": 14.39,
+        "pct": 10.02,
+        "turnover": 7.72,
+        "limit_days": 1,
+        "seal_fund": 17070857,
+        "break_times": 0,
+        "industry": "电池",
+        "first_seal": "13:04:15"
+      },
+      {
+        "code": "603890",
+        "name": "春秋电子",
+        "price": 20.45,
+        "pct": 10.01,
+        "turnover": 8.74,
+        "limit_days": 1,
+        "seal_fund": 45793480,
+        "break_times": 1,
+        "industry": "消费电子",
+        "first_seal": "13:05:26"
+      },
+      {
+        "code": "002543",
+        "name": "万和电气",
+        "price": 7.33,
+        "pct": 10.06,
+        "turnover": 3.04,
+        "limit_days": 1,
+        "seal_fund": 20987285,
+        "break_times": 1,
+        "industry": "厨卫电器",
+        "first_seal": "13:25:33"
+      },
+      {
+        "code": "603998",
+        "name": "方盛制药",
+        "price": 10.77,
+        "pct": 10.01,
+        "turnover": 9.05,
+        "limit_days": 1,
+        "seal_fund": 47330057,
+        "break_times": 1,
+        "industry": "中药Ⅱ",
+        "first_seal": "13:27:03"
+      },
+      {
+        "code": "000006",
+        "name": "深振业Ａ",
+        "price": 7.7,
+        "pct": 10.0,
+        "turnover": 2.88,
+        "limit_days": 1,
+        "seal_fund": 36384579,
+        "break_times": 0,
+        "industry": "房地产开",
+        "first_seal": "13:27:27"
+      },
+      {
+        "code": "603191",
+        "name": "望变电气",
+        "price": 16.94,
+        "pct": 10.0,
+        "turnover": 11.9,
+        "limit_days": 2,
+        "seal_fund": 11812262,
+        "break_times": 1,
+        "industry": "电网设备",
+        "first_seal": "13:34:02"
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "price": 6.92,
+        "pct": 10.02,
+        "turnover": 7.24,
+        "limit_days": 1,
+        "seal_fund": 377052579,
+        "break_times": 0,
+        "industry": "电力",
+        "first_seal": "13:45:01"
+      },
+      {
+        "code": "002724",
+        "name": "海洋王",
+        "price": 6.16,
+        "pct": 10.0,
+        "turnover": 3.93,
+        "limit_days": 1,
+        "seal_fund": 47744065,
+        "break_times": 0,
+        "industry": "照明设备",
+        "first_seal": "14:00:48"
+      }
+    ],
+    "20260814": [
+      {
+        "code": "300684",
+        "name": "中石科技",
+        "price": 67.36,
+        "pct": 20.01,
+        "turnover": 2.08,
+        "limit_days": 1,
+        "seal_fund": 1043006079,
+        "break_times": 0,
+        "industry": "电子化学",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "001260",
+        "name": "坤泰股份",
+        "price": 23.13,
+        "pct": 9.99,
+        "turnover": 1.13,
+        "limit_days": 3,
+        "seal_fund": 336990222,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002172",
+        "name": "澳洋健康",
+        "price": 4.54,
+        "pct": 9.93,
+        "turnover": 2.5,
+        "limit_days": 3,
+        "seal_fund": 136260236,
+        "break_times": 0,
+        "industry": "医疗服务",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002907",
+        "name": "华森制药",
+        "price": 15.26,
+        "pct": 10.02,
+        "turnover": 1.61,
+        "limit_days": 1,
+        "seal_fund": 131789754,
+        "break_times": 0,
+        "industry": "中药Ⅱ",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "000936",
+        "name": "华西股份",
+        "price": 6.97,
+        "pct": 9.94,
+        "turnover": 15.45,
+        "limit_days": 3,
+        "seal_fund": 43942490,
+        "break_times": 7,
+        "industry": "化学纤维",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "600613",
+        "name": "神奇制药",
+        "price": 6.41,
+        "pct": 9.95,
+        "turnover": 2.61,
+        "limit_days": 2,
+        "seal_fund": 149224114,
+        "break_times": 0,
+        "industry": "化学制药",
+        "first_seal": "09:25:01"
+      },
+      {
+        "code": "002724",
+        "name": "海洋王",
+        "price": 6.78,
+        "pct": 10.06,
+        "turnover": 3.47,
+        "limit_days": 2,
+        "seal_fund": 100147380,
+        "break_times": 0,
+        "industry": "照明设备",
+        "first_seal": "09:30:00"
+      },
+      {
+        "code": "600645",
+        "name": "中源协和",
+        "price": 22.33,
+        "pct": 10.0,
+        "turnover": 9.66,
+        "limit_days": 1,
+        "seal_fund": 36212985,
+        "break_times": 2,
+        "industry": "生物制品",
+        "first_seal": "09:30:04"
+      },
+      {
+        "code": "603025",
+        "name": "大豪科技",
+        "price": 15.18,
+        "pct": 10.0,
+        "turnover": 1.88,
+        "limit_days": 1,
+        "seal_fund": 41358517,
+        "break_times": 1,
+        "industry": "自动化设",
+        "first_seal": "09:30:44"
+      },
+      {
+        "code": "603330",
+        "name": "天洋新材",
+        "price": 10.68,
+        "pct": 9.99,
+        "turnover": 6.24,
+        "limit_days": 3,
+        "seal_fund": 93635436,
+        "break_times": 0,
+        "industry": "塑料",
+        "first_seal": "09:30:47"
+      },
+      {
+        "code": "002418",
+        "name": "康盛股份",
+        "price": 4.07,
+        "pct": 10.0,
+        "turnover": 7.11,
+        "limit_days": 1,
+        "seal_fund": 32913683,
+        "break_times": 1,
+        "industry": "家电零部",
+        "first_seal": "09:31:00"
+      },
+      {
+        "code": "002322",
+        "name": "理工能科",
+        "price": 13.05,
+        "pct": 10.03,
+        "turnover": 7.15,
+        "limit_days": 2,
+        "seal_fund": 39990420,
+        "break_times": 1,
+        "industry": "软件开发",
+        "first_seal": "09:31:30"
+      },
+      {
+        "code": "603118",
+        "name": "共进股份",
+        "price": 17.56,
+        "pct": 10.03,
+        "turnover": 14.31,
+        "limit_days": 2,
+        "seal_fund": 92147856,
+        "break_times": 6,
+        "industry": "通信设备",
+        "first_seal": "09:32:44"
+      },
+      {
+        "code": "002951",
+        "name": "金时科技",
+        "price": 18.14,
+        "pct": 10.01,
+        "turnover": 4.06,
+        "limit_days": 1,
+        "seal_fund": 40624530,
+        "break_times": 2,
+        "industry": "其他电源",
+        "first_seal": "09:33:30"
+      },
+      {
+        "code": "603725",
+        "name": "天安新材",
+        "price": 12.23,
+        "pct": 9.98,
+        "turnover": 10.38,
+        "limit_days": 1,
+        "seal_fund": 54258150,
+        "break_times": 1,
+        "industry": "家居用品",
+        "first_seal": "09:34:52"
+      },
+      {
+        "code": "300404",
+        "name": "博济医药",
+        "price": 17.34,
+        "pct": 20.0,
+        "turnover": 27.53,
+        "limit_days": 2,
+        "seal_fund": 73662452,
+        "break_times": 5,
+        "industry": "医疗服务",
+        "first_seal": "09:35:18"
+      },
+      {
+        "code": "603989",
+        "name": "艾华集团",
+        "price": 32.99,
+        "pct": 10.0,
+        "turnover": 10.68,
+        "limit_days": 1,
+        "seal_fund": 181963800,
+        "break_times": 3,
+        "industry": "元件",
+        "first_seal": "09:35:30"
+      },
+      {
+        "code": "603095",
+        "name": "越剑智能",
+        "price": 14.94,
+        "pct": 10.01,
+        "turnover": 3.18,
+        "limit_days": 1,
+        "seal_fund": 46371190,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "09:35:42"
+      },
+      {
+        "code": "600198",
+        "name": "大唐电信",
+        "price": 7.84,
+        "pct": 9.96,
+        "turnover": 4.13,
+        "limit_days": 1,
+        "seal_fund": 89303872,
+        "break_times": 1,
+        "industry": "通信设备",
+        "first_seal": "09:36:23"
+      },
+      {
+        "code": "603186",
+        "name": "华正新材",
+        "price": 167.55,
+        "pct": 10.0,
+        "turnover": 6.02,
+        "limit_days": 1,
+        "seal_fund": 382164795,
+        "break_times": 0,
+        "industry": "元件",
+        "first_seal": "09:37:30"
+      },
+      {
+        "code": "002774",
+        "name": "快意电梯",
+        "price": 17.55,
+        "pct": 10.03,
+        "turnover": 4.0,
+        "limit_days": 1,
+        "seal_fund": 39743730,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "09:38:27"
+      },
+      {
+        "code": "600288",
+        "name": "大恒科技",
+        "price": 13.22,
+        "pct": 9.98,
+        "turnover": 11.26,
+        "limit_days": 1,
+        "seal_fund": 88612258,
+        "break_times": 1,
+        "industry": "软件开发",
+        "first_seal": "09:41:35"
+      },
+      {
+        "code": "600272",
+        "name": "开开实业",
+        "price": 17.6,
+        "pct": 10.0,
+        "turnover": 28.15,
+        "limit_days": 1,
+        "seal_fund": 28960448,
+        "break_times": 1,
+        "industry": "医药商业",
+        "first_seal": "09:44:00"
+      },
+      {
+        "code": "603382",
+        "name": "海阳科技",
+        "price": 20.94,
+        "pct": 9.98,
+        "turnover": 6.05,
+        "limit_days": 1,
+        "seal_fund": 26683486,
+        "break_times": 0,
+        "industry": "化学纤维",
+        "first_seal": "09:44:38"
+      },
+      {
+        "code": "002651",
+        "name": "利君股份",
+        "price": 8.39,
+        "pct": 9.96,
+        "turnover": 3.15,
+        "limit_days": 1,
+        "seal_fund": 61353074,
+        "break_times": 0,
+        "industry": "航空装备",
+        "first_seal": "09:45:00"
+      },
+      {
+        "code": "000950",
+        "name": "重药控股",
+        "price": 6.29,
+        "pct": 9.97,
+        "turnover": 3.51,
+        "limit_days": 1,
+        "seal_fund": 36496448,
+        "break_times": 0,
+        "industry": "医药商业",
+        "first_seal": "09:46:30"
+      },
+      {
+        "code": "601609",
+        "name": "金田股份",
+        "price": 10.95,
+        "pct": 10.05,
+        "turnover": 3.42,
+        "limit_days": 1,
+        "seal_fund": 59572850,
+        "break_times": 1,
+        "industry": "工业金属",
+        "first_seal": "09:47:31"
+      },
+      {
+        "code": "000831",
+        "name": "中国稀土",
+        "price": 60.95,
+        "pct": 10.0,
+        "turnover": 8.54,
+        "limit_days": 1,
+        "seal_fund": 99880776,
+        "break_times": 1,
+        "industry": "小金属",
+        "first_seal": "09:53:21"
+      },
+      {
+        "code": "301130",
+        "name": "西点药业",
+        "price": 30.85,
+        "pct": 19.99,
+        "turnover": 17.98,
+        "limit_days": 1,
+        "seal_fund": 8101981,
+        "break_times": 10,
+        "industry": "化学制药",
+        "first_seal": "09:55:48"
+      },
+      {
+        "code": "600186",
+        "name": "莲花控股",
+        "price": 12.02,
+        "pct": 9.97,
+        "turnover": 16.88,
+        "limit_days": 1,
+        "seal_fund": 198537753,
+        "break_times": 2,
+        "industry": "调味发酵",
+        "first_seal": "10:02:56"
+      },
+      {
+        "code": "300862",
+        "name": "蓝盾光电",
+        "price": 47.29,
+        "pct": 19.99,
+        "turnover": 51.69,
+        "limit_days": 5,
+        "seal_fund": 31282287,
+        "break_times": 5,
+        "industry": "通用设备",
+        "first_seal": "10:13:57"
+      },
+      {
+        "code": "603089",
+        "name": "正裕工业",
+        "price": 9.75,
+        "pct": 10.05,
+        "turnover": 2.58,
+        "limit_days": 1,
+        "seal_fund": 13255125,
+        "break_times": 1,
+        "industry": "汽车零部",
+        "first_seal": "10:15:02"
+      },
+      {
+        "code": "688662",
+        "name": "富信科技",
+        "price": 98.4,
+        "pct": 20.0,
+        "turnover": 15.52,
+        "limit_days": 1,
+        "seal_fund": 98358180,
+        "break_times": 1,
+        "industry": "其他电子",
+        "first_seal": "10:15:47"
+      },
+      {
+        "code": "002081",
+        "name": "金 螳 螂",
+        "price": 5.29,
+        "pct": 9.98,
+        "turnover": 19.72,
+        "limit_days": 3,
+        "seal_fund": 93738440,
+        "break_times": 1,
+        "industry": "装修装饰",
+        "first_seal": "10:16:48"
+      },
+      {
+        "code": "002811",
+        "name": "郑中设计",
+        "price": 11.3,
+        "pct": 10.03,
+        "turnover": 3.05,
+        "limit_days": 1,
+        "seal_fund": 50357320,
+        "break_times": 0,
+        "industry": "装修装饰",
+        "first_seal": "10:22:27"
+      },
+      {
+        "code": "002658",
+        "name": "雪迪龙",
+        "price": 8.23,
+        "pct": 10.03,
+        "turnover": 6.41,
+        "limit_days": 1,
+        "seal_fund": 85697895,
+        "break_times": 0,
+        "industry": "环保设备",
+        "first_seal": "10:24:33"
+      },
+      {
+        "code": "301419",
+        "name": "阿莱德",
+        "price": 37.62,
+        "pct": 20.0,
+        "turnover": 12.31,
+        "limit_days": 1,
+        "seal_fund": 166475572,
+        "break_times": 0,
+        "industry": "通信设备",
+        "first_seal": "10:31:42"
+      },
+      {
+        "code": "603618",
+        "name": "杭电股份",
+        "price": 29.87,
+        "pct": 10.02,
+        "turnover": 16.37,
+        "limit_days": 1,
+        "seal_fund": 152178689,
+        "break_times": 2,
+        "industry": "电网设备",
+        "first_seal": "10:35:42"
+      },
+      {
+        "code": "603083",
+        "name": "剑桥科技",
+        "price": 185.9,
+        "pct": 10.0,
+        "turnover": 14.44,
+        "limit_days": 1,
+        "seal_fund": 308142820,
+        "break_times": 1,
+        "industry": "通信设备",
+        "first_seal": "10:41:11"
+      },
+      {
+        "code": "603079",
+        "name": "圣达生物",
+        "price": 13.41,
+        "pct": 10.01,
+        "turnover": 4.74,
+        "limit_days": 1,
+        "seal_fund": 67033385,
+        "break_times": 1,
+        "industry": "化学制品",
+        "first_seal": "10:44:02"
+      },
+      {
+        "code": "688485",
+        "name": "九州一轨",
+        "price": 72.1,
+        "pct": 20.01,
+        "turnover": 12.25,
+        "limit_days": 1,
+        "seal_fund": 1875393,
+        "break_times": 2,
+        "industry": "轨交设备",
+        "first_seal": "10:45:58"
+      },
+      {
+        "code": "603177",
+        "name": "德创环保",
+        "price": 10.23,
+        "pct": 10.0,
+        "turnover": 4.79,
+        "limit_days": 1,
+        "seal_fund": 39937920,
+        "break_times": 0,
+        "industry": "环境治理",
+        "first_seal": "11:01:57"
+      },
+      {
+        "code": "002820",
+        "name": "桂发祥",
+        "price": 10.14,
+        "pct": 9.98,
+        "turnover": 6.88,
+        "limit_days": 1,
+        "seal_fund": 34831711,
+        "break_times": 0,
+        "industry": "休闲食品",
+        "first_seal": "11:07:24"
+      },
+      {
+        "code": "300929",
+        "name": "华骐环保",
+        "price": 16.82,
+        "pct": 19.97,
+        "turnover": 10.33,
+        "limit_days": 1,
+        "seal_fund": 42214751,
+        "break_times": 0,
+        "industry": "环境治理",
+        "first_seal": "13:12:27"
+      },
+      {
+        "code": "002766",
+        "name": "索菱股份",
+        "price": 4.5,
+        "pct": 10.02,
+        "turnover": 8.48,
+        "limit_days": 1,
+        "seal_fund": 128417400,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "13:16:18"
+      },
+      {
+        "code": "000620",
+        "name": "盈新发展",
+        "price": 3.03,
+        "pct": 10.18,
+        "turnover": 11.62,
+        "limit_days": 1,
+        "seal_fund": 120398913,
+        "break_times": 0,
+        "industry": "房地产开",
+        "first_seal": "13:34:00"
+      },
+      {
+        "code": "600353",
+        "name": "旭光电子",
+        "price": 31.03,
+        "pct": 10.0,
+        "turnover": 8.37,
+        "limit_days": 1,
+        "seal_fund": 224740981,
+        "break_times": 0,
+        "industry": "其他电子",
+        "first_seal": "13:39:52"
+      },
+      {
+        "code": "603881",
+        "name": "数据港",
+        "price": 29.04,
+        "pct": 10.0,
+        "turnover": 11.83,
+        "limit_days": 1,
+        "seal_fund": 219449326,
+        "break_times": 0,
+        "industry": "通信服务",
+        "first_seal": "13:44:20"
+      },
+      {
+        "code": "600769",
+        "name": "祥龙电业",
+        "price": 16.51,
+        "pct": 9.99,
+        "turnover": 5.26,
+        "limit_days": 1,
+        "seal_fund": 31218759,
+        "break_times": 0,
+        "industry": "环境治理",
+        "first_seal": "13:51:38"
+      },
+      {
+        "code": "688286",
+        "name": "敏芯股份",
+        "price": 53.56,
+        "pct": 20.01,
+        "turnover": 15.57,
+        "limit_days": 1,
+        "seal_fund": 93812214,
+        "break_times": 0,
+        "industry": "半导体",
+        "first_seal": "13:51:40"
+      },
+      {
+        "code": "920083",
+        "name": "金戈新材",
+        "price": 40.89,
+        "pct": 29.97,
+        "turnover": 23.33,
+        "limit_days": 1,
+        "seal_fund": 17181773,
+        "break_times": 0,
+        "industry": "非金属材",
+        "first_seal": "13:52:54"
+      },
+      {
+        "code": "002989",
+        "name": "中天精装",
+        "price": 25.36,
+        "pct": 10.02,
+        "turnover": 4.85,
+        "limit_days": 1,
+        "seal_fund": 80256792,
+        "break_times": 0,
+        "industry": "装修装饰",
+        "first_seal": "13:56:30"
+      },
+      {
+        "code": "002645",
+        "name": "华宏科技",
+        "price": 21.48,
+        "pct": 9.98,
+        "turnover": 7.4,
+        "limit_days": 1,
+        "seal_fund": 89854706,
+        "break_times": 0,
+        "industry": "环保设备",
+        "first_seal": "13:56:48"
+      },
+      {
+        "code": "600487",
+        "name": "亨通光电",
+        "price": 62.98,
+        "pct": 10.01,
+        "turnover": 12.97,
+        "limit_days": 1,
+        "seal_fund": 844234933,
+        "break_times": 1,
+        "industry": "通信设备",
+        "first_seal": "13:59:06"
+      },
+      {
+        "code": "300017",
+        "name": "网宿科技",
+        "price": 17.33,
+        "pct": 20.01,
+        "turnover": 20.3,
+        "limit_days": 1,
+        "seal_fund": 258819494,
+        "break_times": 0,
+        "industry": "IT服务Ⅱ",
+        "first_seal": "14:14:54"
+      },
+      {
+        "code": "603629",
+        "name": "利通电子",
+        "price": 137.5,
+        "pct": 10.0,
+        "turnover": 18.83,
+        "limit_days": 1,
+        "seal_fund": 303949250,
+        "break_times": 1,
+        "industry": "消费电子",
+        "first_seal": "14:19:43"
+      },
+      {
+        "code": "600815",
+        "name": "厦工股份",
+        "price": 3.98,
+        "pct": 9.94,
+        "turnover": 6.42,
+        "limit_days": 1,
+        "seal_fund": 26070194,
+        "break_times": 0,
+        "industry": "工程机械",
+        "first_seal": "14:20:19"
+      },
+      {
+        "code": "002628",
+        "name": "成都路桥",
+        "price": 5.56,
+        "pct": 10.1,
+        "turnover": 7.27,
+        "limit_days": 1,
+        "seal_fund": 31730263,
+        "break_times": 0,
+        "industry": "基础建设",
+        "first_seal": "14:21:09"
+      },
+      {
+        "code": "003031",
+        "name": "中瓷电子",
+        "price": 130.08,
+        "pct": 10.0,
+        "turnover": 3.84,
+        "limit_days": 1,
+        "seal_fund": 161724561,
+        "break_times": 0,
+        "industry": "通信设备",
+        "first_seal": "14:26:30"
+      },
+      {
+        "code": "603115",
+        "name": "海星股份",
+        "price": 85.45,
+        "pct": 10.0,
+        "turnover": 6.82,
+        "limit_days": 1,
+        "seal_fund": 110093780,
+        "break_times": 0,
+        "industry": "元件",
+        "first_seal": "14:26:48"
+      },
+      {
+        "code": "002988",
+        "name": "豪美新材",
+        "price": 23.3,
+        "pct": 10.01,
+        "turnover": 2.42,
+        "limit_days": 1,
+        "seal_fund": 56458230,
+        "break_times": 0,
+        "industry": "工业金属",
+        "first_seal": "14:34:09"
+      },
+      {
+        "code": "600829",
+        "name": "人民同泰",
+        "price": 11.83,
+        "pct": 10.05,
+        "turnover": 8.79,
+        "limit_days": 1,
+        "seal_fund": 62722660,
+        "break_times": 0,
+        "industry": "医药商业",
+        "first_seal": "14:42:04"
+      },
+      {
+        "code": "300120",
+        "name": "经纬辉开",
+        "price": 9.26,
+        "pct": 19.95,
+        "turnover": 20.49,
+        "limit_days": 1,
+        "seal_fund": 27958718,
+        "break_times": 1,
+        "industry": "光学光电",
+        "first_seal": "14:53:54"
+      }
+    ],
+    "20260817": [
+      {
+        "code": "300684",
+        "name": "中石科技",
+        "price": 80.83,
+        "pct": 20.0,
+        "turnover": 1.78,
+        "limit_days": 2,
+        "seal_fund": 859713942,
+        "break_times": 0,
+        "industry": "电子化学",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002820",
+        "name": "桂发祥",
+        "price": 11.15,
+        "pct": 9.96,
+        "turnover": 2.42,
+        "limit_days": 2,
+        "seal_fund": 128681157,
+        "break_times": 0,
+        "industry": "休闲食品",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "603186",
+        "name": "华正新材",
+        "price": 184.31,
+        "pct": 10.0,
+        "turnover": 2.99,
+        "limit_days": 2,
+        "seal_fund": 413720657,
+        "break_times": 1,
+        "industry": "元件",
+        "first_seal": "09:25:01"
+      },
+      {
+        "code": "603330",
+        "name": "天洋新材",
+        "price": 11.75,
+        "pct": 10.02,
+        "turnover": 2.92,
+        "limit_days": 4,
+        "seal_fund": 195724450,
+        "break_times": 0,
+        "industry": "塑料",
+        "first_seal": "09:25:03"
+      },
+      {
+        "code": "600127",
+        "name": "金健米业",
+        "price": 6.46,
+        "pct": 10.05,
+        "turnover": 5.94,
+        "limit_days": 1,
+        "seal_fund": 154848073,
+        "break_times": 0,
+        "industry": "农产品加",
+        "first_seal": "09:30:00"
+      },
+      {
+        "code": "603079",
+        "name": "圣达生物",
+        "price": 14.75,
+        "pct": 9.99,
+        "turnover": 2.71,
+        "limit_days": 2,
+        "seal_fund": 72012450,
+        "break_times": 0,
+        "industry": "化学制品",
+        "first_seal": "09:30:00"
+      },
+      {
+        "code": "002863",
+        "name": "今飞凯达",
+        "price": 4.99,
+        "pct": 9.91,
+        "turnover": 7.25,
+        "limit_days": 1,
+        "seal_fund": 23967618,
+        "break_times": 6,
+        "industry": "汽车零部",
+        "first_seal": "09:30:06"
+      },
+      {
+        "code": "603118",
+        "name": "共进股份",
+        "price": 19.32,
+        "pct": 10.02,
+        "turnover": 13.31,
+        "limit_days": 3,
+        "seal_fund": 152696972,
+        "break_times": 11,
+        "industry": "通信设备",
+        "first_seal": "09:30:22"
+      },
+      {
+        "code": "600613",
+        "name": "神奇制药",
+        "price": 7.05,
+        "pct": 9.98,
+        "turnover": 8.19,
+        "limit_days": 3,
+        "seal_fund": 198510649,
+        "break_times": 0,
+        "industry": "化学制药",
+        "first_seal": "09:30:28"
+      },
+      {
+        "code": "603089",
+        "name": "正裕工业",
+        "price": 10.73,
+        "pct": 10.05,
+        "turnover": 2.68,
+        "limit_days": 2,
+        "seal_fund": 28557701,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "09:30:36"
+      },
+      {
+        "code": "002081",
+        "name": "金 螳 螂",
+        "price": 5.82,
+        "pct": 10.02,
+        "turnover": 18.26,
+        "limit_days": 4,
+        "seal_fund": 116451140,
+        "break_times": 9,
+        "industry": "装修装饰",
+        "first_seal": "09:30:54"
+      },
+      {
+        "code": "600353",
+        "name": "旭光电子",
+        "price": 34.13,
+        "pct": 9.99,
+        "turnover": 3.94,
+        "limit_days": 2,
+        "seal_fund": 169626611,
+        "break_times": 2,
+        "industry": "其他电子",
+        "first_seal": "09:30:56"
+      },
+      {
+        "code": "000029",
+        "name": "深深房Ａ",
+        "price": 24.42,
+        "pct": 10.0,
+        "turnover": 0.44,
+        "limit_days": 1,
+        "seal_fund": 47936460,
+        "break_times": 1,
+        "industry": "房地产开",
+        "first_seal": "09:32:00"
+      },
+      {
+        "code": "603102",
+        "name": "百合股份",
+        "price": 43.41,
+        "pct": 10.01,
+        "turnover": 5.69,
+        "limit_days": 1,
+        "seal_fund": 47715447,
+        "break_times": 1,
+        "industry": "食品加工",
+        "first_seal": "09:32:07"
+      },
+      {
+        "code": "603958",
+        "name": "哈森股份",
+        "price": 16.78,
+        "pct": 10.03,
+        "turnover": 1.16,
+        "limit_days": 1,
+        "seal_fund": 43136346,
+        "break_times": 0,
+        "industry": "服装家纺",
+        "first_seal": "09:32:12"
+      },
+      {
+        "code": "002907",
+        "name": "华森制药",
+        "price": 16.79,
+        "pct": 10.03,
+        "turnover": 5.62,
+        "limit_days": 2,
+        "seal_fund": 85013377,
+        "break_times": 0,
+        "industry": "中药Ⅱ",
+        "first_seal": "09:32:15"
+      },
+      {
+        "code": "603929",
+        "name": "亚翔集成",
+        "price": 178.97,
+        "pct": 10.0,
+        "turnover": 1.82,
+        "limit_days": 1,
+        "seal_fund": 227757222,
+        "break_times": 1,
+        "industry": "专业工程",
+        "first_seal": "09:32:30"
+      },
+      {
+        "code": "002651",
+        "name": "利君股份",
+        "price": 9.23,
+        "pct": 10.01,
+        "turnover": 5.55,
+        "limit_days": 2,
+        "seal_fund": 59270684,
+        "break_times": 0,
+        "industry": "航空装备",
+        "first_seal": "09:33:30"
+      },
+      {
+        "code": "603790",
+        "name": "雅运股份",
+        "price": 28.29,
+        "pct": 9.99,
+        "turnover": 3.7,
+        "limit_days": 1,
+        "seal_fund": 11726205,
+        "break_times": 4,
+        "industry": "化学制品",
+        "first_seal": "09:34:04"
+      },
+      {
+        "code": "603773",
+        "name": "沃格光电",
+        "price": 104.49,
+        "pct": 10.0,
+        "turnover": 2.92,
+        "limit_days": 1,
+        "seal_fund": 208930889,
+        "break_times": 0,
+        "industry": "光学光电",
+        "first_seal": "09:34:31"
+      },
+      {
+        "code": "603095",
+        "name": "越剑智能",
+        "price": 16.43,
+        "pct": 9.97,
+        "turnover": 3.92,
+        "limit_days": 2,
+        "seal_fund": 32279298,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "09:34:48"
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "price": 13.64,
+        "pct": 10.0,
+        "turnover": 6.05,
+        "limit_days": 1,
+        "seal_fund": 183945002,
+        "break_times": 0,
+        "industry": "通用设备",
+        "first_seal": "09:34:57"
+      },
+      {
+        "code": "600545",
+        "name": "卓郎智能",
+        "price": 4.86,
+        "pct": 9.95,
+        "turnover": 3.5,
+        "limit_days": 1,
+        "seal_fund": 34060338,
+        "break_times": 1,
+        "industry": "专用设备",
+        "first_seal": "09:36:05"
+      },
+      {
+        "code": "603657",
+        "name": "春光科技",
+        "price": 29.21,
+        "pct": 10.02,
+        "turnover": 1.68,
+        "limit_days": 1,
+        "seal_fund": 74739627,
+        "break_times": 0,
+        "industry": "家电零部",
+        "first_seal": "09:36:59"
+      },
+      {
+        "code": "603823",
+        "name": "百合花",
+        "price": 78.09,
+        "pct": 10.0,
+        "turnover": 3.49,
+        "limit_days": 1,
+        "seal_fund": 56081895,
+        "break_times": 4,
+        "industry": "化学制品",
+        "first_seal": "09:37:40"
+      },
+      {
+        "code": "301127",
+        "name": "武汉天源",
+        "price": 18.14,
+        "pct": 19.97,
+        "turnover": 12.42,
+        "limit_days": 1,
+        "seal_fund": 44423372,
+        "break_times": 3,
+        "industry": "环境治理",
+        "first_seal": "09:37:51"
+      },
+      {
+        "code": "001318",
+        "name": "阳光乳业",
+        "price": 12.35,
+        "pct": 9.97,
+        "turnover": 2.51,
+        "limit_days": 1,
+        "seal_fund": 24855610,
+        "break_times": 0,
+        "industry": "饮料乳品",
+        "first_seal": "09:39:51"
+      },
+      {
+        "code": "600313",
+        "name": "农发种业",
+        "price": 6.16,
+        "pct": 10.0,
+        "turnover": 5.42,
+        "limit_days": 1,
+        "seal_fund": 22581358,
+        "break_times": 1,
+        "industry": "种植业",
+        "first_seal": "09:40:02"
+      },
+      {
+        "code": "000505",
+        "name": "京粮控股",
+        "price": 6.17,
+        "pct": 9.98,
+        "turnover": 3.68,
+        "limit_days": 1,
+        "seal_fund": 31274804,
+        "break_times": 0,
+        "industry": "农产品加",
+        "first_seal": "09:40:21"
+      },
+      {
+        "code": "002229",
+        "name": "鸿博股份",
+        "price": 13.82,
+        "pct": 10.03,
+        "turnover": 20.61,
+        "limit_days": 1,
+        "seal_fund": 145862512,
+        "break_times": 0,
+        "industry": "IT服务Ⅱ",
+        "first_seal": "09:41:00"
+      },
+      {
+        "code": "603011",
+        "name": "合锻智能",
+        "price": 26.68,
+        "pct": 10.02,
+        "turnover": 15.66,
+        "limit_days": 1,
+        "seal_fund": 60763700,
+        "break_times": 1,
+        "industry": "专用设备",
+        "first_seal": "09:42:41"
+      },
+      {
+        "code": "300314",
+        "name": "戴维医疗",
+        "price": 14.74,
+        "pct": 20.03,
+        "turnover": 18.46,
+        "limit_days": 1,
+        "seal_fund": 35482422,
+        "break_times": 0,
+        "industry": "医疗器械",
+        "first_seal": "09:44:36"
+      },
+      {
+        "code": "002682",
+        "name": "龙洲股份",
+        "price": 5.1,
+        "pct": 9.91,
+        "turnover": 16.68,
+        "limit_days": 1,
+        "seal_fund": 46379415,
+        "break_times": 3,
+        "industry": "物流",
+        "first_seal": "09:45:03"
+      },
+      {
+        "code": "600222",
+        "name": "太龙药业",
+        "price": 8.95,
+        "pct": 9.95,
+        "turnover": 11.39,
+        "limit_days": 1,
+        "seal_fund": 30774843,
+        "break_times": 2,
+        "industry": "中药Ⅱ",
+        "first_seal": "09:45:04"
+      },
+      {
+        "code": "603936",
+        "name": "博敏电子",
+        "price": 17.38,
+        "pct": 10.0,
+        "turnover": 9.45,
+        "limit_days": 1,
+        "seal_fund": 112684968,
+        "break_times": 1,
+        "industry": "元件",
+        "first_seal": "09:45:38"
+      },
+      {
+        "code": "600206",
+        "name": "有研新材",
+        "price": 55.86,
+        "pct": 10.0,
+        "turnover": 8.13,
+        "limit_days": 1,
+        "seal_fund": 653443074,
+        "break_times": 0,
+        "industry": "半导体",
+        "first_seal": "09:45:47"
+      },
+      {
+        "code": "603002",
+        "name": "宏昌电子",
+        "price": 17.59,
+        "pct": 10.01,
+        "turnover": 5.32,
+        "limit_days": 1,
+        "seal_fund": 160750559,
+        "break_times": 0,
+        "industry": "电子化学",
+        "first_seal": "09:46:37"
+      },
+      {
+        "code": "002838",
+        "name": "道恩股份",
+        "price": 27.19,
+        "pct": 9.99,
+        "turnover": 3.49,
+        "limit_days": 1,
+        "seal_fund": 36633087,
+        "break_times": 2,
+        "industry": "塑料",
+        "first_seal": "09:46:57"
+      },
+      {
+        "code": "300313",
+        "name": "天山生物",
+        "price": 10.73,
+        "pct": 20.02,
+        "turnover": 12.63,
+        "limit_days": 1,
+        "seal_fund": 39412030,
+        "break_times": 0,
+        "industry": "养殖业",
+        "first_seal": "09:48:00"
+      },
+      {
+        "code": "002172",
+        "name": "澳洋健康",
+        "price": 4.99,
+        "pct": 9.91,
+        "turnover": 26.86,
+        "limit_days": 4,
+        "seal_fund": 54413839,
+        "break_times": 0,
+        "industry": "医疗服务",
+        "first_seal": "09:49:15"
+      },
+      {
+        "code": "002469",
+        "name": "三维化学",
+        "price": 6.31,
+        "pct": 9.93,
+        "turnover": 2.45,
+        "limit_days": 1,
+        "seal_fund": 27679288,
+        "break_times": 0,
+        "industry": "化学原料",
+        "first_seal": "09:49:33"
+      },
+      {
+        "code": "002742",
+        "name": "冀衡医药",
+        "price": 4.7,
+        "pct": 10.07,
+        "turnover": 5.13,
+        "limit_days": 1,
+        "seal_fund": 38205360,
+        "break_times": 1,
+        "industry": "化学制药",
+        "first_seal": "09:50:15"
+      },
+      {
+        "code": "603580",
+        "name": "艾艾精工",
+        "price": 58.2,
+        "pct": 10.0,
+        "turnover": 7.19,
+        "limit_days": 1,
+        "seal_fund": 36898800,
+        "break_times": 2,
+        "industry": "塑料",
+        "first_seal": "09:51:33"
+      },
+      {
+        "code": "603389",
+        "name": "亚振家居",
+        "price": 48.24,
+        "pct": 10.01,
+        "turnover": 1.03,
+        "limit_days": 1,
+        "seal_fund": 37500811,
+        "break_times": 0,
+        "industry": "家居用品",
+        "first_seal": "09:51:44"
+      },
+      {
+        "code": "603395",
+        "name": "红四方",
+        "price": 23.96,
+        "pct": 10.01,
+        "turnover": 7.71,
+        "limit_days": 1,
+        "seal_fund": 37527110,
+        "break_times": 1,
+        "industry": "农化制品",
+        "first_seal": "09:52:29"
+      },
+      {
+        "code": "002165",
+        "name": "红 宝 丽",
+        "price": 7.13,
+        "pct": 10.03,
+        "turnover": 11.04,
+        "limit_days": 1,
+        "seal_fund": 77869275,
+        "break_times": 0,
+        "industry": "化学制品",
+        "first_seal": "09:53:09"
+      },
+      {
+        "code": "000735",
+        "name": "罗 牛 山",
+        "price": 5.62,
+        "pct": 9.98,
+        "turnover": 7.66,
+        "limit_days": 1,
+        "seal_fund": 41790314,
+        "break_times": 0,
+        "industry": "养殖业",
+        "first_seal": "09:54:36"
+      },
+      {
+        "code": "002437",
+        "name": "誉衡药业",
+        "price": 4.98,
+        "pct": 9.93,
+        "turnover": 29.86,
+        "limit_days": 1,
+        "seal_fund": 115869784,
+        "break_times": 5,
+        "industry": "化学制药",
+        "first_seal": "09:57:09"
+      },
+      {
+        "code": "603916",
+        "name": "苏博特",
+        "price": 12.16,
+        "pct": 10.05,
+        "turnover": 6.9,
+        "limit_days": 1,
+        "seal_fund": 19277868,
+        "break_times": 6,
+        "industry": "水泥",
+        "first_seal": "09:57:17"
+      },
+      {
+        "code": "601700",
+        "name": "风范股份",
+        "price": 7.22,
+        "pct": 10.06,
+        "turnover": 16.32,
+        "limit_days": 1,
+        "seal_fund": 69298253,
+        "break_times": 3,
+        "industry": "电网设备",
+        "first_seal": "09:58:04"
+      },
+      {
+        "code": "002448",
+        "name": "中原内配",
+        "price": 13.63,
+        "pct": 10.01,
+        "turnover": 6.71,
+        "limit_days": 1,
+        "seal_fund": 89481522,
+        "break_times": 1,
+        "industry": "汽车零部",
+        "first_seal": "09:58:39"
+      },
+      {
+        "code": "601366",
+        "name": "利群股份",
+        "price": 3.85,
+        "pct": 10.0,
+        "turnover": 2.93,
+        "limit_days": 1,
+        "seal_fund": 27422541,
+        "break_times": 0,
+        "industry": "一般零售",
+        "first_seal": "10:00:05"
+      },
+      {
+        "code": "002476",
+        "name": "新叶股份",
+        "price": 5.02,
+        "pct": 10.09,
+        "turnover": 2.82,
+        "limit_days": 1,
+        "seal_fund": 27749556,
+        "break_times": 0,
+        "industry": "炼化及贸",
+        "first_seal": "10:04:45"
+      },
+      {
+        "code": "002028",
+        "name": "思源电气",
+        "price": 183.15,
+        "pct": 10.0,
+        "turnover": 2.17,
+        "limit_days": 1,
+        "seal_fund": 121868010,
+        "break_times": 1,
+        "industry": "电网设备",
+        "first_seal": "10:04:54"
+      },
+      {
+        "code": "603721",
+        "name": "中广天择",
+        "price": 19.88,
+        "pct": 10.02,
+        "turnover": 7.1,
+        "limit_days": 1,
+        "seal_fund": 43131648,
+        "break_times": 1,
+        "industry": "影视院线",
+        "first_seal": "10:05:29"
+      },
+      {
+        "code": "600824",
+        "name": "益民集团",
+        "price": 3.89,
+        "pct": 9.89,
+        "turnover": 3.25,
+        "limit_days": 1,
+        "seal_fund": 33270699,
+        "break_times": 0,
+        "industry": "一般零售",
+        "first_seal": "10:06:08"
+      },
+      {
+        "code": "000779",
+        "name": "甘咨询",
+        "price": 10.63,
+        "pct": 10.04,
+        "turnover": 22.18,
+        "limit_days": 1,
+        "seal_fund": 51018089,
+        "break_times": 1,
+        "industry": "工程咨询",
+        "first_seal": "10:07:12"
+      },
+      {
+        "code": "603285",
+        "name": "键邦股份",
+        "price": 37.07,
+        "pct": 10.0,
+        "turnover": 12.85,
+        "limit_days": 1,
+        "seal_fund": 22390280,
+        "break_times": 0,
+        "industry": "化学制品",
+        "first_seal": "10:08:32"
+      },
+      {
+        "code": "001229",
+        "name": "魅视科技",
+        "price": 45.63,
+        "pct": 10.0,
+        "turnover": 6.8,
+        "limit_days": 1,
+        "seal_fund": 38535447,
+        "break_times": 0,
+        "industry": "计算机设",
+        "first_seal": "10:10:18"
+      },
+      {
+        "code": "000520",
+        "name": "凤凰航运",
+        "price": 4.22,
+        "pct": 9.9,
+        "turnover": 2.6,
+        "limit_days": 1,
+        "seal_fund": 13944568,
+        "break_times": 0,
+        "industry": "航运港口",
+        "first_seal": "10:12:18"
+      },
+      {
+        "code": "603082",
+        "name": "北自科技",
+        "price": 44.17,
+        "pct": 10.01,
+        "turnover": 12.18,
+        "limit_days": 1,
+        "seal_fund": 14134400,
+        "break_times": 0,
+        "industry": "自动化设",
+        "first_seal": "10:16:49"
+      },
+      {
+        "code": "001356",
+        "name": "富岭股份",
+        "price": 9.52,
+        "pct": 10.06,
+        "turnover": 5.6,
+        "limit_days": 1,
+        "seal_fund": 31834889,
+        "break_times": 0,
+        "industry": "家居用品",
+        "first_seal": "10:21:57"
+      },
+      {
+        "code": "002668",
+        "name": "TCL智家",
+        "price": 10.82,
+        "pct": 9.96,
+        "turnover": 5.33,
+        "limit_days": 1,
+        "seal_fund": 25020168,
+        "break_times": 2,
+        "industry": "白色家电",
+        "first_seal": "10:23:06"
+      },
+      {
+        "code": "603880",
+        "name": "南卫股份",
+        "price": 8.84,
+        "pct": 9.95,
+        "turnover": 6.95,
+        "limit_days": 1,
+        "seal_fund": 13244972,
+        "break_times": 2,
+        "industry": "医疗器械",
+        "first_seal": "10:25:26"
+      },
+      {
+        "code": "605179",
+        "name": "一鸣食品",
+        "price": 35.1,
+        "pct": 10.0,
+        "turnover": 8.09,
+        "limit_days": 1,
+        "seal_fund": 67132260,
+        "break_times": 0,
+        "industry": "饮料乳品",
+        "first_seal": "10:28:46"
+      },
+      {
+        "code": "000564",
+        "name": "供销大集",
+        "price": 1.54,
+        "pct": 10.0,
+        "turnover": 4.2,
+        "limit_days": 1,
+        "seal_fund": 47307238,
+        "break_times": 7,
+        "industry": "一般零售",
+        "first_seal": "10:30:51"
+      },
+      {
+        "code": "300570",
+        "name": "太辰光",
+        "price": 193.8,
+        "pct": 20.0,
+        "turnover": 12.7,
+        "limit_days": 1,
+        "seal_fund": 343276583,
+        "break_times": 0,
+        "industry": "通信设备",
+        "first_seal": "10:35:54"
+      },
+      {
+        "code": "600330",
+        "name": "天通股份",
+        "price": 27.48,
+        "pct": 10.01,
+        "turnover": 9.28,
+        "limit_days": 1,
+        "seal_fund": 159833380,
+        "break_times": 0,
+        "industry": "电子化学",
+        "first_seal": "10:41:09"
+      },
+      {
+        "code": "301626",
+        "name": "苏州天脉",
+        "price": 307.08,
+        "pct": 20.0,
+        "turnover": 8.2,
+        "limit_days": 1,
+        "seal_fund": 55108576,
+        "break_times": 1,
+        "industry": "消费电子",
+        "first_seal": "10:42:33"
+      },
+      {
+        "code": "000670",
+        "name": "盈方微",
+        "price": 7.54,
+        "pct": 10.07,
+        "turnover": 9.86,
+        "limit_days": 1,
+        "seal_fund": 80591893,
+        "break_times": 0,
+        "industry": "其他电子",
+        "first_seal": "10:44:00"
+      },
+      {
+        "code": "605060",
+        "name": "联德股份",
+        "price": 48.06,
+        "pct": 10.0,
+        "turnover": 2.01,
+        "limit_days": 1,
+        "seal_fund": 15595470,
+        "break_times": 0,
+        "industry": "通用设备",
+        "first_seal": "10:48:51"
+      },
+      {
+        "code": "002353",
+        "name": "杰瑞股份",
+        "price": 166.09,
+        "pct": 10.0,
+        "turnover": 3.05,
+        "limit_days": 1,
+        "seal_fund": 56987970,
+        "break_times": 1,
+        "industry": "专用设备",
+        "first_seal": "10:56:27"
+      },
+      {
+        "code": "002156",
+        "name": "通富微电",
+        "price": 69.26,
+        "pct": 10.01,
+        "turnover": 9.73,
+        "limit_days": 1,
+        "seal_fund": 497362986,
+        "break_times": 1,
+        "industry": "半导体",
+        "first_seal": "11:00:09"
+      },
+      {
+        "code": "000026",
+        "name": "飞亚达",
+        "price": 23.01,
+        "pct": 9.99,
+        "turnover": 4.84,
+        "limit_days": 1,
+        "seal_fund": 66623913,
+        "break_times": 0,
+        "industry": "饰品",
+        "first_seal": "11:03:51"
+      },
+      {
+        "code": "001358",
+        "name": "兴欣新材",
+        "price": 28.14,
+        "pct": 10.01,
+        "turnover": 10.18,
+        "limit_days": 1,
+        "seal_fund": 61849468,
+        "break_times": 0,
+        "industry": "化学制品",
+        "first_seal": "11:04:09"
+      },
+      {
+        "code": "000737",
+        "name": "北方铜业",
+        "price": 14.95,
+        "pct": 10.01,
+        "turnover": 7.25,
+        "limit_days": 1,
+        "seal_fund": 40748886,
+        "break_times": 1,
+        "industry": "工业金属",
+        "first_seal": "11:05:45"
+      },
+      {
+        "code": "300345",
+        "name": "华民股份",
+        "price": 8.9,
+        "pct": 19.95,
+        "turnover": 26.91,
+        "limit_days": 1,
+        "seal_fund": 43502203,
+        "break_times": 3,
+        "industry": "光伏设备",
+        "first_seal": "11:09:27"
+      },
+      {
+        "code": "603458",
+        "name": "勘设股份",
+        "price": 10.35,
+        "pct": 9.99,
+        "turnover": 6.08,
+        "limit_days": 1,
+        "seal_fund": 20436075,
+        "break_times": 0,
+        "industry": "工程咨询",
+        "first_seal": "11:14:26"
+      },
+      {
+        "code": "603703",
+        "name": "盛洋科技",
+        "price": 10.73,
+        "pct": 10.05,
+        "turnover": 6.03,
+        "limit_days": 1,
+        "seal_fund": 14597639,
+        "break_times": 0,
+        "industry": "光学光电",
+        "first_seal": "11:18:05"
+      },
+      {
+        "code": "688503",
+        "name": "聚和材料",
+        "price": 95.68,
+        "pct": 20.01,
+        "turnover": 11.93,
+        "limit_days": 1,
+        "seal_fund": 63082493,
+        "break_times": 3,
+        "industry": "光伏设备",
+        "first_seal": "11:26:39"
+      },
+      {
+        "code": "688003",
+        "name": "天准科技",
+        "price": 94.8,
+        "pct": 20.0,
+        "turnover": 6.27,
+        "limit_days": 1,
+        "seal_fund": 29872996,
+        "break_times": 4,
+        "industry": "自动化设",
+        "first_seal": "13:00:19"
+      },
+      {
+        "code": "002258",
+        "name": "利尔化学",
+        "price": 14.94,
+        "pct": 10.01,
+        "turnover": 5.45,
+        "limit_days": 1,
+        "seal_fund": 27444974,
+        "break_times": 0,
+        "industry": "农化制品",
+        "first_seal": "13:01:30"
+      },
+      {
+        "code": "301516",
+        "name": "中远通",
+        "price": 19.32,
+        "pct": 20.0,
+        "turnover": 27.76,
+        "limit_days": 1,
+        "seal_fund": 9843868,
+        "break_times": 0,
+        "industry": "其他电源",
+        "first_seal": "13:01:57"
+      },
+      {
+        "code": "000551",
+        "name": "创元科技",
+        "price": 15.51,
+        "pct": 10.0,
+        "turnover": 7.19,
+        "limit_days": 1,
+        "seal_fund": 87658440,
+        "break_times": 0,
+        "industry": "环保设备",
+        "first_seal": "13:02:18"
+      },
+      {
+        "code": "603286",
+        "name": "日盈电子",
+        "price": 46.15,
+        "pct": 10.01,
+        "turnover": 4.12,
+        "limit_days": 1,
+        "seal_fund": 56201470,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "13:03:31"
+      },
+      {
+        "code": "600459",
+        "name": "贵研铂业",
+        "price": 22.97,
+        "pct": 10.01,
+        "turnover": 6.55,
+        "limit_days": 1,
+        "seal_fund": 112117075,
+        "break_times": 1,
+        "industry": "小金属",
+        "first_seal": "13:05:42"
+      },
+      {
+        "code": "688677",
+        "name": "海泰新光",
+        "price": 89.76,
+        "pct": 20.0,
+        "turnover": 13.06,
+        "limit_days": 1,
+        "seal_fund": 2539130,
+        "break_times": 2,
+        "industry": "医疗器械",
+        "first_seal": "13:06:27"
+      },
+      {
+        "code": "003031",
+        "name": "中瓷电子",
+        "price": 143.09,
+        "pct": 10.0,
+        "turnover": 5.06,
+        "limit_days": 2,
+        "seal_fund": 118947712,
+        "break_times": 1,
+        "industry": "通信设备",
+        "first_seal": "13:21:27"
+      },
+      {
+        "code": "000811",
+        "name": "冰轮环境",
+        "price": 45.09,
+        "pct": 10.0,
+        "turnover": 4.38,
+        "limit_days": 1,
+        "seal_fund": 131739453,
+        "break_times": 0,
+        "industry": "通用设备",
+        "first_seal": "13:30:15"
+      },
+      {
+        "code": "002436",
+        "name": "兴森科技",
+        "price": 38.3,
+        "pct": 9.99,
+        "turnover": 10.17,
+        "limit_days": 1,
+        "seal_fund": 209520150,
+        "break_times": 1,
+        "industry": "元件",
+        "first_seal": "13:33:36"
+      },
+      {
+        "code": "605180",
+        "name": "华生科技",
+        "price": 13.96,
+        "pct": 10.01,
+        "turnover": 3.26,
+        "limit_days": 1,
+        "seal_fund": 37139184,
+        "break_times": 0,
+        "industry": "纺织制造",
+        "first_seal": "13:35:20"
+      },
+      {
+        "code": "603067",
+        "name": "振华股份",
+        "price": 36.52,
+        "pct": 10.0,
+        "turnover": 5.34,
+        "limit_days": 1,
+        "seal_fund": 121896857,
+        "break_times": 0,
+        "industry": "化学原料",
+        "first_seal": "13:38:21"
+      },
+      {
+        "code": "301282",
+        "name": "金禄电子",
+        "price": 35.17,
+        "pct": 19.99,
+        "turnover": 19.55,
+        "limit_days": 1,
+        "seal_fund": 106344373,
+        "break_times": 0,
+        "industry": "元件",
+        "first_seal": "13:38:54"
+      },
+      {
+        "code": "600860",
+        "name": "京城股份",
+        "price": 9.43,
+        "pct": 10.04,
+        "turnover": 6.19,
+        "limit_days": 1,
+        "seal_fund": 8012671,
+        "break_times": 0,
+        "industry": "通用设备",
+        "first_seal": "13:45:10"
+      },
+      {
+        "code": "603110",
+        "name": "东方材料",
+        "price": 27.74,
+        "pct": 9.99,
+        "turnover": 8.1,
+        "limit_days": 1,
+        "seal_fund": 58187424,
+        "break_times": 0,
+        "industry": "化学制品",
+        "first_seal": "13:52:07"
+      },
+      {
+        "code": "002289",
+        "name": "宇顺电子",
+        "price": 40.84,
+        "pct": 9.99,
+        "turnover": 2.54,
+        "limit_days": 1,
+        "seal_fund": 66381336,
+        "break_times": 0,
+        "industry": "光学光电",
+        "first_seal": "13:57:51"
+      },
+      {
+        "code": "002478",
+        "name": "常宝股份",
+        "price": 6.86,
+        "pct": 9.94,
+        "turnover": 4.02,
+        "limit_days": 1,
+        "seal_fund": 31878077,
+        "break_times": 0,
+        "industry": "特钢Ⅱ",
+        "first_seal": "13:58:57"
+      },
+      {
+        "code": "300679",
+        "name": "电连技术",
+        "price": 51.17,
+        "pct": 20.0,
+        "turnover": 10.36,
+        "limit_days": 1,
+        "seal_fund": 82107023,
+        "break_times": 1,
+        "industry": "消费电子",
+        "first_seal": "14:08:18"
+      },
+      {
+        "code": "001207",
+        "name": "联科科技",
+        "price": 17.4,
+        "pct": 9.99,
+        "turnover": 4.75,
+        "limit_days": 1,
+        "seal_fund": 48496932,
+        "break_times": 0,
+        "industry": "橡胶",
+        "first_seal": "14:11:51"
+      },
+      {
+        "code": "600281",
+        "name": "华阳新材",
+        "price": 4.85,
+        "pct": 9.98,
+        "turnover": 3.22,
+        "limit_days": 1,
+        "seal_fund": 24559915,
+        "break_times": 0,
+        "industry": "小金属",
+        "first_seal": "14:21:30"
+      },
+      {
+        "code": "002787",
+        "name": "华源控股",
+        "price": 23.6,
+        "pct": 10.02,
+        "turnover": 6.35,
+        "limit_days": 1,
+        "seal_fund": 70922720,
+        "break_times": 0,
+        "industry": "包装印刷",
+        "first_seal": "14:21:54"
+      },
+      {
+        "code": "002578",
+        "name": "闽发铝业",
+        "price": 3.75,
+        "pct": 9.97,
+        "turnover": 6.5,
+        "limit_days": 1,
+        "seal_fund": 59791875,
+        "break_times": 0,
+        "industry": "工业金属",
+        "first_seal": "14:35:54"
+      },
+      {
+        "code": "688378",
+        "name": "奥来德",
+        "price": 50.36,
+        "pct": 19.99,
+        "turnover": 6.5,
+        "limit_days": 1,
+        "seal_fund": 46579776,
+        "break_times": 0,
+        "industry": "光学光电",
+        "first_seal": "14:42:23"
+      },
+      {
+        "code": "605162",
+        "name": "新中港",
+        "price": 9.53,
+        "pct": 10.05,
+        "turnover": 7.0,
+        "limit_days": 1,
+        "seal_fund": 78736078,
+        "break_times": 0,
+        "industry": "电力",
+        "first_seal": "14:47:39"
+      },
+      {
+        "code": "603530",
+        "name": "神马电力",
+        "price": 51.82,
+        "pct": 10.0,
+        "turnover": 1.84,
+        "limit_days": 1,
+        "seal_fund": 112465464,
+        "break_times": 0,
+        "industry": "电网设备",
+        "first_seal": "14:49:31"
+      },
+      {
+        "code": "603010",
+        "name": "万盛股份",
+        "price": 12.39,
+        "pct": 10.04,
+        "turnover": 2.39,
+        "limit_days": 1,
+        "seal_fund": 59365446,
+        "break_times": 0,
+        "industry": "化学制品",
+        "first_seal": "14:53:38"
+      }
+    ],
+    "20260818": [
+      {
+        "code": "603089",
+        "name": "正裕工业",
+        "price": 11.8,
+        "pct": 9.97,
+        "turnover": 2.0,
+        "limit_days": 3,
+        "seal_fund": 54495763,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "000153",
+        "name": "丰原药业",
+        "price": 6.68,
+        "pct": 10.05,
+        "turnover": 2.3,
+        "limit_days": 1,
+        "seal_fund": 109721939,
+        "break_times": 0,
+        "industry": "化学制药",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002953",
+        "name": "日丰股份",
+        "price": 10.66,
+        "pct": 10.01,
+        "turnover": 2.1,
+        "limit_days": 1,
+        "seal_fund": 112156386,
+        "break_times": 0,
+        "industry": "电网设备",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002820",
+        "name": "桂发祥",
+        "price": 12.27,
+        "pct": 10.04,
+        "turnover": 2.05,
+        "limit_days": 3,
+        "seal_fund": 150905417,
+        "break_times": 0,
+        "industry": "休闲食品",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "000620",
+        "name": "盈新发展",
+        "price": 3.41,
+        "pct": 10.0,
+        "turnover": 7.65,
+        "limit_days": 1,
+        "seal_fund": 184542611,
+        "break_times": 1,
+        "industry": "房地产开",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "000526",
+        "name": "学大教育",
+        "price": 35.54,
+        "pct": 10.0,
+        "turnover": 2.64,
+        "limit_days": 1,
+        "seal_fund": 329441584,
+        "break_times": 0,
+        "industry": "教育",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "603958",
+        "name": "哈森股份",
+        "price": 18.46,
+        "pct": 10.01,
+        "turnover": 0.5,
+        "limit_days": 2,
+        "seal_fund": 66446770,
+        "break_times": 0,
+        "industry": "服装家纺",
+        "first_seal": "09:25:01"
+      },
+      {
+        "code": "600613",
+        "name": "神奇制药",
+        "price": 7.76,
+        "pct": 10.07,
+        "turnover": 15.08,
+        "limit_days": 4,
+        "seal_fund": 92817360,
+        "break_times": 1,
+        "industry": "化学制药",
+        "first_seal": "09:25:02"
+      },
+      {
+        "code": "002515",
+        "name": "金字火腿",
+        "price": 8.71,
+        "pct": 9.97,
+        "turnover": 13.09,
+        "limit_days": 1,
+        "seal_fund": 203600605,
+        "break_times": 1,
+        "industry": "食品加工",
+        "first_seal": "09:30:03"
+      },
+      {
+        "code": "002284",
+        "name": "亚太股份",
+        "price": 10.22,
+        "pct": 10.01,
+        "turnover": 7.21,
+        "limit_days": 1,
+        "seal_fund": 84447860,
+        "break_times": 1,
+        "industry": "汽车零部",
+        "first_seal": "09:30:09"
+      },
+      {
+        "code": "603395",
+        "name": "红四方",
+        "price": 26.36,
+        "pct": 10.02,
+        "turnover": 7.49,
+        "limit_days": 2,
+        "seal_fund": 105694189,
+        "break_times": 0,
+        "industry": "农化制品",
+        "first_seal": "09:30:11"
+      },
+      {
+        "code": "600127",
+        "name": "金健米业",
+        "price": 7.11,
+        "pct": 10.06,
+        "turnover": 8.54,
+        "limit_days": 2,
+        "seal_fund": 225045904,
+        "break_times": 0,
+        "industry": "农产品加",
+        "first_seal": "09:30:57"
+      },
+      {
+        "code": "603936",
+        "name": "博敏电子",
+        "price": 19.12,
+        "pct": 10.01,
+        "turnover": 15.59,
+        "limit_days": 2,
+        "seal_fund": 38358696,
+        "break_times": 16,
+        "industry": "元件",
+        "first_seal": "09:31:04"
+      },
+      {
+        "code": "001229",
+        "name": "魅视科技",
+        "price": 50.19,
+        "pct": 9.99,
+        "turnover": 7.24,
+        "limit_days": 2,
+        "seal_fund": 30539611,
+        "break_times": 6,
+        "industry": "计算机设",
+        "first_seal": "09:31:09"
+      },
+      {
+        "code": "300313",
+        "name": "天山生物",
+        "price": 12.88,
+        "pct": 20.04,
+        "turnover": 7.64,
+        "limit_days": 2,
+        "seal_fund": 98101679,
+        "break_times": 0,
+        "industry": "养殖业",
+        "first_seal": "09:31:30"
+      },
+      {
+        "code": "002743",
+        "name": "富煌钢构",
+        "price": 4.47,
+        "pct": 10.1,
+        "turnover": 3.28,
+        "limit_days": 1,
+        "seal_fund": 19471767,
+        "break_times": 0,
+        "industry": "专业工程",
+        "first_seal": "09:31:42"
+      },
+      {
+        "code": "600371",
+        "name": "万向德农",
+        "price": 8.14,
+        "pct": 10.0,
+        "turnover": 3.7,
+        "limit_days": 1,
+        "seal_fund": 14805154,
+        "break_times": 2,
+        "industry": "种植业",
+        "first_seal": "09:32:12"
+      },
+      {
+        "code": "002365",
+        "name": "永安药业",
+        "price": 15.55,
+        "pct": 9.97,
+        "turnover": 9.04,
+        "limit_days": 1,
+        "seal_fund": 164733590,
+        "break_times": 0,
+        "industry": "化学制药",
+        "first_seal": "09:32:21"
+      },
+      {
+        "code": "603708",
+        "name": "家家悦",
+        "price": 10.27,
+        "pct": 9.96,
+        "turnover": 3.22,
+        "limit_days": 1,
+        "seal_fund": 14407351,
+        "break_times": 3,
+        "industry": "一般零售",
+        "first_seal": "09:32:59"
+      },
+      {
+        "code": "600367",
+        "name": "红星发展",
+        "price": 38.23,
+        "pct": 10.01,
+        "turnover": 17.51,
+        "limit_days": 1,
+        "seal_fund": 93265908,
+        "break_times": 5,
+        "industry": "化学原料",
+        "first_seal": "09:33:02"
+      },
+      {
+        "code": "600353",
+        "name": "旭光电子",
+        "price": 37.54,
+        "pct": 9.99,
+        "turnover": 7.85,
+        "limit_days": 3,
+        "seal_fund": 129765306,
+        "break_times": 10,
+        "industry": "其他电子",
+        "first_seal": "09:33:05"
+      },
+      {
+        "code": "300684",
+        "name": "中石科技",
+        "price": 97.0,
+        "pct": 20.0,
+        "turnover": 24.55,
+        "limit_days": 3,
+        "seal_fund": 89133882,
+        "break_times": 7,
+        "industry": "电子化学",
+        "first_seal": "09:33:12"
+      },
+      {
+        "code": "301106",
+        "name": "骏成科技",
+        "price": 21.18,
+        "pct": 20.0,
+        "turnover": 3.96,
+        "limit_days": 1,
+        "seal_fund": 94332415,
+        "break_times": 0,
+        "industry": "光学光电",
+        "first_seal": "09:33:30"
+      },
+      {
+        "code": "603071",
+        "name": "物产环能",
+        "price": 13.2,
+        "pct": 10.0,
+        "turnover": 1.92,
+        "limit_days": 1,
+        "seal_fund": 61071120,
+        "break_times": 1,
+        "industry": "贸易Ⅱ",
+        "first_seal": "09:35:26"
+      },
+      {
+        "code": "603580",
+        "name": "艾艾精工",
+        "price": 64.02,
+        "pct": 10.0,
+        "turnover": 5.78,
+        "limit_days": 2,
+        "seal_fund": 22816728,
+        "break_times": 3,
+        "industry": "塑料",
+        "first_seal": "09:35:35"
+      },
+      {
+        "code": "002124",
+        "name": "天邦食品",
+        "price": 2.5,
+        "pct": 10.13,
+        "turnover": 5.34,
+        "limit_days": 1,
+        "seal_fund": 51139997,
+        "break_times": 0,
+        "industry": "养殖业",
+        "first_seal": "09:35:36"
+      },
+      {
+        "code": "603823",
+        "name": "百合花",
+        "price": 85.9,
+        "pct": 10.0,
+        "turnover": 3.18,
+        "limit_days": 2,
+        "seal_fund": 75160782,
+        "break_times": 17,
+        "industry": "化学制品",
+        "first_seal": "09:35:52"
+      },
+      {
+        "code": "600108",
+        "name": "亚盛集团",
+        "price": 3.56,
+        "pct": 9.88,
+        "turnover": 4.38,
+        "limit_days": 1,
+        "seal_fund": 132584364,
+        "break_times": 1,
+        "industry": "种植业",
+        "first_seal": "09:36:22"
+      },
+      {
+        "code": "600707",
+        "name": "彩虹股份",
+        "price": 10.8,
+        "pct": 9.98,
+        "turnover": 9.32,
+        "limit_days": 1,
+        "seal_fund": 74009160,
+        "break_times": 6,
+        "industry": "光学光电",
+        "first_seal": "09:36:27"
+      },
+      {
+        "code": "600227",
+        "name": "赤天化",
+        "price": 3.75,
+        "pct": 9.97,
+        "turnover": 14.66,
+        "limit_days": 1,
+        "seal_fund": 41691375,
+        "break_times": 0,
+        "industry": "农化制品",
+        "first_seal": "09:37:55"
+      },
+      {
+        "code": "600313",
+        "name": "农发种业",
+        "price": 6.78,
+        "pct": 10.06,
+        "turnover": 8.76,
+        "limit_days": 2,
+        "seal_fund": 100017170,
+        "break_times": 1,
+        "industry": "种植业",
+        "first_seal": "09:38:08"
+      },
+      {
+        "code": "603065",
+        "name": "宿迁联盛",
+        "price": 18.11,
+        "pct": 10.02,
+        "turnover": 15.12,
+        "limit_days": 1,
+        "seal_fund": 8285325,
+        "break_times": 2,
+        "industry": "化学制品",
+        "first_seal": "09:38:53"
+      },
+      {
+        "code": "603406",
+        "name": "天富龙",
+        "price": 29.56,
+        "pct": 10.01,
+        "turnover": 7.85,
+        "limit_days": 1,
+        "seal_fund": 46491968,
+        "break_times": 1,
+        "industry": "化学纤维",
+        "first_seal": "09:40:34"
+      },
+      {
+        "code": "002638",
+        "name": "勤上股份",
+        "price": 3.85,
+        "pct": 10.0,
+        "turnover": 1.81,
+        "limit_days": 1,
+        "seal_fund": 42306872,
+        "break_times": 0,
+        "industry": "照明设备",
+        "first_seal": "09:41:18"
+      },
+      {
+        "code": "688112",
+        "name": "鼎阳科技",
+        "price": 69.83,
+        "pct": 20.0,
+        "turnover": 3.17,
+        "limit_days": 1,
+        "seal_fund": 52731146,
+        "break_times": 0,
+        "industry": "通用设备",
+        "first_seal": "09:42:14"
+      },
+      {
+        "code": "301129",
+        "name": "瑞纳智能",
+        "price": 26.46,
+        "pct": 20.0,
+        "turnover": 16.42,
+        "limit_days": 1,
+        "seal_fund": 11990613,
+        "break_times": 1,
+        "industry": "通用设备",
+        "first_seal": "09:44:12"
+      },
+      {
+        "code": "603221",
+        "name": "爱丽家居",
+        "price": 30.0,
+        "pct": 10.01,
+        "turnover": 13.35,
+        "limit_days": 2,
+        "seal_fund": 25826940,
+        "break_times": 7,
+        "industry": "家居用品",
+        "first_seal": "09:44:49"
+      },
+      {
+        "code": "000735",
+        "name": "罗 牛 山",
+        "price": 6.18,
+        "pct": 9.96,
+        "turnover": 10.37,
+        "limit_days": 2,
+        "seal_fund": 106127978,
+        "break_times": 0,
+        "industry": "养殖业",
+        "first_seal": "09:45:21"
+      },
+      {
+        "code": "605577",
+        "name": "龙版传媒",
+        "price": 10.76,
+        "pct": 10.02,
+        "turnover": 2.54,
+        "limit_days": 1,
+        "seal_fund": 44135368,
+        "break_times": 1,
+        "industry": "出版",
+        "first_seal": "09:47:13"
+      },
+      {
+        "code": "000852",
+        "name": "石化机械",
+        "price": 5.79,
+        "pct": 10.08,
+        "turnover": 3.05,
+        "limit_days": 1,
+        "seal_fund": 40268685,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "09:48:06"
+      },
+      {
+        "code": "601116",
+        "name": "三江购物",
+        "price": 11.77,
+        "pct": 10.0,
+        "turnover": 4.41,
+        "limit_days": 1,
+        "seal_fund": 106434250,
+        "break_times": 0,
+        "industry": "一般零售",
+        "first_seal": "09:48:30"
+      },
+      {
+        "code": "300970",
+        "name": "华绿生物",
+        "price": 21.66,
+        "pct": 20.0,
+        "turnover": 9.09,
+        "limit_days": 1,
+        "seal_fund": 26934426,
+        "break_times": 1,
+        "industry": "种植业",
+        "first_seal": "09:48:42"
+      },
+      {
+        "code": "603739",
+        "name": "蔚蓝生物",
+        "price": 13.81,
+        "pct": 10.04,
+        "turnover": 3.81,
+        "limit_days": 1,
+        "seal_fund": 31283793,
+        "break_times": 1,
+        "industry": "化学制品",
+        "first_seal": "09:53:55"
+      },
+      {
+        "code": "002041",
+        "name": "登海种业",
+        "price": 9.8,
+        "pct": 9.99,
+        "turnover": 5.37,
+        "limit_days": 1,
+        "seal_fund": 59865240,
+        "break_times": 1,
+        "industry": "种植业",
+        "first_seal": "09:54:06"
+      },
+      {
+        "code": "001366",
+        "name": "播恩集团",
+        "price": 13.49,
+        "pct": 10.03,
+        "turnover": 2.88,
+        "limit_days": 1,
+        "seal_fund": 47634431,
+        "break_times": 0,
+        "industry": "饲料",
+        "first_seal": "09:54:48"
+      },
+      {
+        "code": "600722",
+        "name": "金牛化工",
+        "price": 13.02,
+        "pct": 9.97,
+        "turnover": 18.76,
+        "limit_days": 1,
+        "seal_fund": 63258425,
+        "break_times": 0,
+        "industry": "化学原料",
+        "first_seal": "10:00:31"
+      },
+      {
+        "code": "000019",
+        "name": "深粮控股",
+        "price": 6.96,
+        "pct": 9.95,
+        "turnover": 13.11,
+        "limit_days": 1,
+        "seal_fund": 12345306,
+        "break_times": 2,
+        "industry": "农产品加",
+        "first_seal": "10:04:06"
+      },
+      {
+        "code": "603400",
+        "name": "华之杰",
+        "price": 48.14,
+        "pct": 10.01,
+        "turnover": 19.94,
+        "limit_days": 1,
+        "seal_fund": 34233461,
+        "break_times": 2,
+        "industry": "通用设备",
+        "first_seal": "10:11:14"
+      },
+      {
+        "code": "000716",
+        "name": "黑芝麻",
+        "price": 5.81,
+        "pct": 10.04,
+        "turnover": 13.97,
+        "limit_days": 1,
+        "seal_fund": 27138527,
+        "break_times": 0,
+        "industry": "休闲食品",
+        "first_seal": "10:17:33"
+      },
+      {
+        "code": "000020",
+        "name": "深华发Ａ",
+        "price": 12.49,
+        "pct": 10.04,
+        "turnover": 3.71,
+        "limit_days": 1,
+        "seal_fund": 104071651,
+        "break_times": 0,
+        "industry": "光学光电",
+        "first_seal": "10:17:39"
+      },
+      {
+        "code": "000505",
+        "name": "京粮控股",
+        "price": 6.79,
+        "pct": 10.05,
+        "turnover": 12.21,
+        "limit_days": 2,
+        "seal_fund": 30318708,
+        "break_times": 1,
+        "industry": "农产品加",
+        "first_seal": "10:19:33"
+      },
+      {
+        "code": "920087",
+        "name": "秋乐种业",
+        "price": 15.61,
+        "pct": 29.98,
+        "turnover": 19.89,
+        "limit_days": 1,
+        "seal_fund": 17901719,
+        "break_times": 3,
+        "industry": "种植业",
+        "first_seal": "10:19:47"
+      },
+      {
+        "code": "300189",
+        "name": "神农种业",
+        "price": 6.23,
+        "pct": 20.04,
+        "turnover": 44.12,
+        "limit_days": 1,
+        "seal_fund": 100179864,
+        "break_times": 1,
+        "industry": "种植业",
+        "first_seal": "10:21:03"
+      },
+      {
+        "code": "600598",
+        "name": "北大荒",
+        "price": 13.46,
+        "pct": 9.97,
+        "turnover": 5.76,
+        "limit_days": 1,
+        "seal_fund": 102389775,
+        "break_times": 3,
+        "industry": "种植业",
+        "first_seal": "10:22:25"
+      },
+      {
+        "code": "605268",
+        "name": "王力安防",
+        "price": 10.16,
+        "pct": 9.96,
+        "turnover": 1.87,
+        "limit_days": 1,
+        "seal_fund": 43363896,
+        "break_times": 2,
+        "industry": "家居用品",
+        "first_seal": "10:31:09"
+      },
+      {
+        "code": "000678",
+        "name": "襄阳轴承",
+        "price": 10.51,
+        "pct": 10.05,
+        "turnover": 9.99,
+        "limit_days": 1,
+        "seal_fund": 35890788,
+        "break_times": 1,
+        "industry": "汽车零部",
+        "first_seal": "10:38:57"
+      },
+      {
+        "code": "603280",
+        "name": "南方路机",
+        "price": 29.22,
+        "pct": 10.02,
+        "turnover": 5.25,
+        "limit_days": 1,
+        "seal_fund": 23180255,
+        "break_times": 1,
+        "industry": "工程机械",
+        "first_seal": "10:49:54"
+      },
+      {
+        "code": "002553",
+        "name": "南方精工",
+        "price": 17.51,
+        "pct": 9.99,
+        "turnover": 9.81,
+        "limit_days": 1,
+        "seal_fund": 92113106,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "11:06:00"
+      },
+      {
+        "code": "000597",
+        "name": "东北制药",
+        "price": 5.51,
+        "pct": 9.98,
+        "turnover": 5.85,
+        "limit_days": 1,
+        "seal_fund": 62369546,
+        "break_times": 0,
+        "industry": "化学制药",
+        "first_seal": "11:24:18"
+      },
+      {
+        "code": "000007",
+        "name": "全新好",
+        "price": 11.69,
+        "pct": 9.97,
+        "turnover": 3.29,
+        "limit_days": 1,
+        "seal_fund": 19618169,
+        "break_times": 0,
+        "industry": "一般零售",
+        "first_seal": "13:00:45"
+      },
+      {
+        "code": "600737",
+        "name": "中粮糖业",
+        "price": 15.08,
+        "pct": 9.99,
+        "turnover": 5.21,
+        "limit_days": 1,
+        "seal_fund": 72543078,
+        "break_times": 2,
+        "industry": "农产品加",
+        "first_seal": "13:04:59"
+      },
+      {
+        "code": "603112",
+        "name": "华翔股份",
+        "price": 16.59,
+        "pct": 10.01,
+        "turnover": 3.73,
+        "limit_days": 1,
+        "seal_fund": 67466553,
+        "break_times": 0,
+        "industry": "家电零部",
+        "first_seal": "13:12:31"
+      },
+      {
+        "code": "600113",
+        "name": "浙江东日",
+        "price": 35.2,
+        "pct": 10.0,
+        "turnover": 2.63,
+        "limit_days": 1,
+        "seal_fund": 91871894,
+        "break_times": 0,
+        "industry": "一般零售",
+        "first_seal": "13:36:18"
+      },
+      {
+        "code": "605333",
+        "name": "沪光股份",
+        "price": 18.66,
+        "pct": 10.02,
+        "turnover": 1.22,
+        "limit_days": 1,
+        "seal_fund": 20818962,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "first_seal": "13:41:52"
+      },
+      {
+        "code": "003043",
+        "name": "华亚智能",
+        "price": 79.53,
+        "pct": 10.0,
+        "turnover": 9.06,
+        "limit_days": 1,
+        "seal_fund": 69843246,
+        "break_times": 0,
+        "industry": "半导体",
+        "first_seal": "13:48:57"
+      },
+      {
+        "code": "300598",
+        "name": "诚迈科技",
+        "price": 34.6,
+        "pct": 20.01,
+        "turnover": 10.85,
+        "limit_days": 1,
+        "seal_fund": 63411420,
+        "break_times": 2,
+        "industry": "软件开发",
+        "first_seal": "13:52:48"
+      },
+      {
+        "code": "600536",
+        "name": "中国软件",
+        "price": 34.45,
+        "pct": 9.99,
+        "turnover": 6.0,
+        "limit_days": 1,
+        "seal_fund": 190791644,
+        "break_times": 1,
+        "industry": "IT服务Ⅱ",
+        "first_seal": "14:06:01"
+      },
+      {
+        "code": "600354",
+        "name": "敦煌种业",
+        "price": 6.99,
+        "pct": 10.08,
+        "turnover": 23.37,
+        "limit_days": 1,
+        "seal_fund": 64843343,
+        "break_times": 0,
+        "industry": "种植业",
+        "first_seal": "14:25:32"
+      },
+      {
+        "code": "688152",
+        "name": "麒麟信安",
+        "price": 34.98,
+        "pct": 20.0,
+        "turnover": 6.79,
+        "limit_days": 1,
+        "seal_fund": 55147054,
+        "break_times": 0,
+        "industry": "软件开发",
+        "first_seal": "14:26:50"
+      },
+      {
+        "code": "600359",
+        "name": "新农开发",
+        "price": 6.93,
+        "pct": 10.0,
+        "turnover": 9.63,
+        "limit_days": 1,
+        "seal_fund": 13185011,
+        "break_times": 0,
+        "industry": "种植业",
+        "first_seal": "14:26:58"
+      },
+      {
+        "code": "601702",
+        "name": "华峰铝业",
+        "price": 16.7,
+        "pct": 10.01,
+        "turnover": 2.55,
+        "limit_days": 1,
+        "seal_fund": 83546760,
+        "break_times": 0,
+        "industry": "工业金属",
+        "first_seal": "14:30:01"
+      },
+      {
+        "code": "002025",
+        "name": "航天电器",
+        "price": 71.68,
+        "pct": 10.01,
+        "turnover": 6.42,
+        "limit_days": 1,
+        "seal_fund": 152452608,
+        "break_times": 0,
+        "industry": "军工电子",
+        "first_seal": "14:35:00"
+      },
+      {
+        "code": "002819",
+        "name": "东方中科",
+        "price": 22.78,
+        "pct": 10.0,
+        "turnover": 3.62,
+        "limit_days": 1,
+        "seal_fund": 75902960,
+        "break_times": 0,
+        "industry": "通用设备",
+        "first_seal": "14:39:18"
+      },
+      {
+        "code": "000998",
+        "name": "隆平高科",
+        "price": 9.22,
+        "pct": 10.02,
+        "turnover": 8.71,
+        "limit_days": 1,
+        "seal_fund": 180935806,
+        "break_times": 0,
+        "industry": "种植业",
+        "first_seal": "14:40:27"
+      },
+      {
+        "code": "601952",
+        "name": "苏垦农发",
+        "price": 9.38,
+        "pct": 9.96,
+        "turnover": 4.49,
+        "limit_days": 1,
+        "seal_fund": 97113297,
+        "break_times": 0,
+        "industry": "种植业",
+        "first_seal": "14:44:28"
+      },
+      {
+        "code": "600272",
+        "name": "开开实业",
+        "price": 20.93,
+        "pct": 9.98,
+        "turnover": 35.88,
+        "limit_days": 1,
+        "seal_fund": 22156498,
+        "break_times": 1,
+        "industry": "医药商业",
+        "first_seal": "14:48:13"
+      },
+      {
+        "code": "002385",
+        "name": "大北农",
+        "price": 3.38,
+        "pct": 10.1,
+        "turnover": 8.99,
+        "limit_days": 1,
+        "seal_fund": 27082334,
+        "break_times": 0,
+        "industry": "饲料",
+        "first_seal": "14:50:48"
+      },
+      {
+        "code": "000713",
+        "name": "国投丰乐",
+        "price": 6.5,
+        "pct": 9.98,
+        "turnover": 7.72,
+        "limit_days": 1,
+        "seal_fund": 3598140,
+        "break_times": 0,
+        "industry": "种植业",
+        "first_seal": "14:56:00"
+      },
+      {
+        "code": "605179",
+        "name": "一鸣食品",
+        "price": 38.61,
+        "pct": 10.0,
+        "turnover": 10.53,
+        "limit_days": 2,
+        "seal_fund": 1471079,
+        "break_times": 1,
+        "industry": "饮料乳品",
+        "first_seal": "14:56:59"
+      }
+    ],
+    "20260819": [
+      {
+        "code": "002333",
+        "name": "罗普斯金",
+        "price": 6.34,
+        "pct": 10.07,
+        "turnover": 2.12,
+        "limit_days": 1,
+        "seal_fund": 86305259,
+        "break_times": 0,
+        "industry": "装修建材",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "002953",
+        "name": "日丰股份",
+        "price": 11.73,
+        "pct": 10.04,
+        "turnover": 8.33,
+        "limit_days": 2,
+        "seal_fund": 96303464,
+        "break_times": 1,
+        "industry": "电网设备",
+        "first_seal": "09:25:00"
+      },
+      {
+        "code": "600127",
+        "name": "金健米业",
+        "price": 7.82,
+        "pct": 9.99,
+        "turnover": 4.56,
+        "limit_days": 3,
+        "seal_fund": 434089920,
+        "break_times": 0,
+        "industry": "农产品加",
+        "first_seal": "09:25:02"
+      },
+      {
+        "code": "600783",
+        "name": "鲁信创投",
+        "price": 20.19,
+        "pct": 10.03,
+        "turnover": 5.97,
+        "limit_days": 1,
+        "seal_fund": 69036555,
+        "break_times": 1,
+        "industry": "通用设备",
+        "first_seal": "09:25:02"
+      },
+      {
+        "code": "603395",
+        "name": "红四方",
+        "price": 29.0,
+        "pct": 10.02,
+        "turnover": 18.11,
+        "limit_days": 3,
+        "seal_fund": 121144919,
+        "break_times": 1,
+        "industry": "农化制品",
+        "first_seal": "09:25:02"
+      },
+      {
+        "code": "000020",
+        "name": "深华发Ａ",
+        "price": 13.74,
+        "pct": 10.01,
+        "turnover": 10.57,
+        "limit_days": 2,
+        "seal_fund": 23029614,
+        "break_times": 1,
+        "industry": "光学光电",
+        "first_seal": "09:30:00"
+      },
+      {
+        "code": "601011",
+        "name": "宝泰隆",
+        "price": 3.04,
+        "pct": 10.14,
+        "turnover": 3.8,
+        "limit_days": 1,
+        "seal_fund": 141757209,
+        "break_times": 0,
+        "industry": "焦炭Ⅱ",
+        "first_seal": "09:30:02"
+      },
+      {
+        "code": "603506",
+        "name": "南都物业",
+        "price": 11.88,
+        "pct": 10.0,
+        "turnover": 4.0,
+        "limit_days": 1,
+        "seal_fund": 24378948,
+        "break_times": 1,
+        "industry": "房地产服",
+        "first_seal": "09:30:14"
+      },
+      {
+        "code": "600371",
+        "name": "万向德农",
+        "price": 8.95,
+        "pct": 9.95,
+        "turnover": 18.17,
+        "limit_days": 2,
+        "seal_fund": 9075926,
+        "break_times": 5,
+        "industry": "种植业",
+        "first_seal": "09:31:18"
+      },
+      {
+        "code": "001301",
+        "name": "尚太科技",
+        "price": 62.33,
+        "pct": 10.01,
+        "turnover": 6.24,
+        "limit_days": 1,
+        "seal_fund": 28398794,
+        "break_times": 10,
+        "industry": "电池",
+        "first_seal": "09:31:21"
+      },
+      {
+        "code": "002900",
+        "name": "哈三联",
+        "price": 15.63,
+        "pct": 9.99,
+        "turnover": 12.88,
+        "limit_days": 1,
+        "seal_fund": 148077057,
+        "break_times": 1,
+        "industry": "化学制药",
+        "first_seal": "09:31:27"
+      },
+      {
+        "code": "000505",
+        "name": "京粮控股",
+        "price": 7.47,
+        "pct": 10.01,
+        "turnover": 10.74,
+        "limit_days": 3,
+        "seal_fund": 59900025,
+        "break_times": 0,
+        "industry": "农产品加",
+        "first_seal": "09:31:33"
+      },
+      {
+        "code": "603102",
+        "name": "百合股份",
+        "price": 45.76,
+        "pct": 10.0,
+        "turnover": 11.48,
+        "limit_days": 1,
+        "seal_fund": 114928161,
+        "break_times": 0,
+        "industry": "食品加工",
+        "first_seal": "09:32:33"
+      },
+      {
+        "code": "603801",
+        "name": "志邦家居",
+        "price": 6.57,
+        "pct": 10.05,
+        "turnover": 3.12,
+        "limit_days": 1,
+        "seal_fund": 31448645,
+        "break_times": 1,
+        "industry": "家居用品",
+        "first_seal": "09:32:38"
+      },
+      {
+        "code": "000526",
+        "name": "学大教育",
+        "price": 39.09,
+        "pct": 9.99,
+        "turnover": 7.7,
+        "limit_days": 2,
+        "seal_fund": 94120902,
+        "break_times": 1,
+        "industry": "教育",
+        "first_seal": "09:33:24"
+      },
+      {
+        "code": "000560",
+        "name": "我爱我家",
+        "price": 2.38,
+        "pct": 10.19,
+        "turnover": 18.33,
+        "limit_days": 1,
+        "seal_fund": 36632633,
+        "break_times": 4,
+        "industry": "房地产服",
+        "first_seal": "09:33:27"
+      },
+      {
+        "code": "002412",
+        "name": "汉森制药",
+        "price": 8.42,
+        "pct": 10.07,
+        "turnover": 6.38,
+        "limit_days": 1,
+        "seal_fund": 86021043,
+        "break_times": 1,
+        "industry": "中药Ⅱ",
+        "first_seal": "09:33:42"
+      },
+      {
+        "code": "000736",
+        "name": "中交发展",
+        "price": 4.9,
+        "pct": 10.11,
+        "turnover": 4.43,
+        "limit_days": 1,
+        "seal_fund": 25509463,
+        "break_times": 0,
+        "industry": "房地产服",
+        "first_seal": "09:33:48"
+      },
+      {
+        "code": "301211",
+        "name": "亨迪药业",
+        "price": 14.54,
+        "pct": 19.97,
+        "turnover": 13.69,
+        "limit_days": 1,
+        "seal_fund": 12206577,
+        "break_times": 4,
+        "industry": "化学制药",
+        "first_seal": "09:34:36"
+      },
+      {
+        "code": "000723",
+        "name": "美锦能源",
+        "price": 3.89,
+        "pct": 9.89,
+        "turnover": 4.23,
+        "limit_days": 1,
+        "seal_fund": 48257784,
+        "break_times": 2,
+        "industry": "焦炭Ⅱ",
+        "first_seal": "09:35:36"
+      },
+      {
+        "code": "301130",
+        "name": "西点药业",
+        "price": 33.38,
+        "pct": 19.99,
+        "turnover": 28.16,
+        "limit_days": 1,
+        "seal_fund": 19976928,
+        "break_times": 1,
+        "industry": "化学制药",
+        "first_seal": "09:35:42"
+      },
+      {
+        "code": "603848",
+        "name": "好太太",
+        "price": 14.66,
+        "pct": 9.98,
+        "turnover": 2.22,
+        "limit_days": 1,
+        "seal_fund": 31070404,
+        "break_times": 2,
+        "industry": "家居用品",
+        "first_seal": "09:36:16"
+      },
+      {
+        "code": "001277",
+        "name": "速达股份",
+        "price": 32.97,
+        "pct": 10.01,
+        "turnover": 5.55,
+        "limit_days": 1,
+        "seal_fund": 52843162,
+        "break_times": 0,
+        "industry": "专用设备",
+        "first_seal": "09:42:27"
+      },
+      {
+        "code": "001338",
+        "name": "永顺泰",
+        "price": 9.63,
+        "pct": 10.06,
+        "turnover": 6.05,
+        "limit_days": 1,
+        "seal_fund": 10799082,
+        "break_times": 7,
+        "industry": "农产品加",
+        "first_seal": "09:45:15"
+      },
+      {
+        "code": "600403",
+        "name": "大有能源",
+        "price": 6.82,
+        "pct": 10.0,
+        "turnover": 5.2,
+        "limit_days": 1,
+        "seal_fund": 192467581,
+        "break_times": 0,
+        "industry": "煤炭开采",
+        "first_seal": "09:48:29"
+      },
+      {
+        "code": "603290",
+        "name": "斯达半导",
+        "price": 100.31,
+        "pct": 10.0,
+        "turnover": 8.76,
+        "limit_days": 1,
+        "seal_fund": 85393903,
+        "break_times": 2,
+        "industry": "半导体",
+        "first_seal": "09:53:13"
+      },
+      {
+        "code": "001400",
+        "name": "江顺科技",
+        "price": 85.94,
+        "pct": 10.0,
+        "turnover": 13.55,
+        "limit_days": 1,
+        "seal_fund": 40254038,
+        "break_times": 2,
+        "industry": "专用设备",
+        "first_seal": "09:54:45"
+      },
+      {
+        "code": "300069",
+        "name": "金利华电",
+        "price": 34.66,
+        "pct": 20.01,
+        "turnover": 16.51,
+        "limit_days": 1,
+        "seal_fund": 77711186,
+        "break_times": 1,
+        "industry": "电网设备",
+        "first_seal": "09:59:27"
+      },
+      {
+        "code": "601015",
+        "name": "陕西黑猫",
+        "price": 3.71,
+        "pct": 10.09,
+        "turnover": 7.68,
+        "limit_days": 1,
+        "seal_fund": 40756783,
+        "break_times": 1,
+        "industry": "焦炭Ⅱ",
+        "first_seal": "10:15:31"
+      },
+      {
+        "code": "600610",
+        "name": "中毅达",
+        "price": 7.8,
+        "pct": 10.01,
+        "turnover": 6.71,
+        "limit_days": 1,
+        "seal_fund": 51554427,
+        "break_times": 2,
+        "industry": "化学原料",
+        "first_seal": "10:24:35"
+      },
+      {
+        "code": "603366",
+        "name": "日出东方",
+        "price": 7.63,
+        "pct": 9.94,
+        "turnover": 4.94,
+        "limit_days": 1,
+        "seal_fund": 52324395,
+        "break_times": 0,
+        "industry": "厨卫电器",
+        "first_seal": "11:01:13"
+      },
+      {
+        "code": "002040",
+        "name": "南 京 港",
+        "price": 9.06,
+        "pct": 9.95,
+        "turnover": 6.49,
+        "limit_days": 1,
+        "seal_fund": 15963448,
+        "break_times": 3,
+        "industry": "航运港口",
+        "first_seal": "11:22:09"
+      },
+      {
+        "code": "000059",
+        "name": "华锦股份",
+        "price": 5.07,
+        "pct": 9.98,
+        "turnover": 5.14,
+        "limit_days": 1,
+        "seal_fund": 46325097,
+        "break_times": 1,
+        "industry": "炼化及贸",
+        "first_seal": "13:05:51"
+      },
+      {
+        "code": "300911",
+        "name": "亿田智能",
+        "price": 26.66,
+        "pct": 19.98,
+        "turnover": 19.35,
+        "limit_days": 1,
+        "seal_fund": 144761693,
+        "break_times": 0,
+        "industry": "厨卫电器",
+        "first_seal": "13:07:54"
+      },
+      {
+        "code": "002543",
+        "name": "万和电气",
+        "price": 7.57,
+        "pct": 10.03,
+        "turnover": 5.29,
+        "limit_days": 1,
+        "seal_fund": 121869626,
+        "break_times": 0,
+        "industry": "厨卫电器",
+        "first_seal": "13:51:57"
+      },
+      {
+        "code": "603113",
+        "name": "金能科技",
+        "price": 5.15,
+        "pct": 10.04,
+        "turnover": 4.47,
+        "limit_days": 1,
+        "seal_fund": 35513689,
+        "break_times": 0,
+        "industry": "化学原料",
+        "first_seal": "14:12:02"
+      }
+    ]
+  },
+  "limitup_reasons": [
+    {
+      "code": "001301",
+      "name": "尚太科技",
+      "pct": 10.0071,
+      "reason": "负极材料+半年报+产能扩张",
+      "high_days": "首板"
+    },
+    {
+      "code": "600371",
+      "name": "万向德农",
+      "pct": 9.9509,
+      "reason": "转基因+粮食概念+玉米种业",
+      "high_days": "2天2板"
+    },
+    {
+      "code": "301211",
+      "name": "亨迪药业",
+      "pct": 19.967,
+      "reason": "创新药+布洛芬+原料药",
+      "high_days": "首板"
+    },
+    {
+      "code": "001338",
+      "name": "永顺泰",
+      "pct": 10.0571,
+      "reason": "粮食概念+麦芽+啤酒+国企",
+      "high_days": "首板"
+    },
+    {
+      "code": "603113",
+      "name": "金能科技",
+      "pct": 10.0427,
+      "reason": "焦炭+炭黑+化工涨价",
+      "high_days": "首板"
+    },
+    {
+      "code": "301130",
+      "name": "西点药业",
+      "pct": 19.9856,
+      "reason": "创新药+瑞香素+化学制药",
+      "high_days": "4天2板"
+    },
+    {
+      "code": "002543",
+      "name": "万和电气",
+      "pct": 10.0291,
+      "reason": "热泵+厨卫电器+海外布局",
+      "high_days": "首板"
+    },
+    {
+      "code": "000059",
+      "name": "华锦股份",
+      "pct": 9.9783,
+      "reason": "石化+化肥+央企+半年报预增",
+      "high_days": "首板"
+    },
+    {
+      "code": "002040",
+      "name": "南京港",
+      "pct": 9.9515,
+      "reason": "原油中转+国企+业绩增长",
+      "high_days": "首板"
+    },
+    {
+      "code": "001400",
+      "name": "江顺科技",
+      "pct": 9.9962,
+      "reason": "商业航天+3D打印+铝挤压模具+液冷",
+      "high_days": "首板"
+    },
+    {
+      "code": "300911",
+      "name": "亿田智能",
+      "pct": 19.982,
+      "reason": "算力大单+算力中心+集成灶",
+      "high_days": "首板"
+    },
+    {
+      "code": "603366",
+      "name": "日出东方",
+      "pct": 9.9424,
+      "reason": "中报扣非净利增长+储能+厨卫电器",
+      "high_days": "首板"
+    },
+    {
+      "code": "603290",
+      "name": "斯达半导",
+      "pct": 10.0011,
+      "reason": "IGBT+SiC+功率半导体+低空经济",
+      "high_days": "首板"
+    },
+    {
+      "code": "000560",
+      "name": "我爱我家",
+      "pct": 10.1852,
+      "reason": "房产经纪+长租公寓+AI应用",
+      "high_days": "首板"
+    },
+    {
+      "code": "600610",
+      "name": "中毅达",
+      "pct": 10.0141,
+      "reason": "季戊四醇+业绩增长+央企",
+      "high_days": "首板"
+    },
+    {
+      "code": "601015",
+      "name": "陕西黑猫",
+      "pct": 10.089,
+      "reason": "煤炭+焦炭+煤矿投产",
+      "high_days": "首板"
+    },
+    {
+      "code": "603848",
+      "name": "好太太",
+      "pct": 9.9775,
+      "reason": "半年报增长+智能家居+智能晾晒",
+      "high_days": "首板"
+    },
+    {
+      "code": "300069",
+      "name": "金利华电",
+      "pct": 20.0139,
+      "reason": "商业航天+特高压绝缘子+并购重组",
+      "high_days": "首板"
+    },
+    {
+      "code": "600403",
+      "name": "大有能源",
+      "pct": 10.0,
+      "reason": "煤炭+河南国资",
+      "high_days": "首板"
+    },
+    {
+      "code": "000723",
+      "name": "美锦能源",
+      "pct": 9.887,
+      "reason": "焦炭+氢能全产业链+中报预计减亏",
+      "high_days": "首板"
+    },
+    {
+      "code": "001277",
+      "name": "速达股份",
+      "pct": 10.01,
+      "reason": "煤炭设备后市场+农机+海外布局+高管增持",
+      "high_days": "首板"
+    },
+    {
+      "code": "002412",
+      "name": "汉森制药",
+      "pct": 10.0654,
+      "reason": "创新药+中药+中报预增",
+      "high_days": "首板"
+    },
+    {
+      "code": "000526",
+      "name": "学大教育",
+      "pct": 9.9887,
+      "reason": "半年报增长+职业教育+个性化教育",
+      "high_days": "2天2板"
+    },
+    {
+      "code": "000020",
+      "name": "深华发A",
+      "pct": 10.008,
+      "reason": "显示器+深圳旧改+物业管理",
+      "high_days": "2天2板"
+    },
+    {
+      "code": "603801",
+      "name": "志邦家居",
+      "pct": 10.0503,
+      "reason": "定制家居+整家一体化+老房焕新+海外业务",
+      "high_days": "首板"
+    },
+    {
+      "code": "000736",
+      "name": "中交发展",
+      "pct": 10.1124,
+      "reason": "轻资产运营+物业服务+数据中心+中交房地产控股",
+      "high_days": "首板"
+    },
+    {
+      "code": "603102",
+      "name": "百合股份",
+      "pct": 10.0,
+      "reason": "宠物经济+营养保健食品+半年报营收增长",
+      "high_days": "9天4板"
+    },
+    {
+      "code": "002900",
+      "name": "哈三联",
+      "pct": 9.993,
+      "reason": "创新药+化学制药+中报预计减亏",
+      "high_days": "首板"
+    },
+    {
+      "code": "600783",
+      "name": "鲁信创投",
+      "pct": 10.0272,
+      "reason": "参股蓝箭航天+创投+机器人+山东国资",
+      "high_days": "首板"
+    },
+    {
+      "code": "603395",
+      "name": "红四方",
+      "pct": 10.0152,
+      "reason": "新疆煤化工项目+复合肥+央企",
+      "high_days": "3天3板"
+    },
+    {
+      "code": "603506",
+      "name": "南都物业",
+      "pct": 10.0,
+      "reason": "物业服务+机器人+业绩增长",
+      "high_days": "首板"
+    },
+    {
+      "code": "000505",
+      "name": "京粮控股",
+      "pct": 10.0147,
+      "reason": "粮食概念+油脂加工+国企改革",
+      "high_days": "3天3板"
+    },
+    {
+      "code": "002953",
+      "name": "日丰股份",
+      "pct": 10.0375,
+      "reason": "拟投资+光纤预制棒+机器人电缆+通信装备组件",
+      "high_days": "2天2板"
+    },
+    {
+      "code": "601011",
+      "name": "宝泰隆",
+      "pct": 10.1449,
+      "reason": "石墨烯导热膜+煤化工+石墨矿",
+      "high_days": "首板"
+    },
+    {
+      "code": "600127",
+      "name": "金健米业",
+      "pct": 9.9859,
+      "reason": "粮食安全+粮油加工+湖南国资",
+      "high_days": "3天3板"
+    },
+    {
+      "code": "002333",
+      "name": "罗普斯金",
+      "pct": 10.0694,
+      "reason": "拟收购盟萤科技+检测业务+铝型材",
+      "high_days": "首板"
+    }
+  ],
+  "dragon_tiger": [
+    {
+      "code": "600783",
+      "name": "鲁信创投",
+      "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+      "pct": 10.0272,
+      "net_amt_yi": 1.41
+    },
+    {
+      "code": "601011",
+      "name": "宝泰隆",
+      "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+      "pct": 10.1449,
+      "net_amt_yi": 1.35
+    },
+    {
+      "code": "601011",
+      "name": "宝泰隆",
+      "reason": "单只标的证券的当日融资买入数量达到当日该证券总交易量的50％以上",
+      "pct": 10.1449,
+      "net_amt_yi": 1.35
+    },
+    {
+      "code": "603580",
+      "name": "艾艾精工",
+      "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+      "pct": 6.2012,
+      "net_amt_yi": 0.96
+    },
+    {
+      "code": "301211",
+      "name": "亨迪药业",
+      "reason": "日涨幅达到15%的前5只证券",
+      "pct": 19.967,
+      "net_amt_yi": 0.92
+    },
+    {
+      "code": "600172",
+      "name": "黄河旋风",
+      "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+      "pct": 0.6983,
+      "net_amt_yi": 0.77
+    },
+    {
+      "code": "600313",
+      "name": "农发种业",
+      "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+      "pct": 5.1622,
+      "net_amt_yi": 0.75
+    },
+    {
+      "code": "000723",
+      "name": "美锦能源",
+      "reason": "日涨幅偏离值达到7%的前5只证券",
+      "pct": 9.887,
+      "net_amt_yi": 0.48
+    },
+    {
+      "code": "300503",
+      "name": "昊志机电",
+      "reason": "日跌幅达到15%的前5只证券",
+      "pct": -15.1829,
+      "net_amt_yi": 0.48
+    },
+    {
+      "code": "000505",
+      "name": "京粮控股",
+      "reason": "日涨幅偏离值达到7%的前5只证券",
+      "pct": 10.0147,
+      "net_amt_yi": 0.48
+    },
+    {
+      "code": "123280",
+      "name": "三鑫转债",
+      "reason": "上市首日可转债",
+      "pct": 57.3,
+      "net_amt_yi": 0.48
+    },
+    {
+      "code": "301130",
+      "name": "西点药业",
+      "reason": "日涨幅达到15%的前5只证券",
+      "pct": 19.9856,
+      "net_amt_yi": 0.47
+    },
+    {
+      "code": "601015",
+      "name": "陕西黑猫",
+      "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+      "pct": 10.089,
+      "net_amt_yi": 0.46
+    },
+    {
+      "code": "300911",
+      "name": "亿田智能",
+      "reason": "日涨幅达到15%的前5只证券",
+      "pct": 19.982,
+      "net_amt_yi": 0.42
+    },
+    {
+      "code": "118075",
+      "name": "N奥普转",
+      "reason": "向不特定对象发行的可转债上市首日交易公开信息",
+      "pct": 57.3,
+      "net_amt_yi": 0.42
+    },
+    {
+      "code": "603113",
+      "name": "金能科技",
+      "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+      "pct": 10.0427,
+      "net_amt_yi": 0.36
+    },
+    {
+      "code": "600683",
+      "name": "京投发展",
+      "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+      "pct": -10.0372,
+      "net_amt_yi": 0.3
+    },
+    {
+      "code": "300069",
+      "name": "金利华电",
+      "reason": "日涨幅达到15%的前5只证券",
+      "pct": 20.0139,
+      "net_amt_yi": 0.27
+    },
+    {
+      "code": "002953",
+      "name": "日丰股份",
+      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+      "pct": 10.0375,
+      "net_amt_yi": 0.26
+    },
+    {
+      "code": "603801",
+      "name": "志邦家居",
+      "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+      "pct": 10.0503,
+      "net_amt_yi": 0.25
+    },
+    {
+      "code": "000505",
+      "name": "京粮控股",
+      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+      "pct": 10.0147,
+      "net_amt_yi": 0.25
+    },
+    {
+      "code": "600613",
+      "name": "神奇制药",
+      "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+      "pct": 0.2577,
+      "net_amt_yi": 0.24
+    },
+    {
+      "code": "001301",
+      "name": "尚太科技",
+      "reason": "日涨幅偏离值达到7%的前5只证券",
+      "pct": 10.0071,
+      "net_amt_yi": 0.16
+    },
+    {
+      "code": "600354",
+      "name": "敦煌种业",
+      "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+      "pct": -2.0029,
+      "net_amt_yi": 0.06
+    },
+    {
+      "code": "300970",
+      "name": "华绿生物",
+      "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+      "pct": 4.0166,
+      "net_amt_yi": 0.05
+    },
+    {
+      "code": "001400",
+      "name": "江顺科技",
+      "reason": "日涨幅偏离值达到7%的前5只证券",
+      "pct": 9.9962,
+      "net_amt_yi": 0.04
+    },
+    {
+      "code": "600127",
+      "name": "金健米业",
+      "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+      "pct": 9.9859,
+      "net_amt_yi": 0.03
+    },
+    {
+      "code": "300718",
+      "name": "长盛轴承",
+      "reason": "日跌幅达到15%的前5只证券",
+      "pct": -16.0638,
+      "net_amt_yi": 0.02
+    },
+    {
+      "code": "605598",
+      "name": "上海港湾",
+      "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+      "pct": -9.9931,
+      "net_amt_yi": 0.01
+    },
+    {
+      "code": "920193",
+      "name": "吉和昌",
+      "reason": "当日换手率达到20%的前5只股票",
+      "pct": -1.6594,
+      "net_amt_yi": 0.0
+    },
+    {
+      "code": "920107",
+      "name": "恒兴股份",
+      "reason": "当日换手率达到20%的前5只股票",
+      "pct": -8.0183,
+      "net_amt_yi": -0.0
+    },
+    {
+      "code": "000526",
+      "name": "学大教育",
+      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+      "pct": 9.9887,
+      "net_amt_yi": -0.0
+    },
+    {
+      "code": "301516",
+      "name": "中远通",
+      "reason": "日换手率达到30%的前5只证券",
+      "pct": 3.6,
+      "net_amt_yi": -0.02
+    },
+    {
+      "code": "002041",
+      "name": "登海种业",
+      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+      "pct": 1.0204,
+      "net_amt_yi": -0.04
+    },
+    {
+      "code": "000020",
+      "name": "深华发A",
+      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+      "pct": 10.008,
+      "net_amt_yi": -0.04
+    },
+    {
+      "code": "600613",
+      "name": "神奇制药",
+      "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+      "pct": 0.2577,
+      "net_amt_yi": -0.07
+    },
+    {
+      "code": "600721",
+      "name": "百花医药",
+      "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+      "pct": 1.6296,
+      "net_amt_yi": -0.07
+    },
+    {
+      "code": "600272",
+      "name": "开开实业",
+      "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+      "pct": -6.8323,
+      "net_amt_yi": -0.08
+    },
+    {
+      "code": "920088",
+      "name": "科力股份",
+      "reason": "当日换手率达到20%的前5只股票",
+      "pct": 2.4151,
+      "net_amt_yi": -0.09
+    },
+    {
+      "code": "600165",
+      "name": "ST宁科",
+      "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+      "pct": 3.7415,
+      "net_amt_yi": -0.1
+    },
+    {
+      "code": "920176",
+      "name": "维琪科技",
+      "reason": "当日换手率达到20%的前5只股票",
+      "pct": -11.9332,
+      "net_amt_yi": -0.12
+    },
+    {
+      "code": "603790",
+      "name": "雅运股份",
+      "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+      "pct": -10.0112,
+      "net_amt_yi": -0.14
+    },
+    {
+      "code": "920083",
+      "name": "金戈新材",
+      "reason": "当日换手率达到20%的前5只股票",
+      "pct": 7.8819,
+      "net_amt_yi": -0.15
+    },
+    {
+      "code": "301295",
+      "name": "美硕科技",
+      "reason": "日跌幅达到15%的前5只证券",
+      "pct": -15.2418,
+      "net_amt_yi": -0.15
+    },
+    {
+      "code": "603395",
+      "name": "红四方",
+      "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+      "pct": 10.0152,
+      "net_amt_yi": -0.17
+    },
+    {
+      "code": "603137",
+      "name": "恒尚节能",
+      "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+      "pct": -10.0112,
+      "net_amt_yi": -0.21
+    },
+    {
+      "code": "301529",
+      "name": "福赛科技",
+      "reason": "日跌幅达到15%的前5只证券",
+      "pct": -16.181,
+      "net_amt_yi": -0.23
+    },
+    {
+      "code": "301520",
+      "name": "万邦医药",
+      "reason": "日换手率达到30%的前5只证券",
+      "pct": 4.4679,
+      "net_amt_yi": -0.23
+    },
+    {
+      "code": "600371",
+      "name": "万向德农",
+      "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+      "pct": 9.9509,
+      "net_amt_yi": -0.24
+    },
+    {
+      "code": "001260",
+      "name": "坤泰股份",
+      "reason": "连续三个交易日内，跌幅偏离值累计达到20%的证券",
+      "pct": -9.9949,
+      "net_amt_yi": -0.25
+    },
+    {
+      "code": "003032",
+      "name": "传智教育",
+      "reason": "日换手率达到20%的前5只证券",
+      "pct": 1.0654,
+      "net_amt_yi": -0.25
+    },
+    {
+      "code": "603319",
+      "name": "美湖股份",
+      "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+      "pct": -10.014,
+      "net_amt_yi": -0.38
+    },
+    {
+      "code": "603608",
+      "name": "天创时尚",
+      "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+      "pct": -10.0196,
+      "net_amt_yi": -0.4
+    },
+    {
+      "code": "300598",
+      "name": "诚迈科技",
+      "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+      "pct": 2.7457,
+      "net_amt_yi": -0.4
+    },
+    {
+      "code": "688152",
+      "name": "麒麟信安",
+      "reason": "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券",
+      "pct": 8.4334,
+      "net_amt_yi": -0.44
+    },
+    {
+      "code": "000560",
+      "name": "我爱我家",
+      "reason": "日涨幅偏离值达到7%的前5只证券",
+      "pct": 10.1852,
+      "net_amt_yi": -0.44
+    },
+    {
+      "code": "301106",
+      "name": "骏成科技",
+      "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+      "pct": 20.0189,
+      "net_amt_yi": -0.44
+    },
+    {
+      "code": "688218",
+      "name": "江苏北人",
+      "reason": "有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券",
+      "pct": -17.291,
+      "net_amt_yi": -0.57
+    },
+    {
+      "code": "603407",
+      "name": "长裕集团",
+      "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+      "pct": -1.3844,
+      "net_amt_yi": -0.58
+    },
+    {
+      "code": "300243",
+      "name": "瑞丰高材",
+      "reason": "日换手率达到30%的前5只证券",
+      "pct": -2.9412,
+      "net_amt_yi": -0.59
+    },
+    {
+      "code": "301106",
+      "name": "骏成科技",
+      "reason": "日涨幅达到15%的前5只证券",
+      "pct": 20.0189,
+      "net_amt_yi": -0.67
+    },
+    {
+      "code": "688828",
+      "name": "国仪公司",
+      "reason": "有价格涨跌幅限制的日换手率达到30%的前五只证券",
+      "pct": -18.208,
+      "net_amt_yi": -0.72
+    },
+    {
+      "code": "688828",
+      "name": "国仪公司",
+      "reason": "有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券",
+      "pct": -18.208,
+      "net_amt_yi": -0.72
+    },
+    {
+      "code": "603958",
+      "name": "哈森股份",
+      "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+      "pct": -8.0173,
+      "net_amt_yi": -0.73
+    },
+    {
+      "code": "603887",
+      "name": "城地香江",
+      "reason": "非S证券连续三个交易日内收盘价格跌幅偏离值累计达到20%的证券",
+      "pct": -9.971,
+      "net_amt_yi": -0.97
+    },
+    {
+      "code": "002346",
+      "name": "柘中股份",
+      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+      "pct": 0.7663,
+      "net_amt_yi": -1.02
+    },
+    {
+      "code": "002365",
+      "name": "永安药业",
+      "reason": "日换手率达到20%的前5只证券",
+      "pct": -7.8457,
+      "net_amt_yi": -1.12
+    },
+    {
+      "code": "300189",
+      "name": "神农种业",
+      "reason": "日换手率达到30%的前5只证券",
+      "pct": 0.1605,
+      "net_amt_yi": -1.2
+    },
+    {
+      "code": "000620",
+      "name": "盈新发展",
+      "reason": "日振幅值达到15%的前5只证券",
+      "pct": 3.8123,
+      "net_amt_yi": -1.28
+    },
+    {
+      "code": "002437",
+      "name": "誉衡药业",
+      "reason": "日振幅值达到15%的前5只证券",
+      "pct": -9.6639,
+      "net_amt_yi": -1.36
+    },
+    {
+      "code": "002437",
+      "name": "誉衡药业",
+      "reason": "日换手率达到20%的前5只证券",
+      "pct": -9.6639,
+      "net_amt_yi": -1.36
+    },
+    {
+      "code": "301717",
+      "name": "超纯应材",
+      "reason": "日换手率达到30%的前5只证券",
+      "pct": -19.0275,
+      "net_amt_yi": -1.42
+    },
+    {
+      "code": "301717",
+      "name": "超纯应材",
+      "reason": "日跌幅达到15%的前5只证券",
+      "pct": -19.0275,
+      "net_amt_yi": -1.42
+    },
+    {
+      "code": "002172",
+      "name": "澳洋健康",
+      "reason": "日振幅值达到15%的前5只证券",
+      "pct": -10.0223,
+      "net_amt_yi": -1.46
+    },
+    {
+      "code": "002172",
+      "name": "澳洋健康",
+      "reason": "日换手率达到20%的前5只证券",
+      "pct": -10.0223,
+      "net_amt_yi": -1.46
+    },
+    {
+      "code": "688585",
+      "name": "上纬新材",
+      "reason": "有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券",
+      "pct": -19.2994,
+      "net_amt_yi": -1.5
+    },
+    {
+      "code": "688141",
+      "name": "杰华特",
+      "reason": "有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券",
+      "pct": -16.4229,
+      "net_amt_yi": -1.63
+    },
+    {
+      "code": "001270",
+      "name": "铖昌科技",
+      "reason": "日振幅值达到15%的前5只证券",
+      "pct": -8.4233,
+      "net_amt_yi": -1.85
+    },
+    {
+      "code": "600722",
+      "name": "金牛化工",
+      "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+      "pct": -1.3825,
+      "net_amt_yi": -1.95
+    },
+    {
+      "code": "688017",
+      "name": "绿的谐波",
+      "reason": "有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券",
+      "pct": -17.6654,
+      "net_amt_yi": -1.96
+    },
+    {
+      "code": "002361",
+      "name": "神剑股份",
+      "reason": "日振幅值达到15%的前5只证券",
+      "pct": -7.0132,
+      "net_amt_yi": -2.65
+    },
+    {
+      "code": "002361",
+      "name": "神剑股份",
+      "reason": "日换手率达到20%的前5只证券",
+      "pct": -7.0132,
+      "net_amt_yi": -2.65
+    },
+    {
+      "code": "603186",
+      "name": "华正新材",
+      "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+      "pct": -4.9946,
+      "net_amt_yi": -8.43
+    }
+  ],
+  "seat_details": [
+    {
+      "code": "603186",
+      "inst_buy_yi": 0.0,
+      "inst_sell_yi": 13.22,
+      "inst_net_yi": -13.22,
+      "name": "华正新材"
+    },
+    {
+      "code": "002361",
+      "inst_buy_yi": 0.0,
+      "inst_sell_yi": 4.36,
+      "inst_net_yi": -4.36,
+      "name": "神剑股份"
+    },
+    {
+      "code": "002361",
+      "inst_buy_yi": 0.0,
+      "inst_sell_yi": 4.36,
+      "inst_net_yi": -4.36,
+      "name": "神剑股份"
+    },
+    {
+      "code": "688017",
+      "inst_buy_yi": 0.83,
+      "inst_sell_yi": 0.0,
+      "inst_net_yi": 0.83,
+      "name": "绿的谐波"
+    },
+    {
+      "code": "600722",
+      "inst_buy_yi": 0.0,
+      "inst_sell_yi": 0.0,
+      "inst_net_yi": 0.0,
+      "name": "金牛化工"
+    },
+    {
+      "code": "001270",
+      "inst_buy_yi": 0.18,
+      "inst_sell_yi": 1.25,
+      "inst_net_yi": -1.07,
+      "name": "铖昌科技"
+    }
+  ]
+}
