@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1120 380" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<text x="120" y="32.0" font-size="12" fill="#1e293b" text-anchor="end">元件(PCB/光模块)</text>
+<rect x="130" y="18.1" width="826.1" height="19.8" fill="#dc2626" rx="2"/>
+<text x="964.1" y="32.0" font-size="11.5" fill="#1e293b">15.86亿</text>
+<text x="120" y="68.0" font-size="12" fill="#1e293b" text-anchor="end">通信设备(光模块/CPO)</text>
+<rect x="130" y="54.1" width="750.6" height="19.8" fill="#dc2626" rx="2"/>
+<text x="888.6" y="68.0" font-size="11.5" fill="#1e293b">14.41亿</text>
+<text x="120" y="104.0" font-size="12" fill="#1e293b" text-anchor="end">一般零售</text>
+<rect x="130" y="90.1" width="345.9" height="19.8" fill="#dc2626" rx="2"/>
+<text x="483.9" y="104.0" font-size="11.5" fill="#1e293b">6.64亿</text>
+<text x="120" y="140.0" font-size="12" fill="#1e293b" text-anchor="end">种植业</text>
+<rect x="130" y="126.1" width="316.2" height="19.8" fill="#dc2626" rx="2"/>
+<text x="454.2" y="140.0" font-size="11.5" fill="#1e293b">6.07亿</text>
+<text x="120" y="176.0" font-size="12" fill="#1e293b" text-anchor="end">汽车零部件</text>
+<rect x="130" y="162.1" width="216.2" height="19.8" fill="#dc2626" rx="2"/>
+<text x="354.2" y="176.0" font-size="11.5" fill="#1e293b">4.15亿</text>
+<text x="120" y="212.0" font-size="12" fill="#1e293b" text-anchor="end">农产品加工</text>
+<rect x="130" y="198.1" width="209.4" height="19.8" fill="#dc2626" rx="2"/>
+<text x="347.4" y="212.0" font-size="11.5" fill="#1e293b">4.02亿</text>
+<text x="120" y="248.0" font-size="12" fill="#1e293b" text-anchor="end">饲料</text>
+<rect x="130" y="234.1" width="171.9" height="19.8" fill="#dc2626" rx="2"/>
+<text x="309.9" y="248.0" font-size="11.5" fill="#1e293b">3.30亿</text>
+<text x="120" y="284.0" font-size="12" fill="#1e293b" text-anchor="end">化学制品</text>
+<rect x="130" y="270.1" width="125.0" height="19.8" fill="#dc2626" rx="2"/>
+<text x="263.0" y="284.0" font-size="11.5" fill="#1e293b">2.40亿</text>
+<text x="120" y="320.0" font-size="12" fill="#1e293b" text-anchor="end">出版</text>
+<rect x="130" y="306.1" width="121.9" height="19.8" fill="#dc2626" rx="2"/>
+<text x="259.9" y="320.0" font-size="11.5" fill="#1e293b">2.34亿</text>
+<text x="120" y="356.0" font-size="12" fill="#1e293b" text-anchor="end">食品加工</text>
+<rect x="130" y="342.1" width="109.9" height="19.8" fill="#dc2626" rx="2"/>
+<text x="247.9" y="356.0" font-size="11.5" fill="#1e293b">2.11亿</text>
+</svg>
