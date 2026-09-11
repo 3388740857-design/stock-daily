@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-09-11 A股资金流向与主线复盘报告</title>
+<style>
+:root {
+  --bg: #f8fafc; --card: #fff; --text: #1e293b; --muted: #64748b;
+  --border: #e2e8f0; --accent: #1e40af; --red: #dc2626; --green: #16a34a;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.7; padding: 20px 16px;
+}
+.container { max-width: 1200px; margin: 0 auto; }
+.header {
+  background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
+  color: #fff; border-radius: 12px; padding: 28px 32px; margin-bottom: 16px;
+}
+.header h1 { font-size: 1.5rem; font-weight: 700; }
+.header .meta { opacity: 0.85; font-size: 0.88rem; margin-top: 8px; }
+.tldr {
+  background: var(--card); border: 1px solid #bfdbfe; border-left: 4px solid var(--accent);
+  border-radius: 10px; padding: 18px 22px; margin-bottom: 20px;
+}
+.tldr h2 { font-size: 1rem; color: var(--accent); margin-bottom: 10px; }
+.tldr .verdict { font-size: 1.1rem; font-weight: 700; color: #dc2626; margin-bottom: 8px; }
+.tldr ul { padding-left: 1.2em; font-size: 0.9rem; }
+.tldr li { margin: 5px 0; }
+h2.section {
+  font-size: 1.08rem; font-weight: 600; margin: 28px 0 14px;
+  padding-bottom: 8px; border-bottom: 2px solid var(--accent); color: var(--accent);
+}
+.focus-badge {
+  display: inline-block; background: #dc2626; color: #fff; font-size: 0.72rem;
+  font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-right: 8px; vertical-align: middle;
+}
+.grid { display: grid; gap: 12px; margin-bottom: 16px; }
+.grid-2 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.grid-3 { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.grid-4 { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 16px 18px;
+}
+.card .label { font-size: 0.8rem; color: var(--muted); font-weight: 500; }
+.card .val { font-size: 1.45rem; font-weight: 700; margin-top: 4px; }
+.card .sub { font-size: 0.84rem; color: var(--muted); margin-top: 4px; }
+.up { color: var(--red); } .down { color: var(--green); }
+.chart-box { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin-bottom: 14px; }
+.chart-box h3 { font-size: 0.95rem; margin-bottom: 8px; color: var(--accent); }
+.chart-box .chart { width: 100%; }
+.chart-box .chart svg { width: 100%; height: auto; display: block; }
+.analysis-block {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 18px 22px; margin-bottom: 14px;
+}
+.analysis-block h3 { font-size: 0.95rem; color: var(--accent); margin-bottom: 10px; }
+.analysis-block p { font-size: 0.9rem; margin: 6px 0; }
+table { width: 100%; border-collapse: collapse; font-size: 0.85rem; background: var(--card); border-radius: 10px; overflow: hidden; border: 1px solid var(--border); margin-bottom: 16px; }
+th { background: #f1f5f9; color: var(--muted); font-weight: 500; padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); white-space: nowrap; }
+td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+tr:last-child td { border-bottom: none; }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 500; }
+.tag-red { background: #fef2f2; color: #dc2626; }
+.tag-green { background: #f0fdf4; color: #16a34a; }
+.tag-blue { background: #eff6ff; color: #2563eb; }
+.tag-orange { background: #fff7ed; color: #ea580c; }
+.tag-purple { background: #faf5ff; color: #9333ea; }
+.highlight-box {
+  background: linear-gradient(135deg, #fef2f2 0%, #fff7ed 100%);
+  border: 1px solid #fecaca; border-radius: 10px; padding: 16px 20px; margin-bottom: 16px;
+}
+.highlight-box h3 { color: #dc2626; font-size: 0.95rem; margin-bottom: 8px; }
+.highlight-box p { font-size: 0.88rem; margin: 4px 0; }
+.footer {
+  margin-top: 32px; padding: 14px; border-top: 1px solid var(--border);
+  color: var(--muted); font-size: 0.78rem; text-align: center; line-height: 1.8;
+}
+.warn { color: #ea580c; font-weight: 500; }
+.src { font-size: 0.72rem; color: var(--muted); margin-top: -8px; margin-bottom: 14px; }
+@media print {
+  .chart-box, .analysis-block, .card, .highlight-box, table, .tldr { page-break-inside: avoid; break-inside: avoid; }
+  h2.section { page-break-after: avoid; break-after: avoid; }
+  .grid { page-break-inside: avoid; break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>2026年9月11日（周五）A股资金流向 &amp; 主线复盘</h1>
+  <div class="meta">数据截止：2026-09-11 收盘 | 数据来源：东方财富涨停池/炸板池/跌停池/龙虎榜、同花顺涨停原因题材库、新浪财经全市场行情（多源交叉核对）</div>
+</div>
+
+<div class="tldr">
+  <h2>首屏结论</h2>
+  <div class="verdict">四日连跌破位、跌停数量翻倍：AI硬件(PCB/光模块)逆势活跃，但难挡放量下跌的大盘失血</div>
+  <ul>
+    <li><strong>定性：</strong>全市场643家上涨/4869家下跌（上涨占比仅11.6%，为近两周最低），两市成交1.99万亿元，较昨日（1.66万亿）逆势放量约19.5%；涨停40只中33只为首板（82.5%），炸板18只（炸板率31.0%），跌停21只，较昨日（11只）近乎翻倍。</li>
+    <li><strong>核心信号：</strong>以涨停家数+封单资金作为板块资金关注度代理指标，元件板块（AI服务器PCB/MLCC）以9只涨停、封单资金合计11.94亿断层第一，通信设备（光模块/CPO，3只涨停、6日全部有涨停）与之呼应，是当日仅有的两个呈现"多股共振"的方向；但板块龙头风华高科（+10%，封单5.74亿全组最高）同时现身龙虎榜且机构专用席位净卖出0.82亿，量价背离明显。</li>
+    <li><strong>资金焦点：</strong>PCB/AI服务器硬件产业链是当日唯一有资金合力的方向——元件、通信设备两大板块9只今日涨停股中7只题材直接关联"AI服务器PCB/AI算力/光模块"，叠加龙虎榜PCB龙头金安国纪机构净买入6.72亿（全场最大净买入），指向该链条是存量资金中相对确定性最高的线索。</li>
+    <li><strong>风险警示：</strong>上证指数收报3888.11点，跌破9/4以来10个交易日盘中低点（3930.12），四个交易日上涨家数持续萎缩（3417→1794→955→643），叠加成交额逆势放量、跌停数量4日环比翻倍（11→21），是加速下跌而非缩量出清的信号；6日持续性主线种植业（亚盛集团、新赛股份等）今日集体转为跌停，见顶信号明确。</li>
+  </ul>
+</div>
+
+<h2 class="section">一、六大指数收盘</h2>
+
+<div class="grid grid-3">
+  <div class="card">
+    <div class="label">上证指数</div>
+    <div class="val down">3888.11</div>
+    <div class="sub down">-1.18% (-46.29) · 成交 9581.86亿</div>
+  </div>
+  <div class="card">
+    <div class="label">创业板指</div>
+    <div class="val down">3322.04</div>
+    <div class="sub down">-0.49% (-16.38) · 成交 4577.45亿</div>
+  </div>
+  <div class="card">
+    <div class="label">科创50</div>
+    <div class="val down">1553.39</div>
+    <div class="sub down">-1.01% (-15.83) · 成交 778.80亿</div>
+  </div>
+  <div class="card">
+    <div class="label">沪深300</div>
+    <div class="val down">4510.16</div>
+    <div class="sub down">-0.84% (-38.23) · 成交 5222.07亿</div>
+  </div>
+  <div class="card">
+    <div class="label">中证500</div>
+    <div class="val down">7580.54</div>
+    <div class="sub down">-1.78% (-137.26) · 成交 3538.55亿</div>
+  </div>
+  <div class="card">
+    <div class="label">中证1000</div>
+    <div class="val down">7427.24</div>
+    <div class="sub down">-2.12% (-160.51) · 成交 4210.33亿</div>
+  </div>
+</div>
+
+<div class="chart-box">
+  <h3>近10个交易日六大指数走势</h3>
+  <div class="chart"><svg viewBox="0 0 1120 380" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<line x1="55" y1="350.0" x2="1100" y2="350.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="354.0" font-size="11" fill="#64748b" text-anchor="end">0</text>
+<line x1="55" y1="286.0" x2="1100" y2="286.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="290.0" font-size="11" fill="#64748b" text-anchor="end">1,749</text>
+<line x1="55" y1="222.0" x2="1100" y2="222.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="226.0" font-size="11" fill="#64748b" text-anchor="end">3,499</text>
+<line x1="55" y1="158.0" x2="1100" y2="158.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="162.0" font-size="11" fill="#64748b" text-anchor="end">5,248</text>
+<line x1="55" y1="94.0" x2="1100" y2="94.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="98.0" font-size="11" fill="#64748b" text-anchor="end">6,998</text>
+<line x1="55" y1="30.0" x2="1100" y2="30.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="34.0" font-size="11" fill="#64748b" text-anchor="end">8,747</text>
+<text x="55.0" y="368" font-size="11" fill="#64748b" text-anchor="middle">08/31</text>
+<text x="171.1" y="368" font-size="11" fill="#64748b" text-anchor="middle">09/01</text>
+<text x="287.2" y="368" font-size="11" fill="#64748b" text-anchor="middle">09/02</text>
+<text x="403.3" y="368" font-size="11" fill="#64748b" text-anchor="middle">09/03</text>
+<text x="519.4" y="368" font-size="11" fill="#64748b" text-anchor="middle">09/04</text>
+<text x="635.6" y="368" font-size="11" fill="#64748b" text-anchor="middle">09/07</text>
+<text x="751.7" y="368" font-size="11" fill="#64748b" text-anchor="middle">09/08</text>
+<text x="867.8" y="368" font-size="11" fill="#64748b" text-anchor="middle">09/09</text>
+<text x="983.9" y="368" font-size="11" fill="#64748b" text-anchor="middle">09/10</text>
+<text x="1100.0" y="368" font-size="11" fill="#64748b" text-anchor="middle">09/11</text>
+<polyline points="55.0,204.2 171.1,204.4 287.2,205.8 403.3,205.8 519.4,206.2 635.6,206.1 751.7,205.8 867.8,205.4 983.9,206.1 1100.0,207.8" fill="none" stroke="#dc2626" stroke-width="2"/>
+<circle cx="55.0" cy="204.2" r="3" fill="#dc2626"/>
+<circle cx="171.1" cy="204.4" r="3" fill="#dc2626"/>
+<circle cx="287.2" cy="205.8" r="3" fill="#dc2626"/>
+<circle cx="403.3" cy="205.8" r="3" fill="#dc2626"/>
+<circle cx="519.4" cy="206.2" r="3" fill="#dc2626"/>
+<circle cx="635.6" cy="206.1" r="3" fill="#dc2626"/>
+<circle cx="751.7" cy="205.8" r="3" fill="#dc2626"/>
+<circle cx="867.8" cy="205.4" r="3" fill="#dc2626"/>
+<circle cx="983.9" cy="206.1" r="3" fill="#dc2626"/>
+<circle cx="1100.0" cy="207.8" r="3" fill="#dc2626"/>
+<polyline points="55.0,224.2 171.1,225.9 287.2,228.8 403.3,228.8 519.4,229.8 635.6,225.7 751.7,227.1 867.8,227.3 983.9,227.9 1100.0,228.5" fill="none" stroke="#2563eb" stroke-width="2"/>
+<circle cx="55.0" cy="224.2" r="3" fill="#2563eb"/>
+<circle cx="171.1" cy="225.9" r="3" fill="#2563eb"/>
+<circle cx="287.2" cy="228.8" r="3" fill="#2563eb"/>
+<circle cx="403.3" cy="228.8" r="3" fill="#2563eb"/>
+<circle cx="519.4" cy="229.8" r="3" fill="#2563eb"/>
+<circle cx="635.6" cy="225.7" r="3" fill="#2563eb"/>
+<circle cx="751.7" cy="227.1" r="3" fill="#2563eb"/>
+<circle cx="867.8" cy="227.3" r="3" fill="#2563eb"/>
+<circle cx="983.9" cy="227.9" r="3" fill="#2563eb"/>
+<circle cx="1100.0" cy="228.5" r="3" fill="#2563eb"/>
+<polyline points="55.0,288.4 171.1,289.7 287.2,290.8 403.3,291.1 519.4,292.3 635.6,290.9 751.7,291.8 867.8,292.2 983.9,292.6 1100.0,293.2" fill="none" stroke="#9333ea" stroke-width="2"/>
+<circle cx="55.0" cy="288.4" r="3" fill="#9333ea"/>
+<circle cx="171.1" cy="289.7" r="3" fill="#9333ea"/>
+<circle cx="287.2" cy="290.8" r="3" fill="#9333ea"/>
+<circle cx="403.3" cy="291.1" r="3" fill="#9333ea"/>
+<circle cx="519.4" cy="292.3" r="3" fill="#9333ea"/>
+<circle cx="635.6" cy="290.9" r="3" fill="#9333ea"/>
+<circle cx="751.7" cy="291.8" r="3" fill="#9333ea"/>
+<circle cx="867.8" cy="292.2" r="3" fill="#9333ea"/>
+<circle cx="983.9" cy="292.6" r="3" fill="#9333ea"/>
+<circle cx="1100.0" cy="293.2" r="3" fill="#9333ea"/>
+<polyline points="55.0,180.8 171.1,181.3 287.2,183.6 403.3,183.5 519.4,183.6 635.6,182.6 751.7,183.2 867.8,182.7 983.9,183.6 1100.0,185.0" fill="none" stroke="#ea580c" stroke-width="2"/>
+<circle cx="55.0" cy="180.8" r="3" fill="#ea580c"/>
+<circle cx="171.1" cy="181.3" r="3" fill="#ea580c"/>
+<circle cx="287.2" cy="183.6" r="3" fill="#ea580c"/>
+<circle cx="403.3" cy="183.5" r="3" fill="#ea580c"/>
+<circle cx="519.4" cy="183.6" r="3" fill="#ea580c"/>
+<circle cx="635.6" cy="182.6" r="3" fill="#ea580c"/>
+<circle cx="751.7" cy="183.2" r="3" fill="#ea580c"/>
+<circle cx="867.8" cy="182.7" r="3" fill="#ea580c"/>
+<circle cx="983.9" cy="183.6" r="3" fill="#ea580c"/>
+<circle cx="1100.0" cy="185.0" r="3" fill="#ea580c"/>
+<polyline points="55.0,59.1 171.1,62.5 287.2,67.2 403.3,66.3 519.4,70.0 635.6,66.1 751.7,65.7 867.8,65.8 983.9,67.7 1100.0,72.7" fill="none" stroke="#0d9488" stroke-width="2"/>
+<circle cx="55.0" cy="59.1" r="3" fill="#0d9488"/>
+<circle cx="171.1" cy="62.5" r="3" fill="#0d9488"/>
+<circle cx="287.2" cy="67.2" r="3" fill="#0d9488"/>
+<circle cx="403.3" cy="66.3" r="3" fill="#0d9488"/>
+<circle cx="519.4" cy="70.0" r="3" fill="#0d9488"/>
+<circle cx="635.6" cy="66.1" r="3" fill="#0d9488"/>
+<circle cx="751.7" cy="65.7" r="3" fill="#0d9488"/>
+<circle cx="867.8" cy="65.8" r="3" fill="#0d9488"/>
+<circle cx="983.9" cy="67.7" r="3" fill="#0d9488"/>
+<circle cx="1100.0" cy="72.7" r="3" fill="#0d9488"/>
+<polyline points="55.0,65.7 171.1,68.6 287.2,72.6 403.3,72.0 519.4,75.3 635.6,70.5 751.7,69.8 867.8,70.2 983.9,72.4 1100.0,78.3" fill="none" stroke="#a16207" stroke-width="2"/>
+<circle cx="55.0" cy="65.7" r="3" fill="#a16207"/>
+<circle cx="171.1" cy="68.6" r="3" fill="#a16207"/>
+<circle cx="287.2" cy="72.6" r="3" fill="#a16207"/>
+<circle cx="403.3" cy="72.0" r="3" fill="#a16207"/>
+<circle cx="519.4" cy="75.3" r="3" fill="#a16207"/>
+<circle cx="635.6" cy="70.5" r="3" fill="#a16207"/>
+<circle cx="751.7" cy="69.8" r="3" fill="#a16207"/>
+<circle cx="867.8" cy="70.2" r="3" fill="#a16207"/>
+<circle cx="983.9" cy="72.4" r="3" fill="#a16207"/>
+<circle cx="1100.0" cy="78.3" r="3" fill="#a16207"/>
+<line x1="55" y1="14" x2="71" y2="14" stroke="#dc2626" stroke-width="3"/>
+<text x="75" y="18" font-size="11" fill="#1e293b">上证指数</text>
+<line x1="141" y1="14" x2="157" y2="14" stroke="#2563eb" stroke-width="3"/>
+<text x="161" y="18" font-size="11" fill="#1e293b">创业板指</text>
+<line x1="227" y1="14" x2="243" y2="14" stroke="#9333ea" stroke-width="3"/>
+<text x="247" y="18" font-size="11" fill="#1e293b">科创50</text>
+<line x1="313" y1="14" x2="329" y2="14" stroke="#ea580c" stroke-width="3"/>
+<text x="333" y="18" font-size="11" fill="#1e293b">沪深300</text>
+<line x1="411" y1="14" x2="427" y2="14" stroke="#0d9488" stroke-width="3"/>
+<text x="431" y="18" font-size="11" fill="#1e293b">中证500</text>
+<line x1="509" y1="14" x2="525" y2="14" stroke="#a16207" stroke-width="3"/>
+<text x="529" y="18" font-size="11" fill="#1e293b">中证1000</text>
+</svg></div>
+</div>
+
+<div class="analysis-block">
+  <h3>指数解读</h3>
+  <p><strong>六大指数全线收跌，且中证1000(-2.12%)、中证500(-1.78%)跌幅明显大于沪深300(-0.84%)、创业板指(-0.49%)，</strong>小盘/题材股跌幅显著领先大盘蓝筹，是前期活跃资金加速兑现、而非全市场无差别杀跌的特征。</p>
+  <p><strong>上证指数收报3888.11点，跌破9/4以来10个交易日的盘中低点（3930.12），是本轮回调的技术性破位；</strong>科创50(-1.01%)跌幅大于创业板指(-0.49%)，反映硬科技/半导体方向同样承压，未能独立走强。</p>
+  <p><strong>拉长至近10个交易日看，六大指数自8/31以来已从阶段高点持续走低</strong>（上证指数由8/31的3986.30降至今日3888.11，累计跌幅2.46%），9/8~9/9曾小幅反弹，但9/10~9/11连续两日加速下跌，反弹未能延续，弱势格局进一步确认。</p>
+</div>
+
+<h2 class="section">二、市场特征</h2>
+
+<div class="grid grid-2">
+  <div class="card">
+    <div class="label">涨跌家数（全市场A股，共5561只）</div>
+    <div class="val down">643↑ / 4869↓</div>
+    <div class="sub">上涨占比 <span class="down">11.6%</span> · 平盘 49 · 涨停 <span class="up">40</span>（首板33/连板7）· 跌停 <span class="down">21</span> · 炸板 18（炸板率31.0%）</div>
+  </div>
+  <div class="card">
+    <div class="label">两市成交额</div>
+    <div class="val">1.99万亿</div>
+    <div class="sub">较昨日（1.66万亿）放量约19.5%，但上涨家数占比反而降至11.6%（近两周最低），是"放量下跌"而非"缩量止跌"的典型信号</div>
+  </div>
+</div>
+
+<div class="chart-box">
+  <h3>全市场涨跌幅分布</h3>
+  <div class="chart"><svg viewBox="0 0 1120 340" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<line x1="50" y1="295.0" x2="1100" y2="295.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="299.0" font-size="10.5" fill="#64748b" text-anchor="end">0</text>
+<line x1="50" y1="240.0" x2="1100" y2="240.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="244.0" font-size="10.5" fill="#64748b" text-anchor="end">612</text>
+<line x1="50" y1="185.0" x2="1100" y2="185.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="189.0" font-size="10.5" fill="#64748b" text-anchor="end">1,224</text>
+<line x1="50" y1="130.0" x2="1100" y2="130.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="134.0" font-size="10.5" fill="#64748b" text-anchor="end">1,836</text>
+<line x1="50" y1="75.0" x2="1100" y2="75.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="79.0" font-size="10.5" fill="#64748b" text-anchor="end">2,448</text>
+<line x1="50" y1="20.0" x2="1100" y2="20.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="42" y="24.0" font-size="10.5" fill="#64748b" text-anchor="end">3,060</text>
+<rect x="71.5" y="290.6" width="52.5" height="4.4" fill="#dc2626" rx="2"/>
+<text x="97.7" y="284.6" font-size="10" fill="#1e293b" text-anchor="middle">49</text>
+<text x="97.7" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">≥9.8%</text>
+<rect x="166.9" y="293.1" width="52.5" height="1.9" fill="#dc2626" rx="2"/>
+<text x="193.2" y="287.1" font-size="10" fill="#1e293b" text-anchor="middle">21</text>
+<text x="193.2" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">7~9.8%</text>
+<rect x="262.4" y="291.0" width="52.5" height="4.0" fill="#dc2626" rx="2"/>
+<text x="288.6" y="285.0" font-size="10" fill="#1e293b" text-anchor="middle">45</text>
+<text x="288.6" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">5~7%</text>
+<rect x="357.8" y="279.9" width="52.5" height="15.1" fill="#dc2626" rx="2"/>
+<text x="384.1" y="273.9" font-size="10" fill="#1e293b" text-anchor="middle">168</text>
+<text x="384.1" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">2~5%</text>
+<rect x="453.3" y="262.6" width="52.5" height="32.4" fill="#dc2626" rx="2"/>
+<text x="479.5" y="256.6" font-size="10" fill="#1e293b" text-anchor="middle">360</text>
+<text x="479.5" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">0~2%</text>
+<rect x="548.8" y="290.6" width="52.5" height="4.4" fill="#9ca3af" rx="2"/>
+<text x="575.0" y="284.6" font-size="10" fill="#1e293b" text-anchor="middle">49</text>
+<text x="575.0" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">平</text>
+<rect x="644.2" y="135.8" width="52.5" height="159.2" fill="#16a34a" rx="2"/>
+<text x="670.5" y="129.8" font-size="10" fill="#1e293b" text-anchor="middle">1,772</text>
+<text x="670.5" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">0~-2%</text>
+<rect x="739.7" y="45.0" width="52.5" height="250.0" fill="#16a34a" rx="2"/>
+<text x="765.9" y="39.0" font-size="10" fill="#1e293b" text-anchor="middle">2,782</text>
+<text x="765.9" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">-2~-5%</text>
+<rect x="835.1" y="276.3" width="52.5" height="18.7" fill="#16a34a" rx="2"/>
+<text x="861.4" y="270.3" font-size="10" fill="#1e293b" text-anchor="middle">208</text>
+<text x="861.4" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">-5~-7%</text>
+<rect x="930.6" y="288.4" width="52.5" height="6.6" fill="#16a34a" rx="2"/>
+<text x="956.8" y="282.4" font-size="10" fill="#1e293b" text-anchor="middle">73</text>
+<text x="956.8" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">-7~-9.8%</text>
+<rect x="1026.0" y="291.9" width="52.5" height="3.1" fill="#16a34a" rx="2"/>
+<text x="1052.3" y="285.9" font-size="10" fill="#1e293b" text-anchor="middle">34</text>
+<text x="1052.3" y="311.0" font-size="10.5" fill="#64748b" text-anchor="middle">≤-9.8%</text>
+</svg></div>
+</div>
+<div class="src">注：涨停/跌停精确值取自东方财富涨停池口径（40/21）；分布柱状图为全市场个股涨跌幅区间近似统计（以±9.8%为涨跌停粗筛阈值，不同板块涨跌停幅度不同，柱状图仅反映整体形态）。</div>
+
+<div class="grid grid-2">
+  <div class="analysis-block">
+    <h3>涨跌停结构：赚钱效应恶化，跌停数量四日翻倍</h3>
+    <p>今日涨停40只中<strong>33只为首板（82.5%），连板仅7只（2板4只/3板2只/4板1只）</strong>，最高连板高度仅4板1只（瑞尔特），连板梯队薄弱。<strong>炸板18只，炸板率31.0%，</strong>较昨日（38.6%）略有改善，但改善主要因涨停总数下滑，并非资金承接力真正回升。</p>
+    <p>跌停21只，较昨日（11只）几乎翻倍，覆盖种植业、一般零售、酒店餐饮、多元金融、工业金属等多个方向，其中此前6日持续性主线种植业的亚盛集团、新赛股份直接由涨停龙头转为跌停，是本轮下跌中最典型的"主线见顶"案例（详见第五、八节）。</p>
+  </div>
+  <div class="analysis-block">
+    <h3>风格与情绪</h3>
+    <p><strong>今日：小盘 &lt;&lt; 大盘（中证1000-2.12% vs 沪深300-0.84%），</strong>前期活跃的小盘/题材股跌幅是大盘蓝筹的2.5倍以上。11.6%的上涨占比是近两周最低水平，市场情绪已从"退潮"进入"恐慌"阶段。</p>
+    <p>成交额逆势放量至1.99万亿元（较昨日+19.5%），但赚钱效应未见任何改善，指向存量资金正在加速离场而非新增资金进场抄底，短期不宜轻言"超跌反弹"。</p>
+  </div>
+</div>
+
+<h2 class="section">三、标的动态：龙头梯队</h2>
+
+<div class="analysis-block">
+  <h3>今日资金关注度最高的个股（价格/资金均来自涨停池与龙虎榜数据）</h3>
+  <table>
+    <thead><tr><th>层级</th><th>代码</th><th>名称</th><th>涨跌幅</th><th>龙虎榜/机构资金</th><th>逻辑</th></tr></thead>
+    <tbody>
+      <tr><td><span class="tag tag-red">核心龙头</span></td><td>sz002636</td><td>金安国纪</td><td class="up">+7.86%</td><td>机构专用席位净买入6.72亿（全场最大净买入，龙虎榜净买合计更高）</td><td>PCB/覆铜板，近三日累计涨幅达20%触发龙虎榜，机构资金确认力度全场最强</td></tr>
+      <tr><td><span class="tag tag-red">核心龙头</span></td><td>sz002815</td><td>崇达技术</td><td class="up">+10.03%</td><td>封单1.26亿，未上龙虎榜</td><td>AI服务器PCB+高端PCB+股份回购，元件板块今日首板龙头</td></tr>
+      <tr><td><span class="tag tag-orange">容量中军</span></td><td>sz000823</td><td>超声电子</td><td class="up">+10.00%</td><td>封单1.28亿，未上龙虎榜</td><td>PCB+高阶HDI+AI算力，元件板块连板高度最高（5天3板）</td></tr>
+      <tr><td><span class="tag tag-orange">容量中军</span></td><td>sz001232</td><td>嘉立创</td><td class="up">+10.00%</td><td>封单1.54亿，未上龙虎榜</td><td>PCB制造+EDA软件+业绩增长+次新股，产业链一体化叙事完整</td></tr>
+      <tr><td><span class="tag tag-blue">20cm弹性</span></td><td>sz300563</td><td>神宇股份</td><td class="up">+19.98%</td><td>未上龙虎榜（涨幅居全场第二）</td><td>高速数据线+商业航天+射频电缆，通信设备板块今日最大涨幅</td></tr>
+      <tr><td><span class="tag tag-blue">20cm弹性</span></td><td>sh688143</td><td>长盈通</td><td class="up">+15.49%</td><td>机构专用席位净买入0.09亿（基本持平）</td><td>科创板次新股，触发"收盘价格涨幅达到15%前五只证券"标准</td></tr>
+      <tr><td><span class="tag tag-purple">机构逆势吸筹</span></td><td>sz002297</td><td>博云新材</td><td class="up">+7.44%</td><td>机构专用席位净买入1.82亿</td><td>航空装备/军工新材料，冲板未封（炸板）但机构资金逢低净买入，与游资炸板离场形成反差</td></tr>
+      <tr><td><span class="tag tag-green">风险回避</span></td><td>sz000636</td><td>风华高科</td><td class="up">+10.00%</td><td>机构专用席位净卖出0.82亿（买5.03亿/卖5.85亿）</td><td>MLCC+AI服务器概念龙头，板块内封单资金最大（5.74亿）但机构净卖出，量价背离，追高需警惕</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 class="section"><span class="focus-badge">焦点①</span>四、今日资金重点关注板块 · 龙头 · 催化 · 近一周资金流向</h2>
+
+<div class="chart-box">
+  <h3>板块资金关注度 TOP10（涨停家数+封单资金代理口径，亿元）</h3>
+  <div class="chart"><svg viewBox="0 0 1120 360" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<text x="120" y="31.0" font-size="12" fill="#1e293b" text-anchor="end">元件</text>
+<rect x="130" y="17.6" width="826.1" height="18.7" fill="#dc2626" rx="2"/>
+<text x="964.1" y="31.0" font-size="11.5" fill="#1e293b">11.94亿</text>
+<text x="120" y="65.0" font-size="12" fill="#1e293b" text-anchor="end">家居用品</text>
+<rect x="130" y="51.6" width="266.4" height="18.7" fill="#dc2626" rx="2"/>
+<text x="404.4" y="65.0" font-size="11.5" fill="#1e293b">3.85亿</text>
+<text x="120" y="99.0" font-size="12" fill="#1e293b" text-anchor="end">其他电子</text>
+<rect x="130" y="85.7" width="188.2" height="18.7" fill="#dc2626" rx="2"/>
+<text x="326.2" y="99.0" font-size="11.5" fill="#1e293b">2.72亿</text>
+<text x="120" y="133.0" font-size="12" fill="#1e293b" text-anchor="end">电力</text>
+<rect x="130" y="119.7" width="181.3" height="18.7" fill="#dc2626" rx="2"/>
+<text x="319.3" y="133.0" font-size="11.5" fill="#1e293b">2.62亿</text>
+<text x="120" y="167.0" font-size="12" fill="#1e293b" text-anchor="end">地面兵装</text>
+<rect x="130" y="153.7" width="125.9" height="18.7" fill="#dc2626" rx="2"/>
+<text x="263.9" y="167.0" font-size="11.5" fill="#1e293b">1.82亿</text>
+<text x="120" y="201.0" font-size="12" fill="#1e293b" text-anchor="end">IT服务Ⅱ</text>
+<rect x="130" y="187.7" width="87.9" height="18.7" fill="#dc2626" rx="2"/>
+<text x="225.9" y="201.0" font-size="11.5" fill="#1e293b">1.27亿</text>
+<text x="120" y="235.0" font-size="12" fill="#1e293b" text-anchor="end">玻璃玻纤</text>
+<rect x="130" y="221.7" width="85.1" height="18.7" fill="#dc2626" rx="2"/>
+<text x="223.1" y="235.0" font-size="11.5" fill="#1e293b">1.23亿</text>
+<text x="120" y="269.0" font-size="12" fill="#1e293b" text-anchor="end">通信设备</text>
+<rect x="130" y="255.7" width="83.7" height="18.7" fill="#dc2626" rx="2"/>
+<text x="221.7" y="269.0" font-size="11.5" fill="#1e293b">1.21亿</text>
+<text x="120" y="303.0" font-size="12" fill="#1e293b" text-anchor="end">计算机设</text>
+<rect x="130" y="289.6" width="78.2" height="18.7" fill="#dc2626" rx="2"/>
+<text x="216.2" y="303.0" font-size="11.5" fill="#1e293b">1.13亿</text>
+<text x="120" y="337.0" font-size="12" fill="#1e293b" text-anchor="end">化学原料</text>
+<rect x="130" y="323.6" width="77.5" height="18.7" fill="#dc2626" rx="2"/>
+<text x="215.5" y="337.0" font-size="11.5" fill="#1e293b">1.12亿</text>
+</svg></div>
+</div>
+
+<div class="highlight-box">
+  <h3>元件板块封单资金11.94亿断层第一，是通信设备板块的近10倍——AI服务器PCB/MLCC产业链是当日唯一资金合力方向</h3>
+  <p>元件板块今日9只涨停，封单资金合计11.94亿，是第二名家居用品（3.85亿，实为单只个股瑞尔特贡献）的3倍多。细看构成，9只涨停股中7只题材直接关联"AI服务器PCB/AI算力/MLCC"（崇达技术、超声电子、博敏电子、风华高科、嘉立创、骏亚科技、协和电子），叠加通信设备板块的铭普光磁（800G光模块+AI磁性元器件）与IT服务Ⅱ板块的华胜天成（Kimi合作+AI算力），当日AI硬件产业链共振个股接近全场涨停总数的三成，是唯一呈现板块级多股共振的方向，而非半导体/AI概念泛泛而谈。</p>
+</div>
+
+<table>
+  <thead><tr><th>排名</th><th>行业板块</th><th>涨停家数</th><th>封单资金(亿)</th><th>领涨股(涨幅)</th><th>催化/说明</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>元件</td><td class="up">9</td><td class="up">11.94</td><td>崇达技术(+10.03%)</td><td>AI服务器PCB+MLCC+高端PCB，板块内7只涨停股均关联AI硬件产业链</td></tr>
+    <tr><td>2</td><td>家居用品</td><td>1</td><td class="up">3.85</td><td>瑞尔特(+10.05%)</td><td>智能卫浴+适老产品，3连板0炸板，资金锁仓意愿强</td></tr>
+    <tr><td>3</td><td>其他电子</td><td>1</td><td class="up">2.72</td><td>远望谷(+9.99%)</td><td>拟收购光泰通信+光通信+AI赋能+RFID物联网</td></tr>
+    <tr><td>4</td><td>电力</td><td class="up">4</td><td class="up">2.62</td><td>杭州热电(+10.00%)</td><td>热电联产+绿色能源+海上风电，与近两日回暖走势一致</td></tr>
+    <tr><td>5</td><td>地面兵装</td><td class="up">3</td><td class="up">1.82</td><td>光电股份(+10.02%)</td><td>光通信材料+光学材料+防务产品，军工+光通信交叉概念</td></tr>
+    <tr><td>6</td><td>IT服务Ⅱ</td><td>1</td><td class="up">1.27</td><td>华胜天成(+9.99%)</td><td>Kimi合作+AI算力+AI应用，与元件板块AI硬件逻辑呼应</td></tr>
+    <tr><td>7</td><td>玻璃玻纤</td><td class="up">2</td><td class="up">1.23</td><td>九鼎新材(+10.02%)</td><td>特种玻纤+复合材料+航空航天</td></tr>
+    <tr><td>8</td><td>通信设备</td><td class="up">3</td><td class="up">1.21</td><td>神宇股份(+19.98%)</td><td>800G光模块+AI磁性元器件+商业航天，6日全部有涨停股产生</td></tr>
+    <tr><td>9</td><td>计算机设备</td><td>1</td><td class="up">1.13</td><td>中新赛克(+10.01%)</td><td>AI安全+数据安全+深圳国资</td></tr>
+    <tr><td>10</td><td>化学原料</td><td>1</td><td class="up">1.12</td><td>三孚股份(+10.01%)</td><td>二氯硅烷反倾销+光纤材料+业绩增长</td></tr>
+  </tbody>
+</table>
+
+<div class="analysis-block">
+  <h3>近一周（6个交易日）资金关注度轨迹——元件"双峰脉冲" vs 通信设备"持续在线"</h3>
+  <div class="chart-box" style="margin-top:8px;">
+    <div class="chart"><svg viewBox="0 0 1120 340" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<line x1="55" y1="310.0" x2="1100" y2="310.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="314.0" font-size="11" fill="#64748b" text-anchor="end">0</text>
+<line x1="55" y1="240.0" x2="1100" y2="240.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="244.0" font-size="11" fill="#64748b" text-anchor="end">4</text>
+<line x1="55" y1="170.0" x2="1100" y2="170.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="174.0" font-size="11" fill="#64748b" text-anchor="end">8</text>
+<line x1="55" y1="100.0" x2="1100" y2="100.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="104.0" font-size="11" fill="#64748b" text-anchor="end">12</text>
+<line x1="55" y1="30.0" x2="1100" y2="30.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="34.0" font-size="11" fill="#64748b" text-anchor="end">16</text>
+<text x="55.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">9/4</text>
+<text x="264.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">9/7</text>
+<text x="473.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">9/8</text>
+<text x="682.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">9/9</text>
+<text x="891.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">9/10</text>
+<text x="1100.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">9/11</text>
+<polyline points="55.0,310.0 264.0,65.0 473.0,292.5 682.0,275.0 891.0,275.0 1100.0,152.5" fill="none" stroke="#9333ea" stroke-width="2" stroke-dasharray="5,4"/>
+<circle cx="55.0" cy="310.0" r="3" fill="#9333ea"/>
+<circle cx="264.0" cy="65.0" r="3" fill="#9333ea"/>
+<circle cx="473.0" cy="292.5" r="3" fill="#9333ea"/>
+<circle cx="682.0" cy="275.0" r="3" fill="#9333ea"/>
+<circle cx="891.0" cy="275.0" r="3" fill="#9333ea"/>
+<circle cx="1100.0" cy="152.5" r="3" fill="#9333ea"/>
+<polyline points="55.0,292.5 264.0,170.0 473.0,275.0 682.0,275.0 891.0,292.5 1100.0,257.5" fill="none" stroke="#dc2626" stroke-width="2"/>
+<circle cx="55.0" cy="292.5" r="3" fill="#dc2626"/>
+<circle cx="264.0" cy="170.0" r="3" fill="#dc2626"/>
+<circle cx="473.0" cy="275.0" r="3" fill="#dc2626"/>
+<circle cx="682.0" cy="275.0" r="3" fill="#dc2626"/>
+<circle cx="891.0" cy="292.5" r="3" fill="#dc2626"/>
+<circle cx="1100.0" cy="257.5" r="3" fill="#dc2626"/>
+<polyline points="55.0,292.5 264.0,310.0 473.0,310.0 682.0,275.0 891.0,222.5 1100.0,240.0" fill="none" stroke="#ea580c" stroke-width="2"/>
+<circle cx="55.0" cy="292.5" r="3" fill="#ea580c"/>
+<circle cx="264.0" cy="310.0" r="3" fill="#ea580c"/>
+<circle cx="473.0" cy="310.0" r="3" fill="#ea580c"/>
+<circle cx="682.0" cy="275.0" r="3" fill="#ea580c"/>
+<circle cx="891.0" cy="222.5" r="3" fill="#ea580c"/>
+<circle cx="1100.0" cy="240.0" r="3" fill="#ea580c"/>
+<polyline points="55.0,275.0 264.0,240.0 473.0,257.5 682.0,275.0 891.0,292.5 1100.0,292.5" fill="none" stroke="#2563eb" stroke-width="2" stroke-dasharray="5,4"/>
+<circle cx="55.0" cy="275.0" r="3" fill="#2563eb"/>
+<circle cx="264.0" cy="240.0" r="3" fill="#2563eb"/>
+<circle cx="473.0" cy="257.5" r="3" fill="#2563eb"/>
+<circle cx="682.0" cy="275.0" r="3" fill="#2563eb"/>
+<circle cx="891.0" cy="292.5" r="3" fill="#2563eb"/>
+<circle cx="1100.0" cy="292.5" r="3" fill="#2563eb"/>
+<line x1="55" y1="14" x2="71" y2="14" stroke="#9333ea" stroke-width="3"/>
+<text x="75" y="18" font-size="11" fill="#1e293b">元件(双峰脉冲)</text>
+<line x1="189" y1="14" x2="205" y2="14" stroke="#dc2626" stroke-width="3"/>
+<text x="209" y="18" font-size="11" fill="#1e293b">通信设备(持续)</text>
+<line x1="323" y1="14" x2="339" y2="14" stroke="#ea580c" stroke-width="3"/>
+<text x="343" y="18" font-size="11" fill="#1e293b">电力(回暖)</text>
+<line x1="433" y1="14" x2="449" y2="14" stroke="#2563eb" stroke-width="3"/>
+<text x="453" y="18" font-size="11" fill="#1e293b">种植业(退潮)</text>
+</svg></div>
+  </div>
+  <p><strong>元件：</strong>6个交易日走势为[0,14,1,2,2,9]，9/7单日爆发14只涨停（CPO/PCB链条首轮催化），此后连续三日回落至1~2只，今日在AI服务器PCB/MLCC题材（风华高科、崇达技术等）带动下再度放量至9只涨停，形成"双峰"而非单一脉冲，说明该产业链存在真实的题材反复催化能力，但仍不满足"每日均有增量"的持续性标准。</p>
+  <p><strong>通信设备：</strong>6日走势为[1,8,2,2,1,3]，是唯一6天全部有涨停股产生的板块，尽管9/7当日同样出现放量高峰，此后未完全沉寂（每日1~3只），今日3只涨停（铭普光磁800G光模块、神宇股份高速数据线、鼎信通讯智能电网3连板）延续在线，是最接近"持续性主线"标准的方向。</p>
+  <p><strong>电力：</strong>6日走势为[1,0,0,2,5,4]，延续9/10以来的回暖趋势，今日4只涨停（杭州热电、闽东电力3连板、江苏新能、拓日新能）均围绕海上风电/清洁能源/国资背景展开，在大盘弱势下具备一定防御属性。</p>
+  <p><strong>种植业（对照组）：</strong>6日走势为[2,4,3,2,1,1]，此前是每日均有涨停的持续性主线，但今日板块内仅宏辉果蔬1只涨停，而此前的板块龙头亚盛集团、新赛股份直接由涨停股转为跌停，是本报告近期跟踪的持续性主线中首次出现的"集体见顶"案例（详见第五、八节）。</p>
+</div>
+
+<h2 class="section"><span class="focus-badge">焦点②</span>五、近期资金持续流入、成长性较高的板块</h2>
+
+<table>
+  <thead><tr><th>板块</th><th>6日涨停总数</th><th>9/4</th><th>9/7</th><th>9/8</th><th>9/9</th><th>9/10</th><th>9/11(今日)</th><th>持续性评估</th></tr></thead>
+  <tbody>
+    <tr><td><strong>通信设备</strong></td><td class="up">17</td><td>1</td><td class="up">8</td><td>2</td><td>2</td><td>1</td><td>3</td><td><span class="tag tag-red">持续</span> 6天全部有涨停股产生，是唯一满足"每日在线"标准的方向</td></tr>
+    <tr><td>种植业</td><td>13</td><td>2</td><td class="up">4</td><td>3</td><td>2</td><td>1</td><td>1</td><td><span class="tag tag-green">由持续转退潮</span> 此前5天持续走强，但今日板块龙头亚盛集团/新赛股份直接转跌停，见顶信号明确，不再视为主线</td></tr>
+    <tr><td>电力</td><td>12</td><td>1</td><td>0</td><td>0</td><td>2</td><td class="up">5</td><td>4</td><td><span class="tag tag-orange">回暖延续</span> 近3日连续放量，防御性资金抱团特征明显，尚未看到接力退潮</td></tr>
+    <tr><td>汽车零部件</td><td>14</td><td>2</td><td class="up">7</td><td>1</td><td>2</td><td>0</td><td>2</td><td><span class="tag tag-blue">脉冲已退潮</span> 9/7单日集中爆发后走弱，非持续性方向</td></tr>
+    <tr><td>元件</td><td class="up">28</td><td>0</td><td class="up">14</td><td>1</td><td>2</td><td>2</td><td class="up">9</td><td><span class="tag tag-purple">双峰脉冲</span> 9/7、9/11两次放量爆发，中间三日低迷，具备反复催化能力但非每日持续</td></tr>
+    <tr><td>电网设备</td><td>7</td><td>0</td><td>1</td><td>1</td><td>3</td><td>1</td><td>1</td><td><span class="tag tag-blue">弱持续</span> 5/6天有涨停但总量最小，未形成明显资金合力</td></tr>
+  </tbody>
+</table>
+<p style="font-size:0.85rem;color:var(--muted);margin:-8px 0 16px;">评估口径：以近6个交易日（9/4~9/11）东方财富涨停池数据统计各板块每日涨停家数，"持续"指6天中≥5天均有涨停股产生（板块级资金关注度未间断），"脉冲/双峰"指集中在1~2个交易日爆发、其余交易日归于平静。</p>
+
+<div class="analysis-block">
+  <h3>成长性评估：通信设备是唯一真正"持续在线"的方向，种植业的持续性叙事今日被证伪</h3>
+  <p>通信设备（800G光模块、CPO、智能电网芯片等细分方向）在过去一周里每天都有涨停股产生，即使9/7单日放量后也未完全沉寂，结合今日铭普光磁（800G光模块）、神宇股份（高速数据线）等个股的持续接力，具备"细水长流"式的资金关注特征，是当前最接近真正持续性主线的方向。</p>
+  <p>种植业此前是本报告连续多日跟踪的持续性主线代表（亚盛集团、敦煌种业、新赛股份粮食安全概念滚动接力），但今日亚盛集团、新赛股份直接由涨停股转为跌停，且9/10报告已提示敦煌种业遭机构净卖出2.13亿的量价背离信号——这是"持续性主线"证伪的完整链条：从"6天全部有涨停"到"机构分歧"再到"集体跌停"，为后续甄别类似板块提供了参考样本。</p>
+  <p>元件板块的"双峰脉冲"特征（9/7、9/11两次放量）说明AI服务器PCB/MLCC题材具备被反复催化的能力，但目前证据仍不足以将其升级为"持续性主线"，更适合作为"事件驱动、可反复参与"的方向对待。</p>
+</div>
+
+<h2 class="section"><span class="focus-badge">焦点③</span>六、当前主线趋势判断</h2>
+
+<div class="analysis-block">
+  <table style="margin-bottom:0;">
+    <thead><tr><th>级别</th><th>方向</th><th>判定依据</th><th>操作含义</th></tr></thead>
+    <tbody>
+      <tr><td><span class="tag tag-red">较强/持续观察（P1）</span></td><td>通信设备（800G光模块/CPO/智能电网芯片）</td><td>6日全部有涨停股产生，是唯一满足"每日在线"标准的方向；今日3只涨停覆盖光模块、数据线、智能电网多个细分</td><td>可作为核心观察对象，但连板梯队薄弱（最高仅3板），不宜重仓押注单一龙头</td></tr>
+      <tr><td><span class="tag tag-orange">较强/事件驱动（P1）</span></td><td>元件（AI服务器PCB/MLCC）</td><td>今日9只涨停、封单11.94亿断层第一，叠加金安国纪机构净买入6.72亿全场最大，资金确定性最高；但6日走势为"双峰脉冲"而非持续，且龙头风华高科机构净卖出0.82亿</td><td>可跟踪崇达技术、超声电子等连板股接力情况，警惕风华高科等机构分歧标的追高风险</td></tr>
+      <tr><td><span class="tag tag-blue">防御性抱团（P2）</span></td><td>电力（海上风电/清洁能源/国资背景）</td><td>近3日连续放量至4~5只涨停，在大盘弱势下具备防御属性，但此前4天几近沉寂，产业逻辑独立性有待验证</td><td>可作为弱市防御配置观察，不宜按主线仓位对待，需紧盯连板接力是否兑现</td></tr>
+      <tr><td><span class="tag tag-green">退潮/回避（P3）</span></td><td>种植业（粮食安全概念）</td><td>此前5天持续性最强的板块，今日板块龙头亚盛集团、新赛股份直接由涨停转跌停，叠加昨日已现机构净卖出敦煌种业的量价背离，见顶信号完整</td><td>明确回避，已入场资金建议逢高了结，警惕同类"伪持续"题材重演相同剧本</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 class="section">七、龙虎榜资金博弈（机构 vs 游资）</h2>
+
+<div class="analysis-block">
+  <table style="margin-bottom:0;">
+    <thead><tr><th>标的</th><th>涨跌幅</th><th>机构买入</th><th>机构卖出</th><th>机构净额</th><th>信号解读</th></tr></thead>
+    <tbody>
+      <tr><td>金安国纪(002636)</td><td class="up">+7.86%</td><td>11.67亿</td><td>4.95亿</td><td class="up">+6.72亿</td><td><span class="tag tag-red">机构重仓买入</span> PCB/覆铜板方向确定性最高，全场机构净买入第一</td></tr>
+      <tr><td>博云新材(002297)</td><td class="up">+7.44%</td><td>2.47亿</td><td>0.65亿</td><td class="up">+1.82亿</td><td><span class="tag tag-purple">机构逆势吸筹</span> 冲板未封（炸板）但机构逢低净买入，与游资退场形成反差</td></tr>
+      <tr><td>长盈通(688143)</td><td class="up">+15.49%</td><td>1.36亿</td><td>1.27亿</td><td class="up">+0.09亿</td><td><span class="tag tag-blue">机构基本持平</span> 参与度有限，以游资/大户资金主导为主</td></tr>
+      <tr><td>风华高科(000636)</td><td class="up">+10.00%</td><td>5.03亿</td><td>5.85亿</td><td class="down">-0.82亿</td><td><span class="tag tag-orange">游资承接机构抛盘</span> MLCC+AI服务器龙头涨停但机构净卖出，量价背离，追高需谨慎</td></tr>
+      <tr><td>风语筑(603466)</td><td class="up">+10.03%</td><td>0.00亿</td><td>0.00亿</td><td>0.00亿</td><td><span class="tag tag-blue">无机构专用席位参与</span> 涨停但龙虎榜净额全部来自游资/大户席位</td></tr>
+      <tr><td>金健米业(600127)</td><td class="down">-3.21%</td><td>0.00亿</td><td>0.00亿</td><td>0.00亿</td><td><span class="tag tag-orange">高换手触发上榜</span> 日换手率达38.1%触发龙虎榜，个股层面无机构专用席位介入，警惕游资对倒风险</td></tr>
+    </tbody>
+  </table>
+</div>
+<p style="font-size:0.85rem;color:var(--muted);margin:-8px 0 16px;">数据来源：东方财富龙虎榜逐笔买卖席位明细，"机构净额"为标注"机构专用"席位的买入额与卖出额之差，单位人民币元已换算为亿元；仅覆盖当日按净买入/净卖出金额排名前列的约6只标的。</p>
+
+<h2 class="section"><span class="focus-badge">焦点④</span>八、整体盘面分析与风险提示</h2>
+
+<div class="grid grid-2">
+  <div class="analysis-block">
+    <h3>盘面综合分析</h3>
+    <p><strong>本质是"放量加速下跌"而非"缩量出清"：</strong>全市场仅11.6%个股上涨（近两周最低），成交额却逆势放量至1.99万亿元（+19.5%），说明卖方力量正在主动、放量地兑现，而非单纯的多头缺席；这与9/9~9/10的"缩量退潮"性质不同，风险级别更高。</p>
+    <p><strong>四个交易日上涨家数持续萎缩（3417→1794→955→643），跌停数量4日环比翻倍（11→21），</strong>上证指数收盘跌破9/4以来10日低点，是本轮调整的技术性破位确认，短期难言企稳。</p>
+    <p><strong>小盘股跌幅显著大于大盘股</strong>（中证1000 -2.12% vs 沪深300 -0.84%），叠加前期持续性主线种植业集体转跌停，指向前期活跃的题材/游资资金正在系统性、加速撤离。</p>
+    <p><strong>元件/通信设备（AI服务器PCB/光模块）是当前唯一有资金合力的方向，</strong>但即便如此其龙头风华高科仍遭机构净卖出，说明即使在资金相对集中的方向内部，机构与游资的分歧也在扩大，尚不足以称为可重仓押注的"安全主线"。</p>
+  </div>
+  <div class="analysis-block">
+    <h3>核心风险提示</h3>
+    <p><span class="warn">① 持续性主线集体见顶风险：</span>种植业板块龙头亚盛集团、新赛股份由涨停直接转跌停，是本报告近期跟踪的"6日持续性主线"中首次出现的集体见顶案例，需警惕其他表面持续、实际依赖少数个股支撑的板块（如一般零售）重演相同剧本。</p>
+    <p><span class="warn">② 机构-游资分歧风险：</span>风华高科（元件板块封单资金最大个股）股价涨停但机构专用席位净卖出0.82亿，量价背离明显，追高该类标的风险较高。</p>
+    <p><span class="warn">③ 放量下跌、非缩量出清风险：</span>今日成交额较昨日放量19.5%，但上涨家数占比降至11.6%的近两周新低，历史经验看，"放量下跌"往往比"缩量下跌"需要更长时间才能真正企稳，不宜过早判断本轮调整已经结束。</p>
+    <p><span class="warn">④ 跌停结构分散、覆盖面扩大风险：</span>今日21只跌停覆盖种植业、一般零售、酒店餐饮、多元金融、工业金属、食品加工等多个不相关方向，非单一板块的局部风险，反映的是系统性的风险偏好收缩，而非个别题材出清。</p>
+    <p><span class="warn">⑤ 数据源缺口：</span>本报告"主板20只标的推荐股票池"（第九节）因两个关键数据源均不可达而未能生成，详见第九节及页脚说明，不构成对该功能有效性的评估。</p>
+  </div>
+</div>
+
+<h2 class="section"><span class="focus-badge">焦点⑤</span>九、主板20只标的推荐股票池</h2>
+
+<div class="highlight-box">
+  <h3>本节因数据源不可达，今日暂缺</h3>
+  <p><code>lib/stock_pool.py</code> 依赖两个额外数据源：同花顺热点题材接口（<code>zx.10jqka.com.cn</code>）用于题材匹配，百度股市通K线接口（<code>finance.pae.baidu.com</code>）用于MA/量比等技术面计算。本次运行中，前者返回 <strong>HTTP 403</strong>（内置4次重试均失败），后者在当前云端环境的网络出站策略下被代理直接拒绝连接（<code>connect_rejected</code>，判断为组织网络策略限制，域名未在当前环境的出站白名单内）。</p>
+  <p>这是 <code>REPORT_GUIDE.md</code>"已知脆弱点"一节中已明确记录的风险点：这两个域名不在当前环境网络访问范围内时，<code>lib/stock_pool.py</code> 会按设计优雅降级，静默返回空候选池，而非报错。本次实际运行结果为 <strong>0 只候选标的</strong>，明显低于"数据不佳但仍有产出"的阈值（约10只），按 <code>REPORT_GUIDE.md</code> 的要求，不在候选不足的情况下勉强凑数或编造数据，因此本节今日不提供股票池表格与配图。该缺口自本报告体系近两周记录以来持续存在（9/1~9/11每日均返回0只候选），并非本次运行的偶发问题。</p>
+  <p>如需启用该功能，需要在当前云端环境的网络策略中加入 <code>zx.10jqka.com.cn</code> 与 <code>finance.pae.baidu.com</code> 两个域名的出站访问权限，随后重新运行 <code>python3 lib/stock_pool.py --date 2026-09-11 --raw-market data/market_raw_2026-09-11.json --outdir data</code> 即可补齐。</p>
+</div>
+
+<div class="footer">
+  <p><strong>风险提示：</strong>以上分析基于当日公开市场数据整理与统计，不构成投资建议。投资有风险，决策需谨慎。</p>
+  <p>数据来源：东方财富涨停池/炸板池/跌停池、东方财富龙虎榜逐笔明细、同花顺涨停原因题材库、新浪财经全市场行情，多源交叉核对后编制。</p>
+  <p><strong>数据缺口说明：</strong>1) 分板块资金净流入未采用同花顺行业资金流（data.10jqka.com.cn/funds/hyzjl）接口——该接口历史上访问受限，本报告沿用既有做法，以涨停家数+封单资金总额作为板块资金关注度的替代衡量口径，与真实净流入存在口径差异，已在图表标题中注明；2)"主板20只标的推荐股票池"（第九节）因 zx.10jqka.com.cn（HTTP 403）与 finance.pae.baidu.com（当前网络策略拒绝连接）两个数据源均不可达，本次返回0只候选，该节暂缺，非本报告遗漏，详见第九节说明。</p>
+  <p>报告生成时间：2026-09-11（当日收盘后）</p>
+</div>
+
+</div>
+
+</body>
+</html>
