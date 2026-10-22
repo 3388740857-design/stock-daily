@@ -87,7 +87,7 @@ def fetch_indices():
     history = {}
     for name, code in INDEX_CODES.items():
         r = get(
-            "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+            "https://web.ifzq.gtimg.cn/appstock/app/kline/kline",
             params={"param": f"{code},day,,,12,"},
         )
         rows = []

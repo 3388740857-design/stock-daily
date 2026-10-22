@@ -77,7 +77,7 @@ def tencent_daily_kline(code: str, n: int = 30) -> list[dict]:
     used for index 10-day history in fetch.py -- proven reliable this session."""
     prefix = "sh" if code.startswith(("6", "9")) else ("bj" if code.startswith("8") else "sz")
     r = get(
-        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+        "https://web.ifzq.gtimg.cn/appstock/app/kline/kline",
         params={"param": f"{prefix}{code},day,,,{n},"},
     )
     if r is None:
