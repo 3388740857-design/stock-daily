@@ -220,3 +220,16 @@ out thinner than usual (partial data beats no report).
   correct given deep板 merged into 主板 in 2021 (深市002 IS 主板 now), but if
   any exchange reclassifies codes in the future, revisit `MAINBOARD_PREFIXES`
   in `lib/stock_pool.py`.
+- In some cloud sandbox environments, `playwright install chromium` fails
+  outright with 403s from `playwright.download.prss.microsoft.com` and
+  `cdn.playwright.dev` (both blocked by the environment's network policy),
+  even though a system Chromium is already pre-installed elsewhere (e.g.
+  `/opt/pw-browsers/chromium` in Claude Code cloud sessions). `lib/render.py`
+  handles this automatically: it tries the normal `playwright install`'d
+  browser first, and falls back to a few common pre-installed Chromium paths
+  (`PLAYWRIGHT_CHROMIUM_EXECUTABLE` env var, `/opt/pw-browsers/chromium`,
+  `/usr/bin/chromium[-browser]`, `/usr/bin/google-chrome`) if that fails. No
+  action needed unless *all* of those are also missing, in which case the
+  environment genuinely has no usable Chromium and `playwright install
+  --with-deps chromium` needs to work (check the network policy's allowed
+  domains first).

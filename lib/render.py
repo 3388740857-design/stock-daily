@@ -9,6 +9,7 @@ First run needs: pip install playwright && playwright install --with-deps chromi
 
 Usage: python3 render.py input.html output.pdf
 """
+import os
 import sys
 from pathlib import Path
 
@@ -18,7 +19,29 @@ def render(html_path: str, pdf_path: str):
 
     html_path = Path(html_path).resolve()
     with sync_playwright() as p:
-        browser = p.chromium.launch()
+        try:
+            browser = p.chromium.launch()
+        except Exception:
+            # Some sandboxed environments block the Playwright CDN
+            # (playwright.dev / prss.microsoft.com) that `playwright install`
+            # downloads from, so `playwright install chromium` fails outright
+            # even though a system Chromium is already present elsewhere.
+            # Fall back to a few common pre-installed locations rather than
+            # failing the whole daily run.
+            fallback_paths = [
+                os.environ.get("PLAYWRIGHT_CHROMIUM_EXECUTABLE"),
+                "/opt/pw-browsers/chromium",
+                "/usr/bin/chromium",
+                "/usr/bin/chromium-browser",
+                "/usr/bin/google-chrome",
+            ]
+            browser = None
+            for exe in fallback_paths:
+                if exe and Path(exe).exists():
+                    browser = p.chromium.launch(executable_path=exe)
+                    break
+            if browser is None:
+                raise
         page = browser.new_page()
         page.goto(f"file://{html_path}")
         page.pdf(path=pdf_path, print_background=True, format="A4",
