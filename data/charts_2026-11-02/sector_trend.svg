@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1120 340" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<line x1="55" y1="310.0" x2="1100" y2="310.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="314.0" font-size="11" fill="#64748b" text-anchor="end">0</text>
+<line x1="55" y1="240.0" x2="1100" y2="240.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="244.0" font-size="11" fill="#64748b" text-anchor="end">13</text>
+<line x1="55" y1="170.0" x2="1100" y2="170.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="174.0" font-size="11" fill="#64748b" text-anchor="end">26</text>
+<line x1="55" y1="100.0" x2="1100" y2="100.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="104.0" font-size="11" fill="#64748b" text-anchor="end">39</text>
+<line x1="55" y1="30.0" x2="1100" y2="30.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="47" y="34.0" font-size="11" fill="#64748b" text-anchor="end">52</text>
+<text x="55.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">10/26</text>
+<text x="264.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">10/27</text>
+<text x="473.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">10/28</text>
+<text x="682.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">10/29</text>
+<text x="891.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">10/30</text>
+<text x="1100.0" y="328" font-size="11" fill="#64748b" text-anchor="middle">11/02</text>
+<polyline points="55.0,277.7 264.0,299.2 473.0,293.8 682.0,299.2 891.0,304.6 1100.0,51.5" fill="none" stroke="#dc2626" stroke-width="3"/>
+<circle cx="55.0" cy="277.7" r="3" fill="#dc2626"/>
+<circle cx="264.0" cy="299.2" r="3" fill="#dc2626"/>
+<circle cx="473.0" cy="293.8" r="3" fill="#dc2626"/>
+<circle cx="682.0" cy="299.2" r="3" fill="#dc2626"/>
+<circle cx="891.0" cy="304.6" r="3" fill="#dc2626"/>
+<circle cx="1100.0" cy="51.5" r="3" fill="#dc2626"/>
+<polyline points="55.0,250.8 264.0,299.2 473.0,240.0 682.0,272.3 891.0,293.8 1100.0,288.5" fill="none" stroke="#1e40af" stroke-width="2"/>
+<circle cx="55.0" cy="250.8" r="3" fill="#1e40af"/>
+<circle cx="264.0" cy="299.2" r="3" fill="#1e40af"/>
+<circle cx="473.0" cy="240.0" r="3" fill="#1e40af"/>
+<circle cx="682.0" cy="272.3" r="3" fill="#1e40af"/>
+<circle cx="891.0" cy="293.8" r="3" fill="#1e40af"/>
+<circle cx="1100.0" cy="288.5" r="3" fill="#1e40af"/>
+<polyline points="55.0,277.7 264.0,266.9 473.0,250.8 682.0,299.2 891.0,310.0 1100.0,288.5" fill="none" stroke="#9333ea" stroke-width="2" stroke-dasharray="5,4"/>
+<circle cx="55.0" cy="277.7" r="3" fill="#9333ea"/>
+<circle cx="264.0" cy="266.9" r="3" fill="#9333ea"/>
+<circle cx="473.0" cy="250.8" r="3" fill="#9333ea"/>
+<circle cx="682.0" cy="299.2" r="3" fill="#9333ea"/>
+<circle cx="891.0" cy="310.0" r="3" fill="#9333ea"/>
+<circle cx="1100.0" cy="288.5" r="3" fill="#9333ea"/>
+<line x1="55" y1="14" x2="71" y2="14" stroke="#dc2626" stroke-width="3"/>
+<text x="75" y="18" font-size="11" fill="#1e293b">AI内容/大文娱(今日脉冲)</text>
+<line x1="261" y1="14" x2="277" y2="14" stroke="#1e40af" stroke-width="3"/>
+<text x="281" y="18" font-size="11" fill="#1e293b">通用+专用设备(主线)</text>
+<line x1="431" y1="14" x2="447" y2="14" stroke="#9333ea" stroke-width="3"/>
+<text x="451" y="18" font-size="11" fill="#1e293b">汽车零部件(退潮中)</text>
+</svg>
