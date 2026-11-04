@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1120 360" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<text x="120" y="31.0" font-size="12" fill="#1e293b" text-anchor="end">半导体</text>
+<rect x="130" y="17.6" width="826.1" height="18.7" fill="#dc2626" rx="2"/>
+<text x="964.1" y="31.0" font-size="11.5" fill="#1e293b">29.28亿封板资金</text>
+<text x="120" y="65.0" font-size="12" fill="#1e293b" text-anchor="end">贵金属</text>
+<rect x="130" y="51.6" width="259.6" height="18.7" fill="#dc2626" rx="2"/>
+<text x="397.6" y="65.0" font-size="11.5" fill="#1e293b">9.20亿封板资金</text>
+<text x="120" y="99.0" font-size="12" fill="#1e293b" text-anchor="end">元件</text>
+<rect x="130" y="85.7" width="145.6" height="18.7" fill="#dc2626" rx="2"/>
+<text x="283.6" y="99.0" font-size="11.5" fill="#1e293b">5.16亿封板资金</text>
+<text x="120" y="133.0" font-size="12" fill="#1e293b" text-anchor="end">汽车零部</text>
+<rect x="130" y="119.7" width="71.4" height="18.7" fill="#dc2626" rx="2"/>
+<text x="209.4" y="133.0" font-size="11.5" fill="#1e293b">2.53亿封板资金</text>
+<text x="120" y="167.0" font-size="12" fill="#1e293b" text-anchor="end">专用设备</text>
+<rect x="130" y="153.7" width="57.8" height="18.7" fill="#dc2626" rx="2"/>
+<text x="195.8" y="167.0" font-size="11.5" fill="#1e293b">2.05亿封板资金</text>
+<text x="120" y="201.0" font-size="12" fill="#1e293b" text-anchor="end">自动化设</text>
+<rect x="130" y="187.7" width="69.1" height="18.7" fill="#dc2626" rx="2"/>
+<text x="207.1" y="201.0" font-size="11.5" fill="#1e293b">2.45亿封板资金</text>
+<text x="120" y="235.0" font-size="12" fill="#1e293b" text-anchor="end">光学光电</text>
+<rect x="130" y="221.7" width="44.3" height="18.7" fill="#dc2626" rx="2"/>
+<text x="182.3" y="235.0" font-size="11.5" fill="#1e293b">1.57亿封板资金</text>
+<text x="120" y="269.0" font-size="12" fill="#1e293b" text-anchor="end">通用设备</text>
+<rect x="130" y="255.7" width="46.8" height="18.7" fill="#dc2626" rx="2"/>
+<text x="184.8" y="269.0" font-size="11.5" fill="#1e293b">1.66亿封板资金</text>
+<text x="120" y="303.0" font-size="12" fill="#1e293b" text-anchor="end">小金属</text>
+<rect x="130" y="289.6" width="166.5" height="18.7" fill="#dc2626" rx="2"/>
+<text x="304.5" y="303.0" font-size="11.5" fill="#1e293b">5.90亿封板资金</text>
+<text x="120" y="337.0" font-size="12" fill="#1e293b" text-anchor="end">医疗服务</text>
+<rect x="130" y="323.6" width="148.7" height="18.7" fill="#dc2626" rx="2"/>
+<text x="286.7" y="337.0" font-size="11.5" fill="#1e293b">5.27亿封板资金</text>
+</svg>
