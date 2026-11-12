@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1120 360" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+<text x="120" y="31.0" font-size="12" fill="#1e293b" text-anchor="end">光伏设备</text>
+<rect x="130" y="17.6" width="826.1" height="18.7" fill="#dc2626" rx="2"/>
+<text x="964.1" y="31.0" font-size="11.5" fill="#1e293b">4.25亿</text>
+<text x="120" y="65.0" font-size="12" fill="#1e293b" text-anchor="end">一般零售</text>
+<rect x="130" y="51.6" width="260.5" height="18.7" fill="#dc2626" rx="2"/>
+<text x="398.5" y="65.0" font-size="11.5" fill="#1e293b">1.34亿</text>
+<text x="120" y="99.0" font-size="12" fill="#1e293b" text-anchor="end">专用设备</text>
+<rect x="130" y="85.7" width="223.5" height="18.7" fill="#dc2626" rx="2"/>
+<text x="361.5" y="99.0" font-size="11.5" fill="#1e293b">1.15亿</text>
+<text x="120" y="133.0" font-size="12" fill="#1e293b" text-anchor="end">基础建设</text>
+<rect x="130" y="119.7" width="180.8" height="18.7" fill="#dc2626" rx="2"/>
+<text x="318.8" y="133.0" font-size="11.5" fill="#1e293b">0.93亿</text>
+<text x="120" y="167.0" font-size="12" fill="#1e293b" text-anchor="end">厨卫电器</text>
+<rect x="130" y="153.7" width="161.3" height="18.7" fill="#dc2626" rx="2"/>
+<text x="299.3" y="167.0" font-size="11.5" fill="#1e293b">0.83亿</text>
+<text x="120" y="201.0" font-size="12" fill="#1e293b" text-anchor="end">通信服务</text>
+<rect x="130" y="187.7" width="153.6" height="18.7" fill="#dc2626" rx="2"/>
+<text x="291.6" y="201.0" font-size="11.5" fill="#1e293b">0.79亿</text>
+<text x="120" y="235.0" font-size="12" fill="#1e293b" text-anchor="end">燃气</text>
+<rect x="130" y="221.7" width="153.6" height="18.7" fill="#dc2626" rx="2"/>
+<text x="291.6" y="235.0" font-size="11.5" fill="#1e293b">0.79亿</text>
+<text x="120" y="269.0" font-size="12" fill="#1e293b" text-anchor="end">房地产开发</text>
+<rect x="130" y="255.7" width="126.3" height="18.7" fill="#dc2626" rx="2"/>
+<text x="264.3" y="269.0" font-size="11.5" fill="#1e293b">0.65亿</text>
+<text x="120" y="303.0" font-size="12" fill="#1e293b" text-anchor="end">家居用品</text>
+<rect x="130" y="289.6" width="110.8" height="18.7" fill="#dc2626" rx="2"/>
+<text x="248.8" y="303.0" font-size="11.5" fill="#1e293b">0.57亿</text>
+<text x="120" y="337.0" font-size="12" fill="#1e293b" text-anchor="end">电网设备</text>
+<rect x="130" y="323.6" width="103.0" height="18.7" fill="#dc2626" rx="2"/>
+<text x="241.0" y="337.0" font-size="11.5" fill="#1e293b">0.53亿</text>
+</svg>
